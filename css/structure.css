@@ -81,7 +81,7 @@
 
 /*Secondary Nav*/
     section#navSecondary a,
-    section#navSecondary p {color: var(--graymedium); font-size: 0.75rem;}
+    section#navSecondary p {color: var(--graymedium); font-size: 0.75rem; font-weight: 400;}
     section#navSecondary a.navbar-toggler {cursor: pointer; border: none; border-radius: 0; padding: 0;}
     section#navSecondary a.navbar-toggler span.toggler-icon {display: block; width: 1.875rem; margin-left: auto;}
     section#navSecondary a.navbar-toggler span.toggler-icon span {display: block; height: 1px; background: var(--white); margin: 5px 0; transition: .3s ease-in-out;}
