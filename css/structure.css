@@ -73,7 +73,7 @@
     .btn-outline-primary:hover i, .btn-outline-primary:active i, .btn-outline-primary:focus i {color: var(--white); transition: .3s ease-in-out;}
 
 /*Grid*/
-.container-boxed {max-width: 100%; width: 1440px; margin-left: auto; margin-right: auto; padding-left: 0.9375rem; padding-right: 0.9375rem;}
+.container-boxed {max-width: 100%; width: 1440px; margin-left: auto; margin-right: auto; padding-left: 1.5rem; padding-right: 1.5rem;}
 
 /*Custom Helpers*/
     /*Color Classes*/
