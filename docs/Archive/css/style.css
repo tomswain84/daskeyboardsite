@@ -1,0 +1,7 @@
+/*HOME PAGE*/
+    section#hero {border-bottom: 10px solid var(--red);}
+    section#hero img {margin-bottom: -175px; margin-top: -30px; height: auto;}
+@media (min-width: 1200px) {
+    section#hero {height: calc(100vh - 212.25px);}
+    section#hero img {margin: -100px 0;}
+}

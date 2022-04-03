@@ -1,0 +1,36 @@
+/*Category Cards*/
+    figure.card {border: none;}
+    figure.card .card-body {padding: 0;}
+    figure.card .card-body img.card-img {border-radius: calc(1rem - 1px);}
+    figure.card .card-body figcaption.card-img-overlay {display: flex; align-items: flex-end;}
+    figure.card .card-body figcaption.card-img-overlay h1.card-title {color: var(--white);}
+
+
+/*HOME PAGE*/
+    section#hero {border-bottom: 10px solid var(--red);}
+    section#hero img {max-width: 1920px; margin-left: auto; margin-bottom: -100px;}
+@media (min-width: 576px) {
+    section#hero figure.heading figcaption small {font-size: 1.2rem; font-weight: bold!important;}
+    section#hero figure.heading figcaption h1 {font-size: 2.8rem;}
+    section#hero img {margin-bottom: -150px;}
+}
+@media (min-width: 768px) {
+    section#hero figure.heading figcaption small {font-size: 1.5rem;}
+    section#hero figure.heading figcaption h1 {font-size: 3rem;}
+    section#hero img {margin-top: -50px; margin-bottom: -200px;}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    section#hero img {margin-top: -50px; margin-bottom: -250px;}
+}
+@media (min-width: 1200px) {
+    section#hero {height: calc(100vh - 212.25px);}
+    section#hero img {margin-bottom: 0;}
+}
+@media (min-width: 1600px) {
+    section#hero img {margin-top: -150px;}
+}
+
+/*Category Section*/
+@media (min-width: 1700px) {
+    section#categoryKeyboards {padding-top: 12rem!important;}
+}
