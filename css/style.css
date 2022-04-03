@@ -35,7 +35,7 @@
     section#hero img {margin-top: -50px; margin-bottom: -250px;}
 }
 @media (min-width: 1200px) {
-    section#hero {height: calc(100vh - 212.25px);}
+    section#hero {height: calc(100vh - 226.4833px);}
     section#hero img {margin-bottom: 0;}
 }
 @media (min-width: 1600px) {
