@@ -100,7 +100,7 @@
 }
 
 /*Primary Nav*/
-    header#navPrimary a.navbar-brand img {width: 225px;}
+    header#navPrimary a.navbar-brand img {width: 325px;}
     header#navPrimary ul li a:not(.dropdown-item) {font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: 0.875rem;}
     header#navPrimary ul li a:active, header#navPrimary ul li a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
     header#navPrimary ul li a {color: var(--white ); transition: .3s ease-in-out;}
