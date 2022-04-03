@@ -105,7 +105,7 @@
     header#navPrimary ul li a:active, header#navPrimary ul li a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
     header#navPrimary ul li a {color: var(--white ); transition: .3s ease-in-out;}
     header#navPrimary ul li.dropdown a:not(.dropdown-item):after {font-family: "Font Awesome 6 Free"; font-weight: 400; font-size: 0.75rem; content: '\f107' !important; border: none; margin: 0; padding: 0 0 0 4px; transform: translateY(1px); color: var(--red);}
-    header#navPrimary ul li.dropdown div.dropdown-menu {background-color: var(--graydark); border-radius: 0; box-shadow: none; padding: 0; margin: 0; border: none; margin-top: calc(1rem + 1px);}
+    header#navPrimary ul li.dropdown div.dropdown-menu {background-color: var(--graydark); border-radius: 0; box-shadow: none; padding: 0; border: none; margin-top: calc(1rem - 1px)!important;}
     header#navPrimary ul li.dropdown div.dropdown-menu a {padding: 0.625rem 0.9375rem; font-size: 0.8125rem;}
     header#navPrimary ul li.dropdown div.dropdown-menu a:hover,
     header#navPrimary ul li.dropdown div.dropdown-menu a:active,
@@ -117,7 +117,7 @@
     header#navPrimary ul li:hover a:active,
     header#navPrimary ul li:hover a:focus {opacity: 1; transition: .3s ease-in-out;}
 @media(min-width: 576px) {
-    header#navPrimary ul li.dropdown div.dropdown-menu {margin-top: calc(1.5rem + 1px);}
+    header#navPrimary ul li.dropdown div.dropdown-menu {margin-top: calc(1.5rem - 1px)!important;}
 }
 
 /*Breadcrumb Nav*/
