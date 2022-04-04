@@ -44,8 +44,10 @@
     a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
     h2 {font-weight: 500; font-size: 1rem;}
     p {line-height: 1.5; font-weight: 200; font-size: 1rem;}
-    figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
+    figure.heading {z-index: 2; position: relative;}
+    figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase; margin-bottom: 3rem;}
     figure.heading figcaption small {font-size: .8rem; font-weight: 400; letter-spacing: .08rem; color: var(--red);}
+    figure.heading p {margin-bottom: 4rem;}
     figure.heading figcaption h1 {font-size: 1.6rem; font-weight: 500!important;}
 @media (min-width: 768px) {
     p {line-height: 1.5; font-weight: 200; font-size: 1.2rem;}
