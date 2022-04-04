@@ -3,7 +3,7 @@
     figure.card .card-body {padding: 0;}
     figure.card .card-body img.card-img {border-radius: calc(1rem - 1px); transition: .4s ease-in-out;}
     figure.card:hover .card-body img.card-img {transition: .4s ease-in-out;}
-    figure.card .card-body figcaption.card-img-overlay {display: flex; flex-direction: column; justify-content: flex-end;}
+    figure.card .card-body figcaption.card-img-overlay {display: flex; flex-direction: column; justify-content: flex-end; margin-bottom: 0;}
     figure.card .card-body figcaption.card-img-overlay h1.card-title {color: var(--white);}
     figure.card .card-body figcaption.card-img-overlay a.btn {padding: 0; height: 0; border: none; background-color: transparent; overflow: hidden; transition: .3s ease-in-out;}
     figure.card .card-body figcaption.card-img-overlay a.btn span {opacity: 0; height: 100%; width: 100%; border-radius: 25px; padding: 0 1.4rem; border: 1px solid var(--graylight); display: flex; align-items: center; justify-content: center; transition: .3s ease-in-out;}
