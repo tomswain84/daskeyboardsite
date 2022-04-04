@@ -34,7 +34,7 @@
 /*Reset*/
     html {margin: 0; padding: 0;}
     body {font-family: 'Roboto', sans-serif; font-weight: 200; margin: 0; padding: 0; line-height: 1;}
-    .breadcrumb-item + .breadcrumb-item::before {font-family: "Font Awesome 6 Free"; font-weight: 400; content: '\f105'!important;}
+    .breadcrumb-item + .breadcrumb-item::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f105'!important;}
     .dropdown-divider, .border-bottom, .border-top, .border, hr { border-bottom: 1px solid var(--grayhover)!important;}
     .dropdown-menu {z-index: 9999;}
     hr {opacity: 1!important; margin: 0!important;}
@@ -106,7 +106,7 @@
     header#navPrimary ul li a:not(.dropdown-item) {font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: 0.875rem;}
     header#navPrimary ul li a:active, header#navPrimary ul li a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
     header#navPrimary ul li a {color: var(--white ); transition: .3s ease-in-out;}
-    header#navPrimary ul li.dropdown a:not(.dropdown-item):after {font-family: "Font Awesome 6 Free"; font-weight: 400; font-size: 0.75rem; content: '\f107' !important; border: none; margin: 0; padding: 0 0 0 4px; transform: translateY(1px); color: var(--red);}
+    header#navPrimary ul li.dropdown a:not(.dropdown-item):after {font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 0.75rem; content: '\f107' !important; border: none; margin: 0; padding: 0 0 0 4px; transform: translateY(1px); color: var(--red);}
     header#navPrimary ul li.dropdown div.dropdown-menu {background-color: var(--graydark); border-radius: 0; box-shadow: none; padding: 0; border: none; margin-top: calc(1rem - 1px)!important;}
     header#navPrimary ul li.dropdown div.dropdown-menu a {padding: 0.625rem 0.9375rem; font-size: 0.8125rem;}
     header#navPrimary ul li.dropdown div.dropdown-menu a:hover,
@@ -124,10 +124,8 @@
 
 /*Breadcrumb Nav*/
     section#navBreadcrumbs nav ol.breadcrumb {font-family: 'Oswald', sans-serif; font-size: 10px !important; text-transform: uppercase; padding: .75rem 1rem; display: flex; align-items: center;}
-    section#navBreadcrumbs nav ol.breadcrumb li.home img {width: 0.625rem; filter: brightness(0) invert(1); opacity: .4; transition: .3s ease-in-out;}
-    section#navBreadcrumbs nav ol.breadcrumb li.home:hover img {opacity: 1; transition: .3s ease-in-out;}
     section#navBreadcrumbs nav ol.breadcrumb li.active {color: var(--white);}
-    section#navBreadcrumbs nav ol.breadcrumb li:before {color: var(--red);}
+    section#navBreadcrumbs nav ol.breadcrumb li:before {color: var(--red); font-weight: 900;}
     section#navBreadcrumbs nav ol.breadcrumb a {color: var(--graymedium);}
     section#navBreadcrumbs nav ol.breadcrumb a:hover {text-decoration: none; color: var(--white);}
 @media (max-width: 575px) {
@@ -144,7 +142,7 @@
     footer#siteFooter p, footer#siteFooter a {font-size: .9rem; font-weight: 300;}
     footer#siteFooter section#giveaway {font-size: 20px!important;}
     footer#siteFooter ul li:not(:last-of-type) {margin-bottom: .5rem;}
-    footer#siteFooter ul li:before {font-family: "Font Awesome 6 Free"; font-weight: 400; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
+    footer#siteFooter ul li:before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
     footer#siteFooter ul li a {color: var(--white);}
     footer#siteFooter ul li a:hover, footer#siteFooter ul li a:active,footer#siteFooter ul li a:focus {text-decoration: underline;}
 @media (min-width: 576px) {
