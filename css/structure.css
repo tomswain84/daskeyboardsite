@@ -44,10 +44,10 @@
     a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
     h2 {font-weight: 500; font-size: 1rem;}
     p {line-height: 1.5; font-weight: 200; font-size: 1rem;}
-    figure.heading {z-index: 2; position: relative;}
-    figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase; margin-bottom: 3rem;}
+    figure.heading {z-index: 2; position: relative; margin: 3em 0;}
+    figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
     figure.heading figcaption small {font-size: .8rem; font-weight: 400; letter-spacing: .08rem; color: var(--red);}
-    figure.heading p {margin-bottom: 4rem;}
+    figure.heading p {margin-bottom: 1.5rem;}
     figure.heading figcaption h1 {font-size: 1.6rem; font-weight: 500!important;}
 @media (min-width: 768px) {
     p {line-height: 1.5; font-weight: 200; font-size: 1.2rem;}
@@ -70,6 +70,7 @@
     .btn-primary {color: var(--white); border-color: var(--red); background-color: var(--red); transition: .3s ease-in-out;}
     .btn-primary:hover, .btn-primary:active, .btn-primary:focus {border-color: var(--redhover)!important; background-color: var(--redhover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
     .btn-outline-primary {border-color: var(--graylight); color: var(--white);}
+    .btn-outline-primary:hover {color: var(--white)!important;}
     .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {border-color: var(--red)!important; background-color: var(--red)!important; box-shadow: none!important;}
     .btn-outline-primary i {color: var(--red); transition: .3s ease-in-out;}
     .btn-outline-primary:hover i, .btn-outline-primary:active i, .btn-outline-primary:focus i {color: var(--white); transition: .3s ease-in-out;}
