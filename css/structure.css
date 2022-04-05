@@ -81,6 +81,10 @@
 .container-boxed {max-width: 100%; width: 1440px; margin-left: auto; margin-right: auto; padding-left: 1.5rem; padding-right: 1.5rem;}
 
 /*Custom Helpers*/
+    /*z-index*/
+    .z-index-1 {z-index: 1!important;}
+    .z-index-2 {z-index: 2!important;}
+    .z-index-3 {z-index: 3!important;}
     /*Color Classes*/
         .red {color: var(--red);}
 
