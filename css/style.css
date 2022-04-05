@@ -79,7 +79,7 @@
 }
 
 /*Switches*/
-    section#switches img {margin-top: -2rem;}
+    section#switches img {border-radius: 1.5rem; margin-top: -2rem;}
 @media (min-width: 768px) {
     section#switches img {margin-top: -3.5rem;}
 }
