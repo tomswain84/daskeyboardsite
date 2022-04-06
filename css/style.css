@@ -47,12 +47,19 @@
 }
 
 /*Software Section*/
-    section#theSoftware video {margin-bottom: -2.5rem;}
+    section#theSoftware .video-col {max-width: 768px; margin: auto;}
+    section#theSoftware .video-col img.video-mockup {margin-bottom: -2.5rem;}
+    section#theSoftware .video-col video {border-radius: 5px; overflow: hidden; border: 7px solid var(--graydark); box-shadow: 0 0 0 2px var(--graymedium);}
+    section#theSoftware .video-col span.video-shine {background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(255, 255, 255, 0.3) 35%, rgba(0,0,0,0) 100%); width: 100%; height: 7px; margin: auto; display: block; position: relative;}
+    section#theSoftware .video-col span.video-shine.shine-top {margin-bottom: -7px;}
+    section#theSoftware .video-col span.video-shine.shine-bottom {margin-top: -7px;}
+    section#theSoftware .video-col .video-base {margin-bottom: -3rem; margin-top: 0; max-width: 60%;}
 @media (min-width: 576px) and (max-width: 991px) {
-        section#theSoftware video {margin-bottom: -4.5rem;}
+    section#theSoftware .video-col img.video-mockup {margin-bottom: -3.5rem;}
+    section#theSoftware .video-col .video-base {margin-bottom: -5rem;}
 }
 @media (min-width: 992px) {
-        section#theSoftware video {margin-bottom: -6.5rem;}
+        section#theSoftware .video-col .video-base {margin-bottom: -6.5rem;}
 }
 
 /*Category Section*/

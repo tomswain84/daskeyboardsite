@@ -303,14 +303,21 @@
 								</h1>
 							</figcaption>
 							<p>Das Keyboard Q Software turns an RGB keyboard into a smart keyboard whose keys change colors based on information trends such as weather, stock quotes, project statuses (e.g. Trello, Basecamp, etc.). Customize your keyboard to meet your needs and stay informed on what is important to you.</p>
-							<a class="btn btn-outline-primary text-gray-dark ms-2" href="#" title="Download Software">Download Software<i class="fa-solid fa-download"></i></a>
+							<a class="btn btn-outline-primary text-gray-dark ms-2" href="#" title="Download Software">Download Software<i class="fa-solid fa-download ms-2"></i></a>
 						</figure>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-8 offset-lg-2">
-						<video class="d-block mx-auto w-100" autoplay loop muted poster="images/img-home-software_mockup.png">
-						<source src="video/q-applet.webm" type="video/webm"></video> 
+					<div class="col video-col">
+
+						<!-- Mobile Only -->
+						<img class="video-mockup img-fluid d-md-none" src="images/img-home-software_mockup.png" alt="Software Mockup" />
+
+						<span class="video-shine shine-top d-none d-md-block"></span>
+						<video class="d-block mx-auto w-100 d-none d-md-block" autoplay loop muted poster="images/img-home-software_mockup.png">
+						<source src="video/q-applet.mp4" type="video/mp4"></video>
+						<span class="video-shine shine-bottom d-none d-md-block"></span>
+						<img class="video-base d-none d-md-block mx-auto position-relative" src="images/img-home-video_base.png" alt="Video Base" />
 					</div>
 				</div>
 			</div>
