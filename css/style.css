@@ -24,7 +24,7 @@
 
 /*HOME PAGE*/
     section#hero {border-bottom: 10px solid var(--red);}
-    section#hero img {max-width: 1920px; margin-left: auto; margin-bottom: -100px;}
+    section#hero img {max-width: 1800px; margin-left: auto; margin-bottom: -100px;}
 @media (min-width: 576px) {
     section#hero figure.heading figcaption small {font-size: 1.2rem; font-weight: bold!important;}
     section#hero figure.heading figcaption h1 {font-size: 2.8rem;}
@@ -39,11 +39,13 @@
     section#hero img {margin-top: -50px; margin-bottom: -250px;}
 }
 @media (min-width: 1200px) {
-    section#hero {height: calc(100vh - 226.4833px);}
-    section#hero img {margin-bottom: 0;}
+    section#hero {height: calc(100vh - 212.25px);}
 }
-@media (min-width: 1600px) {
-    section#hero img {margin-top: -150px;}
+@media (min-width: 1200px) and (max-width: 1600px) {
+    section#hero img {margin-top: -100px;}
+}
+@media (min-width: 1601px) and (max-width: 1920px) {
+    section#hero img {margin-top: -200px;}
 }
 
 /*Software Section*/
@@ -58,11 +60,6 @@
 }
 @media (min-width: 992px) {
         section#theSoftware .video-col .video-base {margin-bottom: -6.5rem;}
-}
-
-/*Category Section*/
-@media (min-width: 1700px) {
-    section#categoryKeyboards {padding-top: 12rem!important;}
 }
 
 /*Values Section*/
@@ -88,3 +85,30 @@
 @media (min-width: 768px) {
     section#switches img {margin-top: -3.5rem;}
 }
+
+/*Font*/
+    section#font img {width: 250px;}
+
+/*Reviews*/
+    section#reviews ul.nav-tabs {max-width: 20rem; margin: auto; border: none;}
+    section#reviews ul.nav-tabs li {font-weight: 500; display: flex; align-items: center; justify-content: center;}
+    section#reviews ul.nav-tabs li:before {font-family: "Font Awesome 6 Free"; font-weight: 900; color: var(--red);}
+    section#reviews ul.nav-tabs li:first-of-type:before {content: '\f1ea';}
+    section#reviews ul.nav-tabs li:nth-of-type(2):before {content: '\f007';}
+    section#reviews ul.nav-tabs li a {opacity: .25; font-size: .75rem; color: var(--graydarker); border: none; padding-left: .25rem; transition: .3s ease-in-out;}
+    section#reviews ul.nav-tabs li a.active {opacity: 1; transition: .3s ease-in-out;}
+    section#reviews ul.nav-tabs li a:after {content: ''; display: block; position: relative; width: 100%; height: 3px; top: 8px; opacity: 0; background: var(--red); transition: .3s ease-in-out;}
+    section#reviews ul.nav-tabs li a.active:after,
+    section#reviews ul.nav-tabs li:hover a:after {top: 5px; opacity: 1; transition: .3s ease-in-out;}
+    section#reviews .card {border-radius: .75rem; overflow: hidden;}
+    section#reviews .card div.card-header {padding: 1.5rem; padding-bottom: calc(67px - 1rem); background-color: var(--graydarker); border-bottom: 5px solid var(--graymedium);}
+    section#reviews .card div.card-header p.review-copy {margin: 0; font-weight: 300; font-size: .875rem; color: var(--white);}
+    section#reviews .card figure.card-body {padding-top: 0; text-align: center;}
+    section#reviews .card figure.card-body img.review-icon {width: 72px; height: 72px; border-radius: 100%; border: .5rem solid var(--white); margin-top: calc(-41px + .25rem); display: block; margin: auto;}
+    section#reviews .card figure.card-body figcaption p.review-company {font-size: .875rem; font-weight: 400; margin: 0;}
+    section#reviews .card figure.card-body figcaption p.review-focus {font-family: "Oswald", sans-serif; font-size: .875rem; text-transform: uppercase; font-weight: 500; margin: 0; color: var(--red);}
+@media (min-width: 576px) {
+    section#reviews .card {margin: .75rem;}
+}
+
+
