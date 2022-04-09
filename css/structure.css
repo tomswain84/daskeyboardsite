@@ -39,6 +39,7 @@
     .dropdown-menu {z-index: 9999;}
     hr {opacity: 1!important; margin: 0!important;}
     a {color: var(--red); text-decoration: none; transition: .3s ease-in-out;}
+    a:hover {color: var(--red); text-decoration: underline; transition: .3s ease-in-out;}
 
 /*Typography*/
     a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
@@ -153,6 +154,10 @@
     footer#siteFooter ul li:before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
     footer#siteFooter ul li a {color: var(--white);}
     footer#siteFooter ul li a:hover, footer#siteFooter ul li a:active,footer#siteFooter ul li a:focus {text-decoration: underline;}
+    footer#siteFooter form#newsletterForm input.form-control {background-color: var(--graydark); border-color: var(--graydark); border-radius: 0; box-shadow: none; padding: .75rem 1em; color: var(--white);}
+    footer#siteFooter form#newsletterForm input.form-control:focus {border-color: var(--grayhover);}
+    footer#siteFooter form#newsletterForm a.btn-submit {background-color: var(--red); border-color: var(--red); color: var(--white); border-radius: 0; padding: 1rem;}
+    footer#siteFooter form#newsletterForm a.btn-submit:hover {background-color: var(--redhover); border-color: var(--redhover);}
 @media (min-width: 576px) {
     footer#siteFooter section#giveaway {font-size: 30px!important;}
 }

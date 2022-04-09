@@ -100,8 +100,9 @@
     section#reviews ul.nav-tabs li a:after {content: ''; display: block; position: relative; width: 100%; height: 3px; top: 8px; opacity: 0; background: var(--red); transition: .3s ease-in-out;}
     section#reviews ul.nav-tabs li a.active:after,
     section#reviews ul.nav-tabs li:hover a:after {top: 5px; opacity: 1; transition: .3s ease-in-out;}
-    section#reviews .card {border-radius: .75rem; overflow: hidden; margin: .5rem;}
-    section#reviews .card div.card-header {padding: 1.5rem; padding-bottom: calc(67px - 1rem); background-color: var(--graydarker); border-bottom: 5px solid var(--graymedium);}
+    section#reviews .owl-stage {display: flex;}
+    section#reviews .card {height: calc(100% - .5rem); display: flex; border-radius: .75rem; overflow: hidden; margin: .5rem;}
+    section#reviews .card div.card-header {flex-basis: 75%; padding: 1.5rem; padding-bottom: calc(67px - 1rem); background-color: var(--graydarker); border-bottom: 5px solid var(--graymedium);}
     section#reviews .card div.card-header p.review-copy {margin: 0; font-weight: 300; font-size: .875rem; color: var(--white);}
     section#reviews .card figure.card-body {padding-top: 0; text-align: center;}
     section#reviews .card figure.card-body img.review-icon {width: 72px; height: 72px; border-radius: 100%; border: .5rem solid var(--white); margin: calc(-41px + .25rem) auto 0; display: block;}
