@@ -170,7 +170,7 @@
 								<h1>Das Keyboard <span class="text-red">Values</span></h1>
 							</figcaption>
 							<p>We are a badass company that makes badass products for badass customers. We are quality obsessed and develop all our products with premium materials.</p>
-							<a class="btn btn-primary" href="values.html" title="Read More">Read More<i class="fa-solid fa-caret-right ms-2"></i></a>
+							<a class="btn btn-primary" href="values" title="Read More">Read More<i class="fa-solid fa-caret-right ms-2"></i></a>
 						</figure>
 					</div>
 					<div class="col-md-6 order-md-1 d-md-flex align-items-center position-relative">
