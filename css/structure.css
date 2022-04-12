@@ -35,7 +35,8 @@
     html {margin: 0; padding: 0;}
     body {font-family: 'Roboto', sans-serif; font-weight: 200; margin: 0; padding: 0; line-height: 1;}
     .breadcrumb-item + .breadcrumb-item::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f105'!important;}
-    .dropdown-divider, .border-bottom, .border-top, .border, hr { border-bottom: 1px solid var(--grayhover)!important;}
+    .dropdown-divider, .border, hr { border-bottom: 1px solid var(--grayhover)!important;}
+    .border-bottom, .border-top {border-color: var(--grayhover)!important;}
     .dropdown-menu {z-index: 9999;}
     hr {opacity: 1!important; margin: 0!important;}
     a {color: var(--red); text-decoration: none; transition: .3s ease-in-out;}
@@ -43,7 +44,7 @@
 
 /*Typography*/
     a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
-    h2 {font-weight: 500; font-size: 1rem;}
+    h2 {font-weight: 500;}
     p {line-height: 1.5; font-weight: 300; font-size: 1rem;}
     figure.heading {z-index: 2; position: relative; margin-bottom: 2rem;}
     figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
@@ -62,17 +63,18 @@
 }
 /*Fonts*/
     .oswald {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
-    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; margin-bottom: 1.5rem; text-transform: uppercase;}
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; margin: 1.5rem 0; text-transform: uppercase;}
     h1 {font-weight: 700;}
     h4 {font-weight: 400;}
 
 /*Buttons*/
     .btn {line-height: .9; border-radius: 25px; font-family: 'Oswald', sans-serif; font-size: 0.875rem; text-transform: uppercase; padding: 0.6rem 1.4rem; white-space: nowrap; transition: .3s ease-in-out;}
+    .btn:hover {text-decoration: none!important;}
     .btn-blue {color: var(--white); border-color: var(--blue); background-color: var(--blue); transition: .3s ease-in-out;}
     .btn-blue:hover, .btn-blue:active, .btn-blue:focus {color: var(--white); border-color: var(--bluehover)!important; background-color: var(--bluehover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
-    .btn-primary {color: var(--white); border-color: var(--red); background-color: var(--red); transition: .3s ease-in-out;}
+    .btn-primary {color: var(--white)!important; border-color: var(--red); background-color: var(--red); transition: .3s ease-in-out;}
     .btn-primary:hover, .btn-primary:active, .btn-primary:focus {border-color: var(--redhover)!important; background-color: var(--redhover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
-    .btn-outline-primary {border-color: var(--graylight); color: var(--white);}
+    .btn-outline-primary {border-color: var(--graylight); color: var(--white)!important;}
     .btn-outline-primary:hover {color: var(--white)!important;}
     .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {border-color: var(--red)!important; background-color: var(--red)!important; box-shadow: none!important;}
     .btn-outline-primary i {color: var(--red); transition: .3s ease-in-out;}
@@ -100,7 +102,7 @@
     section#navSecondary a.navbar-toggler:not(.collapsed) span.toggler-icon span {width: 100% !important; transition: .3s ease-in-out;}
     section#navSecondary div#navbarNavDropdown ul li {display: flex; flex-direction: column; align-items: flex-end;}
     section#navSecondary div#navbarNavDropdown ul li a {white-space: nowrap; padding-top: 1.5em; padding-bottom: 1.5em;}
-    section#navSecondary div#navbarNavDropdown ul li:hover a {color: var(--white);}
+    section#navSecondary div#navbarNavDropdown ul li:hover a {color: var(--white); text-decoration: none;}
 @media (min-width: 576px) {
     section#navSecondary div#navbarNavDropdown ul li:hover a {background-color: var(--graydarker);}
 }
@@ -144,6 +146,21 @@
     section#navBreadcrumbs nav ol.breadcrumb {font-size: 0.875rem!important;}
     section#navBreadcrumbs nav ol.breadcrumb li.home img {width: 0.875rem;}
 }
+
+/*Page TItle*/
+    section#pageTitle h1 {margin: 0; padding: 1.6rem 0; font-size: 1.6rem;}
+@media (min-width: 768px) and (max-width: 991px) {
+    section#pageTitle h1 {font-size: 2rem;}
+}
+@media (min-width: 992px) {
+    section#pageTitle h1 {font-size: 2.2rem;}
+}
+
+/*Content Area*/
+    #contentWrap {padding: 8rem 0;}
+    #contentContainer ul {margin-left: 2rem;}
+    #contentContainer ul li::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
+    #contentContainer ul li:not(:last-of-type) {margin-bottom: .5rem;}
 
 /*Site Footer*/
     footer#siteFooter {font-size: 0.875rem;}
