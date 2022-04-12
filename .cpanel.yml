@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/daskeyboardtest
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/rkcce6q009tf/public_html/dastest
+    - /bin/cp * $DEPLOYPATH
