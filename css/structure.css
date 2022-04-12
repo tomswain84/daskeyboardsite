@@ -33,7 +33,7 @@
 
 /*Reset*/
     html {margin: 0; padding: 0;}
-    body {font-family: 'Roboto', sans-serif; font-weight: 200; margin: 0; padding: 0; line-height: 1;}
+    body {font-family: 'Roboto', sans-serif; font-weight: 300; margin: 0; padding: 0; line-height: 1;}
     .breadcrumb-item + .breadcrumb-item::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f105'!important;}
     .dropdown-divider, .border, hr { border-bottom: 1px solid var(--grayhover)!important;}
     .border-bottom, .border-top {border-color: var(--grayhover)!important;}
@@ -44,7 +44,8 @@
 
 /*Typography*/
     a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
-    h2 {font-weight: 500;}
+    h2 {font-weight: 500; font-size: 1.2rem;}
+    h3 {font-size: .9rem;}
     p {line-height: 1.5; font-weight: 300; font-size: 1rem;}
     figure.heading {z-index: 2; position: relative; margin-bottom: 2rem;}
     figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
@@ -57,14 +58,17 @@
     figure.heading figcaption h1 {font-size: 2rem;}
 }
 @media (min-width: 992px) {
-    p {line-height: 1.5; font-weight: 200; font-size: 1.2rem;}
+    h2 {font-size: 1.5rem;}
+    h3 {font-size: 1rem;}
+    p {line-height: 1.5; font-size: 1.1rem;}
     figure.heading {z-index: 2; position: relative; margin: 3em 0;}
     figure.heading figcaption h1 {font-size: 2.2rem;}
 }
 /*Fonts*/
     .oswald {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
-    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; margin: 1.5rem 0; text-transform: uppercase;}
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
     h1 {font-weight: 700;}
+    h3 {margin: 2.5rem 0 1.5rem;}
     h4 {font-weight: 400;}
 
 /*Buttons*/
@@ -74,7 +78,7 @@
     .btn-blue:hover, .btn-blue:active, .btn-blue:focus {color: var(--white); border-color: var(--bluehover)!important; background-color: var(--bluehover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
     .btn-primary {color: var(--white)!important; border-color: var(--red); background-color: var(--red); transition: .3s ease-in-out;}
     .btn-primary:hover, .btn-primary:active, .btn-primary:focus {border-color: var(--redhover)!important; background-color: var(--redhover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
-    .btn-outline-primary {border-color: var(--graylight); color: var(--white)!important;}
+    .btn-outline-primary {border-color: var(--graylight); color: var(--white);}
     .btn-outline-primary:hover {color: var(--white)!important;}
     .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {border-color: var(--red)!important; background-color: var(--red)!important; box-shadow: none!important;}
     .btn-outline-primary i {color: var(--red); transition: .3s ease-in-out;}
@@ -157,10 +161,24 @@
 }
 
 /*Content Area*/
-    #contentWrap {padding: 8rem 0;}
-    #contentContainer ul {margin-left: 2rem;}
+    #contentWrap {padding: 2rem 0;}
+    #contentContainer ul {margin-left: 1rem;}
+    #contentContainer ul li {font-size: .9rem;}
     #contentContainer ul li::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
     #contentContainer ul li:not(:last-of-type) {margin-bottom: .5rem;}
+    #sidebar h3.sidebar-title {margin-top: .25rem; border-left: 5px solid var(--red); padding-left: 0.625rem;}
+@media (min-width: 576px) and (max-width: 767px) {
+    #contentWrap {padding: 3rem 0;}
+}
+@media (min-width: 768px) {
+    #sidebar .sidebar-content {position: sticky; top: 8rem;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #contentWrap {padding: 4rem 0;}
+}
+@media (min-width: 992px) {
+    #contentWrap {padding: 6rem 0;}
+}
 
 /*Site Footer*/
     footer#siteFooter {font-size: 0.875rem;}
