@@ -126,7 +126,7 @@
     header#navPrimary ul:hover li a:focus {opacity: .5; transition: .3s ease-in-out;}
     header#navPrimary ul li:hover a,
     header#navPrimary ul li:hover a:active,
-    header#navPrimary ul li:hover a:focus {opacity: 1; transition: .3s ease-in-out;}
+    header#navPrimary ul li:hover a:focus {opacity: 1; text-decoration: none; transition: .3s ease-in-out;}
 @media(min-width: 576px) {
     header#navPrimary ul li.dropdown div.dropdown-menu {margin-top: calc(1.5rem - 1px)!important;}
 }
