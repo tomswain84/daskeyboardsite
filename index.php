@@ -1,5 +1,5 @@
 <?php include 'includes/head.html';?>
-	<?php include 'structure/header.html';?>
+<?php include 'structure/header.html';?>
 		<!-- Hero Section -->
 		<section id="hero" class="bg-gray-darker text-white pb-sm-5 d-flex flex-column">
 			<div class="container-boxed">
@@ -404,6 +404,5 @@
 			</div>
 		</section>
 
-	<?php include 'structure/footer.html';?>
-
-	<?php include 'includes/footer-scripts.html';?>
+<?php include 'structure/footer.html';?>
+<?php include 'includes/footer-scripts.html';?>
