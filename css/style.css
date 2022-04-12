@@ -3,7 +3,7 @@
         color: var(--white);
     }
 /*Category Cards*/
-    figure.card {border: none; overflow: hidden;}
+    figure.card {border: none; margin: 1rem 0; overflow: hidden;}
     figure.card .card-body {padding: 0;}
     figure.card .card-body img.card-img {border-radius: calc(1rem - 1px); transition: .4s ease-in-out;}
     figure.card:hover .card-body img.card-img {transition: .4s ease-in-out;}
