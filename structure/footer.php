@@ -144,5 +144,59 @@
 					</div>
 				</div>
 			</section> 
+			<section class="subfooter bg-gray-dark">
+				<div class="container-boxed">
+					<div class="row">
+						<div class="col-md-12 col-lg-6 col-xxl-7 py-3 text-center text-lg-start">
+							<p class="text-white mb-sm-0">
+								<span class="d-block d-sm-inline mb-2 mb-sm-0">Hello from Austin!</span>
+								<span class="d-block d-sm-inline"> 2022-2005 - All Rights Reserved.</span>
+								<span class="d-block d-xxl-inline text-gray-medium">Das Keyboard is a registered trademark and copyright of Metadot.</span>
+							</p>
+						</div>
+						<div class="col-md-6 col-lg-4 col-xxl-3 d-flex align-items-center justify-content-center">
+							<p class="text-white mb-0 me-2">Select Language:</p>
+							<ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+								<li class="mb-0">
+									<a class="text-gray-medium" href="#" title="English">English</a>
+								</li>
+								<span class="text-gray-medium">&nbsp;|&nbsp;</span>
+								<li class="mb-0">
+									<a class="text-gray-medium href="#" title="German">German</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-2 mt-3 mt-lg-0 d-lg-flex align-items-center justify-content-center">
+							<ul class="list-unstyled social icons d-flex align-items-center justify-content-center mb-lg-0">
+								<li class="me-3">
+									<a href="https://www.facebook.com/DasKeyboard" title="Facebook">
+										<i class="fa-brands fa-facebook"></i>
+									</a>
+								</li>
+								<li class="me-3">
+									<a href="https://www.instagram.com/daskeyboard/" title="Instagram">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+								</li>
+								<li class="me-3">
+									<a href="https://twitter.com/daskeyboard" title="Twitter">
+										<i class="fa-brands fa-twitter"></i>
+									</a>
+								</li>
+								<li class="me-3">
+									<a href="https://www.youtube.com/user/DasKeyboardCommunity" title="YouTube">
+										<i class="fa-brands fa-youtube"></i>
+									</a>
+								</li>
+								<li>
+									<a href="blog" title="Blog">
+										<i class="fa-solid fa-rss"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
 		</footer>
 		<!-- Site Footer -->

@@ -186,8 +186,8 @@
     footer#siteFooter h2 {color: var(--red);}
     footer#siteFooter p, footer#siteFooter a {font-size: .9rem; font-weight: 300;}
     footer#siteFooter section#giveaway {font-size: 20px!important;}
-    footer#siteFooter ul li:not(:last-of-type) {margin-bottom: .5rem;}
-    footer#siteFooter ul li:before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
+    footer#siteFooter #footerWrap ul li:not(:last-of-type) {margin-bottom: .5rem;}
+    footer#siteFooter #footerWrap ul li:before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
     footer#siteFooter ul li a {color: var(--white);}
     footer#siteFooter ul li a:hover, footer#siteFooter ul li a:active,footer#siteFooter ul li a:focus {text-decoration: underline;}
     footer#siteFooter form#newsletterForm input.form-control {background-color: var(--graydark); border-color: var(--graydark); border-radius: 0; box-shadow: none; padding: .75rem 1em; color: var(--white);}
