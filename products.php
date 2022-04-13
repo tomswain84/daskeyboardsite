@@ -1,6 +1,6 @@
-<?php include 'includes/head.html';?>
-<?php include 'structure/header.html';?>
-<?php include 'structure/page-title.html';?>
+<?php require 'includes/head.php';?>
+<?php require 'structure/header.php';?>
+<?php include 'structure/page-title.php';?>
         <section id="contentWrap" class="bg-white">
         	<div class="container-boxed">
         		<div class="row">
@@ -108,5 +108,5 @@
         		</div>
         	</div>
         </section>
-<?php include 'structure/footer.html';?>
-<?php include 'includes/footer-scripts.html';?>
+<?php require 'structure/footer.php';?>
+<?php require 'includes/footer-scripts.php';?>
