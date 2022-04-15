@@ -2,7 +2,7 @@
 <?php require 'structure/header.php';?>
 <?php include 'structure/page-title.php';?>
         <main class="content-wrap">
-            <section class="bg-white">
+            <section class="bg-white section-pad">
             	<div class="container-boxed">
             		<div class="row">
             			<div id="contentContainer" class="col">
