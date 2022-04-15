@@ -23,26 +23,30 @@
 }
 
 /*Product Listing Cards*/
-    div.product-carousel figure.card {border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
-    section.bg-gray-lighter div.product-carousel figure.card {background-color: var(--white);}
-    div.product-carousel figure.card img {padding: 1rem; padding-bottom: 0;}
-    div.product-carousel figure.card figure.heading {padding: 0 1rem; margin: 0;}
-    div.product-carousel figure.card figure.heading figcaption small {font-size: .75rem;}
-    div.product-carousel figure.card figure.heading figcaption h2 {font-size: 2rem;}
-    div.product-carousel figure.card figcaption.card-body {padding: 1rem;}
-    div.product-carousel figure.card figcaption.card-body h5.price {font-size: 1.1rem; letter-spacing: 2px;}
-    div.product-carousel figure.card figcaption.card-body p.desc {font-size: .825rem; padding: 1rem;}
-    div.product-carousel figure.card figcaption.card-body div.tags {display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;}
-    div.product-carousel figure.card figcaption.card-body div.tags span.tag {font-size: 8px; font-weight: 500; text-transform: uppercase; background: var(--graylight); color: var(--white); padding: .25rem .6rem; border-radius: 1rem; margin: 0 .25rem;}
-    div.product-carousel figure.card figcaption.card-body div.specs {padding: 1rem 0; font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: .9rem;}
-    div.product-carousel figure.card figcaption.card-body div.specs span.spec-title {color: var(--red); font-weight: 400; margin-bottom: .25rem;}
-    div.product-carousel figure.card figcaption.card-body div.specs .col {display: flex; flex-direction: column;}
-    div.product-carousel figure.card figcaption.card-body div.specs .col:first-of-type {align-items: flex-start;}
-    div.product-carousel figure.card figcaption.card-body div.specs .col:nth-of-type(2) {align-items: flex-end;}
-    div.product-carousel figure.card div.card-footer {border-radius: 0; border: none; padding: 0; background: none;}
-    div.product-carousel figure.card div.card-footer .btn {background-color: var(--graydarker); border-color: var(--graydarker); width: 100%; padding: 1em; color: var(--white); border-radius: 0;}
-    div.product-carousel figure.card:hover div.card-footer .btn {background-color: var(--red); border-color: var(--red);}
-    div.product-carousel figure.card div.card-footer .btn:hover {background-color: var(--redhover); border-color: var(--redhover);}
+    .filterDiv {display: none;}
+    /*.show {display: block;}*/
+    div.product-cards figure.card {border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
+    section.bg-gray-lighter div.product-cards figure.card {background-color: var(--white);}
+    div.product-cards figure.card img {padding: 1rem; padding-bottom: 0;}
+    div.product-cards figure.category-swag img {margin-bottom: 1rem;}
+    div.product-cards figure.card figure.heading {padding: 0 1rem; margin: 0;}
+    div.product-cards figure.card figure.heading figcaption small {font-size: .75rem;}
+    div.product-cards figure.card figure.heading figcaption h2 {font-size: 1rem;}
+    div.product-cards figure.category-swag figure.heading figcaption h2 {font-size: 1.2rem;}
+    div.product-cards figure.card figcaption.card-body {padding: 1rem;}
+    div.product-cards figure.card figcaption.card-body h5.price {font-size: 1.1rem; letter-spacing: 2px;}
+    div.product-cards figure.card figcaption.card-body p.desc {font-size: .825rem; padding: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical;}
+    div.product-cards figure.card figcaption.card-body div.tags {display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag {font-size: 8px; font-weight: 500; text-transform: uppercase; background: var(--graylight); color: var(--white); padding: .25rem .6rem; border-radius: 1rem; margin: 0 .25rem;}
+    div.product-cards figure.card figcaption.card-body div.specs {padding: 1rem 0; font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: .9rem;}
+    div.product-cards figure.card figcaption.card-body div.specs span.spec-title {color: var(--red); font-weight: 400; margin-bottom: .25rem;}
+    div.product-cards figure.card figcaption.card-body div.specs .col {display: flex; flex-direction: column;}
+    div.product-cards figure.card figcaption.card-body div.specs .col:first-of-type {align-items: flex-start;}
+    div.product-cards figure.card figcaption.card-body div.specs .col:nth-of-type(2) {align-items: flex-end;}
+    div.product-cards figure.card div.card-footer {border-radius: 0; border: none; padding: 0; background: none;}
+    div.product-cards figure.card div.card-footer .btn {background-color: var(--graydarker); border-color: var(--graydarker); width: 100%; padding: 1em; color: var(--white); border-radius: 0;}
+    div.product-cards figure.card:hover div.card-footer .btn {background-color: var(--red); border-color: var(--red);}
+    div.product-cards figure.card div.card-footer .btn:hover {background-color: var(--redhover); border-color: var(--redhover);}
 
 /*HOME PAGE*/
     section#hero {border-bottom: 10px solid var(--red);}

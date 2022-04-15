@@ -21,7 +21,7 @@
                                             <p class="text-white">All orders over $59 qualify for our Free Shipping offer within the continental United States. Keyboards are shipped via UPS Ground, and accessories and swag may be shipped via USPS. Once your cart meets this minimum amount, the Free Shipping option is automatically available during checkout. Other expedited shipping options will also be available at an additional charge.</p>
                                         </div>
                                         <div class="modal-footer bg-gray-dark border-top">
-                                            <a href="about-us" class="btn btn-primary">Learn More</a>
+                                            <a href="./about-us" class="btn btn-primary">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                         <a class="nav-link" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">About Us</a>
+                                        <a class="nav-link" href="./about-us">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Wishlist</a>
@@ -67,8 +67,8 @@
                 <div class="row d-flex align-items-center">
                     <div class="col">
                         <nav class="row flex-column flex-sm-row navbar-expand navbar-dark">
-                            <a class="col-sm-5 navbar-brand mx-auto py-3 py-sm-4 pe-3 pe-sm-0 text-center text-sm-start" href="index">
-                                <img id="siteLogo" src="images/logo-das_keyboard-red_white.png" class="img-fluid" alt="Das Keyboard" />
+                            <a class="col-sm-5 navbar-brand mx-auto py-3 py-sm-4 pe-3 pe-sm-0 text-center text-sm-start" href="/sites/daskeyboard/index">
+                                <img id="siteLogo" src="/sites/daskeyboard/images/logo-das_keyboard-red_white.png" class="img-fluid" alt="Das Keyboard" />
                             </a>
                             <div class="col-sm-7 collapse navbar-collapse pb-3 py-sm-4" id="navPrimaryDropdown">
                                 <ul class="navbar-nav ms-sm-auto w-100 justify-content-around justify-content-sm-end">
@@ -77,15 +77,15 @@
                                             Keyboards
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="keyboards">
-                                            <a class="dropdown-item" href="#">Smart RGB</a>
-                                            <a class="dropdown-item" href="#">For PC</a>
-                                            <a class="dropdown-item" href="#">For Mac</a>
-                                            <a class="dropdown-item" href="#">For Linux</a>
-                                            <a class="dropdown-item" href="#">Backlit</a>
-                                            <a class="dropdown-item" href="#">Refurbished</a>
-                                            <a class="dropdown-item" href="#">Best Sellers</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=smartrgb">Smart RGB</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=forpc">For PC</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=formac">For Mac</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=linux">For Linux</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=backlit">Backlit</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=refurbished">Refurbished</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=best-sellers">Best Sellers</a>
                                             <hr>
-                                            <a class="dropdown-item bg-gr view-all py-3 d-flex align-items-center justify-content-between" href="#">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                            <a class="dropdown-item bg-gr view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/mechanical-keyboards?filter=all">View All<i class="fa-solid fa-plus text-red"></i></a>
                                         </div>
                                     </li>
                                     <li id="navAccessories" class="nav-item dropdown">
@@ -101,8 +101,15 @@
                                             <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="#">View All<i class="fa-solid fa-plus text-red"></i></a>
                                         </div>
                                     </li>
-                                    <li id="navSoftware" class="nav-item">
-                                        <a class="nav-link" href="#">Software</a>
+                                    <li id="navTechnology" class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="technology" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Technology
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="technology">
+                                            <a class="dropdown-item" href="#">Q Software</a>
+                                            <a class="dropdown-item" href="#">Gamma Zulu Switches</a>
+                                            <a class="dropdown-item" href="#">Mechanical Keyboard Guide</a>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -123,7 +130,7 @@
                         </nav>
                         <div id="headerCTA" class="pb-3 py-md-4">
                             <div class="col d-flex align-items-center justify-content-center justify-content-md-between pe-md-0">
-                                <a class="btn btn-blue me-sm-1" href="products" title="Shop By Categorys"><span class="d-none d-sm-inline">Shop </span>By Category</a>
+                                <a class="btn btn-blue me-sm-1" href="/sites/daskeyboard/products" title="Shop By Category"><span class="d-none d-sm-inline">Shop </span>By Category</a>
                                 <a class="btn btn-outline-primary ms-2" href="#" title="Download Software"><span class="d-none d-sm-inline">Download</span> Software<i class="fa-solid fa-download ms-2"></i></a>
                             </div>
                         </div>

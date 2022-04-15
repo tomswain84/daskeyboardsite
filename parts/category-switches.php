@@ -3,7 +3,7 @@
                             <div class="col">
                                 <figure class="heading card">
                                     <div class="card-body">
-                                        <img src="images/cat-switches.png" class="card-img" alt="Switches" />
+                                        <img src="/sites/daskeyboard/images/cat-switches.png" class="card-img" alt="Switches" />
                                         <figcaption class="card-img-overlay">
                                             <h1 class="card-title">
                                                 <small></small>
@@ -17,7 +17,7 @@
                             <div class="col">
                                 <figure class="heading card">
                                     <div class="card-body">
-                                        <img src="images/cat-keycaps.png" class="card-img" alt="Smart RGB" />
+                                        <img src="/sites/daskeyboard/images/cat-keycaps.png" class="card-img" alt="Smart RGB" />
                                         <figcaption class="card-img-overlay">
                                             <h1 class="card-title">
                                                 <small></small>
@@ -31,7 +31,7 @@
                             <div class="col">
                                 <figure class="heading card">
                                     <div class="card-body">
-                                        <img src="images/cat-parts.png" class="card-img" alt="Smart RGB" />
+                                        <img src="/sites/daskeyboard/images/cat-parts.png" class="card-img" alt="Smart RGB" />
                                         <figcaption class="card-img-overlay">
                                             <h1 class="card-title">
                                                 <small></small>

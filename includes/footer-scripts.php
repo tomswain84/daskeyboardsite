@@ -1,5 +1,6 @@
 		<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="/sites/daskeyboard/js/product-filter.js"></script>
 
 		<script type="text/javascript">
 			 $('.reviews-carousel').owlCarousel({
