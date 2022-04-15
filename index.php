@@ -12,7 +12,7 @@
 									<br>Mechanical Keyboard
 								</h1>
 							</figcaption>
-							<p>Das Keyboard offers badass geeks the ultimate experience with high-performance mechanical keyboards with superior durability, construction, 	and design.</p>
+							<p class="mt-3 mt-xl-4">Das Keyboard offers badass geeks the ultimate experience with high-performance mechanical keyboards with superior durability, construction, 	and design.</p>
 						</figure>
 					</div>
 				</div>
@@ -25,9 +25,9 @@
 		</section>
 
 		<!-- Keyboard Categories -->
-		<section id="categoryKeyboards" class="bg-white pt-5 pb-3">
+		<section id="categoryKeyboards" class="bg-white section-pad mt-5 mt-xl-0">
 			<div class="container-boxed">
-				<div class="row mt-5">
+				<div class="row">
 					<div class="col">
 						<figure class="heading text-center mb-0">
 							<figcaption>
@@ -129,11 +129,11 @@
 		</section>
 
 		<!-- Software Section -->
-		<section id="theSoftware" class="pt-5 bg-gray-lighter">
+		<section id="theSoftware" class="section-pad bg-gray-lighter">
 			<div class="container-boxed">
 				<div class="row">
 					<div class="col-lg-8 offset-lg-2 col-xxl-10 offset-xxl-1">
-						<figure class="heading text-center">
+						<figure class="heading text-center mb-5">
 							<figcaption>
 								<h1>
 									<small>The Software</small>
@@ -206,7 +206,7 @@
 		</section>
 
 		<!-- Font Section -->
-		<section id="font" class="py-5 bg-gray-lighter">
+		<section id="font" class="section-pad bg-gray-lighter">
 			<div class="container-boxed">
 				<div class="row">
 					<div class="col-xl-10 offset-xl-1 d-md-flex align-items-center justify-content-between">
@@ -223,7 +223,7 @@
 		</section>
 
 		<!-- Reviews Section -->
-		<section id="reviews" class="py-5 bg-white">
+		<section id="reviews" class="section-pad bg-white">
 			<div class="container-boxed">
 				<div class="row">
 					<div class="col">

@@ -48,13 +48,12 @@
     h2 {font-weight: 500; font-size: 1.2rem;}
     h3 {font-size: .9rem;}
     p {line-height: 1.5; font-weight: 300; font-size: 1rem;}
-    figure.heading {z-index: 2; position: relative; margin-bottom: 2rem;}
+    figure.heading {z-index: 2; position: relative;}
     figure.heading figcaption {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
     figure.heading figcaption small {font-size: .8rem; font-weight: 400; letter-spacing: .08rem; color: var(--red);}
     figure.heading p {margin-bottom: 1.5rem;}
     figure.heading figcaption h1 {font-size: 1.6rem; font-weight: 500!important;}
 @media (min-width: 768px) {
-    figure.heading {margin: 2em 0;}
     figure.heading figcaption small {font-size: 1rem;}
     figure.heading figcaption h1 {font-size: 2rem;}
 }
@@ -62,7 +61,7 @@
     h2 {font-size: 1.5rem;}
     h3 {font-size: 1rem;}
     p {line-height: 1.5; font-size: 1.1rem;}
-    figure.heading {z-index: 2; position: relative; margin: 3em 0;}
+    figure.heading {z-index: 2; position: relative;}
     figure.heading figcaption h1 {font-size: 2.2rem;}
 }
 /*Fonts*/
@@ -90,6 +89,11 @@
 .container-fluid {padding-left: 1.5rem; padding-right: 1.5rem;}
 
 /*Custom Helpers*/
+    /*Spaceing*/
+    section.section-pad {padding: 3rem 0;}
+@media (min-width: 768px) {
+    section.section-pad {padding: 5rem 0;}
+}
     /*z-index*/
     .z-index-1 {z-index: 1!important;}
     .z-index-2 {z-index: 2!important;}
@@ -162,23 +166,13 @@
 }
 
 /*Content Area*/
-    #contentWrap {padding: 2rem 0;}
     #contentContainer ul {margin-left: 1rem;}
     #contentContainer ul li {font-size: .9rem;}
     #contentContainer ul li::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
     #contentContainer ul li:not(:last-of-type) {margin-bottom: .5rem;}
     #sidebar h3.sidebar-title {margin-top: .25rem; border-left: 5px solid var(--red); padding-left: 0.625rem;}
-@media (min-width: 576px) and (max-width: 767px) {
-    #contentWrap {padding: 3rem 0;}
-}
 @media (min-width: 768px) {
     #sidebar .sidebar-content {position: sticky; top: 8rem;}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    #contentWrap {padding: 4rem 0;}
-}
-@media (min-width: 992px) {
-    #contentWrap {padding: 6rem 0;}
 }
 
 /*Site Footer*/
