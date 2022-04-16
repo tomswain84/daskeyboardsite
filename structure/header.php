@@ -21,7 +21,7 @@
                                             <p class="text-white">All orders over $59 qualify for our Free Shipping offer within the continental United States. Keyboards are shipped via UPS Ground, and accessories and swag may be shipped via USPS. Once your cart meets this minimum amount, the Free Shipping option is automatically available during checkout. Other expedited shipping options will also be available at an additional charge.</p>
                                         </div>
                                         <div class="modal-footer bg-gray-dark border-top">
-                                            <a href="./about-us" class="btn btn-primary">Learn More</a>
+                                            <a href="/sites/daskeyboard/about-us" class="btn btn-primary">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@
                                         <a class="nav-link" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./about-us">About Us</a>
+                                        <a class="nav-link" href="/sites/daskeyboard/about-us">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Wishlist</a>

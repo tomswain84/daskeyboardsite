@@ -1,5 +1,8 @@
 <?php require '../includes/head.php';?>
 <?php require '../structure/header.php';?>
+<?php
+$page_title = "Mechanical Keyboards";
+?>
 <?php include '../structure/page-title.php';?>
         <section id="filterProducts" class="bg-white">
             <div class="container-boxed">
@@ -31,6 +34,13 @@
                                         <small>Mechanical</small>
                                         <br>Keyboards
                                     </h1>
+                                    <h3 class="display-none smart-rgb"><span class="text-red">Viewing: </span>Smart RGB</h3>
+                                    <h3 class="display-none for-pc"><span class="text-red">Viewing: </span>For PC</h3>
+                                    <h3 class="display-none for-mac"><span class="text-red">Viewing: </span>For Mac</h3>
+                                    <h3 class="display-none linux"><span class="text-red">Viewing: </span>For Linux</h3>
+                                    <h3 class="display-none backlit"><span class="text-red">Viewing: </span>Backlit</h3>
+                                    <h3 class="display-none refurbished"><span class="text-red">Viewing: </span>Refurbished</h3>
+                                    <h3 class="display-none best-sellers"><span class="text-red">Viewing: </span>Best Sellers</h3>
                                 </figcaption>
                             </figure>
                         </div>

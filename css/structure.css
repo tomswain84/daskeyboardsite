@@ -42,6 +42,7 @@
     a {color: var(--red); text-decoration: none; transition: .3s ease-in-out;}
     a:hover {color: var(--red); text-decoration: underline; transition: .3s ease-in-out;}
     .rounded {border-radius: 1.5rem!important;}
+    .display-none {display: none;}
 
 /*Typography*/
     a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}

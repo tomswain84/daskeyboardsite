@@ -3,7 +3,7 @@
         		<div class="container-boxed">
         			<div class="row">
         				<div class="col">
-        					<h1>PAGE TITLE HERE</h1>
+        					<h1><?=$page_title?></h1>
         				</div>
         			</div>
         		</div>

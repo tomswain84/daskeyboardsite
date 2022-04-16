@@ -1,5 +1,8 @@
 <?php require 'includes/head.php';?>
 <?php require 'structure/header.php';?>
+<?php
+$page_title = "Das Keyboard Values";
+?>
 <?php include 'structure/page-title.php';?>
         <main class="content-wrap">
             <section class="bg-white section-pad">

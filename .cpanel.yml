@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rkcce6q009tf/public_html/daskeyboard
+    - export DEPLOYPATH=/home/rkcce6q009tf/public_html/sites/daskeyboard
     - /bin/cp -R * $DEPLOYPATH

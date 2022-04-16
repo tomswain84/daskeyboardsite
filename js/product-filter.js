@@ -66,6 +66,13 @@ $(function(){
   if (document.location.href.indexOf('filter=backlit') > 0)
   $(".backlit").show();
 
+  if (document.location.href.indexOf('filter=refurbished') > 0)
+  $(".refurbished").show();
+
+  if (document.location.href.indexOf('filter=best-sellers') > 0)
+  $(".best-sellers").show();
+
   if (document.location.href.indexOf('filter=all') > 0)
   $(".filterDiv").show();
+  $(".view-all").show();
 }); 
