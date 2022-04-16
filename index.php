@@ -26,9 +26,9 @@
 
 		<!-- Keyboard Categories -->
 		<section id="categoryKeyboards" class="bg-white section-pad mt-5 mt-xl-0">
-			<div class="container-boxed">
-				<div class="row">
-					<div class="col">
+			<div class="container-boxed mt-xxl-5 pt-xxl-5">
+				<div class="row mt-xxl-5">
+					<div class="col-12">
 						<figure class="heading text-center mb-0">
 							<figcaption>
 								<h1>
@@ -38,6 +38,9 @@
 							</figcaption>
 						</figure>
 					</div>
+                    <div class="col-12 d-flex py-4">
+                        <a class="btn btn-outline-primary text-gray-dark mx-auto" href="products/mechanical-keyboards?filter=all" title="Shop All Keyboards">Shop All Keyboards<i class="fa-solid fa-plus ms-2"></i></a>
+                    </div>
 				</div>
 				<?php include './parts/category-keyboards.php';?>
 			</div>			

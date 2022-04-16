@@ -71,7 +71,7 @@
     section#hero img {margin-top: -100px;}
 }
 @media (min-width: 1601px) and (max-width: 1920px) {
-    section#hero img {margin-top: -200px;}
+    section#hero img {margin-top: -100px;}
 }
 
 /*Software Section*/
