@@ -25,9 +25,9 @@
 /*Product Listing Cards*/
     .filterDiv {display: none;}
     /*.show {display: block;}*/
-    div.product-cards figure.card {border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
+    div.product-cards figure.card {height: 100%; border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
     section.bg-gray-lighter div.product-cards figure.card {background-color: var(--white);}
-    div.product-cards figure.card img {padding: 1rem; padding-bottom: 0;}
+    div.product-cards figure.card img {padding: 0;}
     div.product-cards figure.category-swag img {margin-bottom: 1rem;}
     div.product-cards figure.card figure.heading {padding: 0 1rem; margin: 0;}
     div.product-cards figure.card figure.heading figcaption small {font-size: .75rem;}
@@ -36,8 +36,28 @@
     div.product-cards figure.card figcaption.card-body {padding: 1rem;}
     div.product-cards figure.card figcaption.card-body h5.price {font-size: 1.1rem; letter-spacing: 2px;}
     div.product-cards figure.card figcaption.card-body p.desc {font-size: .825rem; padding: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical;}
-    div.product-cards figure.card figcaption.card-body div.tags {display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;}
-    div.product-cards figure.card figcaption.card-body div.tags span.tag {font-size: 8px; font-weight: 500; text-transform: uppercase; background: var(--graylight); color: var(--white); padding: .25rem .6rem; border-radius: 1rem; margin: 0 .25rem;}
+    div.product-cards figure.card figcaption.card-body div.tags {display: flex; flex-wrap: wrap; align-items: center; justify-content: center; margin-bottom: 2rem;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag {display: none; font-size: 8px; font-weight: 500; text-transform: uppercase; background: var(--graylight); color: var(--white); padding: .25rem .6rem; border-radius: 1rem; margin: .25rem;}
+    div.product-cards div.supercharged figure.card figcaption.card-body div.tags span.tag-supercharged,
+    div.product-cards div.minimalist figure.card figcaption.card-body div.tags span.tag-minimalist,
+    div.product-cards div.backlit figure.card figcaption.card-body div.tags span.tag-backlit,
+    div.product-cards div.smart-rgb figure.card figcaption.card-body div.tags span.tag-smart-rgb,
+    div.product-cards div.aluminum figure.card figcaption.card-body div.tags span.tag-aluminum,
+    div.product-cards div.for-mac figure.card figcaption.card-body div.tags span.tag-mac,
+    div.product-cards div.for-pc figure.card figcaption.card-body div.tags span.tag-pc,
+    div.product-cards div.linux figure.card figcaption.card-body div.tags span.tag-linux,
+    div.product-cards div.ubuntu figure.card figcaption.card-body div.tags span.tag-ubuntu {display: initial;}
+
+
+
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-supercharged {background-color: var(--red)!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-minimalist {background-color: #17a2b8!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-backlit {background-color: #ffc107!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-smart-rgb {background-color: #007bff!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-mac {background-color: #6c757d!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-aluminum {background-color: #28a745!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-linux {background-color: var(--graylight)!important;}
+    div.product-cards figure.card figcaption.card-body div.tags span.tag-ubuntu {background-color: #6c757d!important;}
     div.product-cards figure.card figcaption.card-body div.specs {padding: 1rem 0; font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: .9rem;}
     div.product-cards figure.card figcaption.card-body div.specs span.spec-title {color: var(--red); font-weight: 400; margin-bottom: .25rem;}
     div.product-cards figure.card figcaption.card-body div.specs .col {display: flex; flex-direction: column;}

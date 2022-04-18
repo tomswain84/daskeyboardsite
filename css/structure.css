@@ -81,7 +81,7 @@
     .btn-primary:hover, .btn-primary:active, .btn-primary:focus {border-color: var(--redhover)!important; background-color: var(--redhover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
     .btn-outline-primary {border-color: var(--graylight); color: var(--white);}
     .btn-outline-primary:hover {color: var(--white)!important;}
-    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {border-color: var(--red)!important; background-color: var(--red)!important; box-shadow: none!important;}
+    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {color: white!important; border-color: var(--red)!important; background-color: var(--red)!important; box-shadow: none!important;}
     .btn-outline-primary i {color: var(--red); transition: .3s ease-in-out;}
     .btn-outline-primary:hover i, .btn-outline-primary:active i, .btn-outline-primary:focus i {color: var(--white); transition: .3s ease-in-out;}
 

@@ -77,15 +77,15 @@
                                             Keyboards
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="keyboards">
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=smartrgb">Smart RGB</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=forpc">For PC</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=formac">For Mac</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=linux">For Linux</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=backlit">Backlit</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=refurbished">Refurbished</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/mechanical-keyboards?filter=best-sellers">Best Sellers</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=backlit">Backlit</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=smartrgb">Smart RGB</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=forpc">For PC</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=formac">For Mac</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=linux">For Linux</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=refurbished">Refurbished</a>
+                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=bestsellers">Best Sellers</a>
                                             <hr>
-                                            <a class="dropdown-item bg-gr view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/mechanical-keyboards?filter=all">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                            <a class="dropdown-item bg-gr view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=all">View All<i class="fa-solid fa-plus text-red"></i></a>
                                         </div>
                                     </li>
                                     <li id="navAccessories" class="nav-item dropdown">

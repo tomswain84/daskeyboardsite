@@ -19,10 +19,10 @@ $page_title = "Shop By Category";
                             </figure>
                         </div>
                         <div class="col d-flex">
-                            <a class="btn btn-outline-primary text-gray-dark ms-auto" href="../products/mechanical-keyboards?filter=all" title="Shop All">Shop All<i class="fa-solid fa-plus ms-2"></i></a>
+                            <a class="btn btn-outline-primary text-gray-dark ms-auto" href="../products/category-mechanical-keyboards?filter=all" title="Shop All">Shop All<i class="fa-solid fa-plus ms-2"></i></a>
                         </div>
                     </div>
-                    <?php include '../parts/category-keyboards.php';?>
+                    <?php include '../parts/part-category-keyboards-subcats.php';?>
                 </div>
             </section>
             <section id="categoryBestSellers" class="bg-gray-lighter section-pad">
@@ -39,7 +39,29 @@ $page_title = "Shop By Category";
                             </figure>
                         </div>
                     </div>
-                    <?php include '../parts/category-best-sellers.php';?>
+                    <div class="row">
+                        <div class="col">
+                            <div class="owl-carousel product-carousel best-sellers product-cards owl-theme">
+                                <div class="item">
+                                    <!-- Product Dtails -->
+                                    <?php include '../products/product-details/details-daskeyboard-4-professional.php';?>
+                                    <!-- Product Card -->
+                                    <?php include '../parts/product-card.php';?>
+                                </div>
+                                <div class="item">
+                                    <!-- Product Dtails -->
+                                    <?php include '../products/product-details/details-daskeyboard-5qs.php';?>
+                                    <!-- Product Card -->
+                                    <?php include '../parts/product-card.php';?>
+                                </div>
+                                <div class="item">
+                                    <!-- Product Dtails -->
+                                    <?php include '../products/product-details/details-daskeyboard-4-professional-for-mac.php';?>
+                                    <!-- Product Card -->
+                                    <?php include '../parts/product-card.php';?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>                
             </section>
@@ -57,7 +79,7 @@ $page_title = "Shop By Category";
                             </figure>
                         </div>
                     </div>
-                    <?php include '../parts/category-switches.php';?>
+                    <?php include '../parts/part-category-accessories.php';?>
                 </div>
             </section>
             <section id="swag" class="bg-gray-lighter section-pad">
@@ -74,7 +96,7 @@ $page_title = "Shop By Category";
                             </figure>
                         </div>
                     </div>
-                    <?php include '../parts/category-swag.php';?>
+                    <?php include '../parts/part-category-swag-carousel.php';?>
                     </div>
                 </div>                
             </section>

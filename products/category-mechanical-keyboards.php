@@ -34,18 +34,19 @@ $page_title = "Mechanical Keyboards";
                                         <small>Mechanical</small>
                                         <br>Keyboards
                                     </h1>
-                                    <h3 class="display-none smart-rgb"><span class="text-red">Viewing: </span>Smart RGB</h3>
-                                    <h3 class="display-none for-pc"><span class="text-red">Viewing: </span>For PC</h3>
-                                    <h3 class="display-none for-mac"><span class="text-red">Viewing: </span>For Mac</h3>
-                                    <h3 class="display-none linux"><span class="text-red">Viewing: </span>For Linux</h3>
-                                    <h3 class="display-none backlit"><span class="text-red">Viewing: </span>Backlit</h3>
-                                    <h3 class="display-none refurbished"><span class="text-red">Viewing: </span>Refurbished</h3>
-                                    <h3 class="display-none best-sellers"><span class="text-red">Viewing: </span>Best Sellers</h3>
+                                    <h3 class="display-none smart-rgb"><span class="text-red">Filter: </span>Smart RGB</h3>
+                                    <h3 class="display-none for-pc"><span class="text-red">Filter: </span>For PC</h3>
+                                    <h3 class="display-none for-mac"><span class="text-red">Filter: </span>For Mac</h3>
+                                    <h3 class="display-none linux"><span class="text-red">Filter: </span>For Linux</h3>
+                                    <h3 class="display-none backlit"><span class="text-red">Filter: </span>Backlit</h3>
+                                    <h3 class="display-none refurbished"><span class="text-red">Filter: </span>Refurbished</h3>
+                                    <h3 class="display-none best-sellers"><span class="text-red">Filter: </span>Best Sellers</h3>
+                                    <a class="btn btn-outline-primary text-gray-dark display-none smart-rgb for-pc for-mac linux backlit refurbished best-sellers" href="../products/category-mechanical-keyboards?filter=all" title="Clear Filter">Clear Filter<i class="fa-solid fa-times ms-2"></i></a>
                                 </figcaption>
                             </figure>
                         </div>
                     </div>
-                    <?php include '../parts/category-keyboards-grid.php';?>
+                    <?php include '../parts/part-category-keyboards-grid.php';?>
                     </div>
                 </div>                
             </section>
