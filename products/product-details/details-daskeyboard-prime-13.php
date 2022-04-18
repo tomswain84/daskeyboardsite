@@ -1,6 +1,7 @@
 <?php
 $product_title = "Prime 13";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-prime-13.jpeg";
+$buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-prime-13";
 $product_url = "/sites/daskeyboard/products/daskeyboard-prime-13";
 $product_price = "129";
 $product_tags = "for-pc supercharged minimalist backlit aluminum linux";

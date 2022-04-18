@@ -1,6 +1,7 @@
 <?php
 $product_title = "4 Professional For Mac";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-4-professional-for-mac.jpeg";
+$buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-4-professional-for-mac";
 $product_url = "/sites/daskeyboard/products/daskeyboard-4-professional-for-mac";
 $product_price = "169";
 $product_tags = "for-mac supercharged aluminum";

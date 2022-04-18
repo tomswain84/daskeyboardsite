@@ -8,7 +8,7 @@
                                             </h2>
                                         </figcaption>
                                     </figure>
-                                    <figcaption class="card-body">
+                                    <figcaption class="card-body d-flex flex-column">
                                         <h5 class="price">Starting at <span class="text-red">$<?=$product_price?></span></h5>
                                         <!-- <details class="desc p-3">
                                             <summary>Product Description</summary>
@@ -16,6 +16,11 @@
                                         </details> -->
                                         <p class="desc"><?=$product_desc?></p>
                                         <?php include '../parts/tags.php';?>
+                                        <div class="row buy-now mt-auto mb-3">
+                                            <div class="col">
+                                                <a href="<?=$buynow_url?>" class="btn btn-blue" title="Buy Now">Buy Now</a>
+                                            </div>
+                                        </div>
                                         <div class="row specs g-0">
                                             <div class="col">
                                                 <span class="spec-title"><?=$keystroke?>M</span>
@@ -28,6 +33,6 @@
                                         </div>
                                     </figcaption>
                                     <div class="card-footer">
-                                        <a class="btn" href="<?=$product_url?>" title="View Details">View Details</a>
+                                        <a class="btn" href="<?=$product_url?>" title="Product Details">Product Details</a>
                                     </div>
                                 </figure>

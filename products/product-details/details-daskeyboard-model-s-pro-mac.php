@@ -1,6 +1,7 @@
 <?php
 $product_title = "Model S Professional for Mac";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-model-s-pro-mac.jpeg";
+$buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-model-s-pro-for-mac";
 $product_url = "/sites/daskeyboard/products/daskeyboard-model-s-pro-for-mac";
 $product_price = "119";
 $product_tags = "for-mac supercharged";

@@ -1,6 +1,7 @@
 <?php
 $product_title = "4 Ultimate";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-4-ultimate.jpeg";
+$buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-4-ultimate";
 $product_url = "/sites/daskeyboard/products/daskeyboard-4-ultimate";
 $product_price = "169";
 $product_tags = "for-pc supercharged minimalist aluminum linux";

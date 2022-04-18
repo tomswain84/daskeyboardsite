@@ -72,6 +72,9 @@ $(function(){
   if (document.location.href.indexOf('filter=forpc') > 0)
   $(".for-pc").show();
 
+  if (document.location.href.indexOf('filter=ubuntu') > 0)
+  $(".ubuntu").show();
+
   if (document.location.href.indexOf('filter=linux') > 0)
   $(".linux").show();
 

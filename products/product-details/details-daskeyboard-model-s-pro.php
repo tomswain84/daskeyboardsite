@@ -1,6 +1,7 @@
 <?php
 $product_title = "Model S Professional";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-model-s-pro.jpeg";
+$buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-model-s-pro";
 $product_url = "/sites/daskeyboard/products/daskeyboard-model-s-pro";
 $product_price = "119";
 $product_tags = "for-pc supercharged linux";
