@@ -5,6 +5,7 @@ $buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-x50q";
 $product_url = "/sites/daskeyboard/products/daskeyboard-x50q";
 $product_price = "115";
 $product_tags = "for-pc supercharged backlit smart-rgb aluminum";
+$product_compatibility = "For PC";
 $keystroke = "100";
 $switchbrand = "Gamma Zulu";
 $product_desc = "

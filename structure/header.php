@@ -125,13 +125,14 @@
                     <div class="col d-md-flex align-items-center justify-content-between">
                         <nav class="breadcrumb m-0 bg-gray-darker px-0 d-flex justify-content-center justify-content-lg-start" aria-label="breadcrumb">
                             <ol class="breadcrumb m-0 bg-gray-darker px-0">
-                                <li class="breadcrumb-item active home pe-1" aria-current="page"><i class="fa-solid fa-house d-none"></i></li>
+                                <li class="breadcrumb-item home pe-1" aria-current="page"><i class="fa-solid fa-house"></i></li>
+                                <li class="breadcrumb-item pe-1">Mechanical Keyboards</li>
+                                <li class="breadcrumb-item active pe-1">Das Keyboard X50Q</li>
                             </ol>
                         </nav>
                         <div id="headerCTA" class="pb-3 py-md-4">
                             <div class="col d-flex align-items-center justify-content-center justify-content-md-between pe-md-0">
-                                <a class="btn btn-blue me-sm-1" href="/sites/daskeyboard/products" title="Shop By Category"><span class="d-none d-sm-inline">Shop </span>By Category</a>
-                                <a class="btn btn-outline-primary ms-2" href="#" title="Download Software"><span class="d-none d-sm-inline">Download</span> Software<i class="fa-solid fa-download ms-2"></i></a>
+                                <a class="btn btn-primary me-sm-1" href="/sites/daskeyboard/products" title="Shop By Category"><span class="d-none d-sm-inline">Shop </span>By Category</a>
                             </div>
                         </div>
                     </div>

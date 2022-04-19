@@ -28,5 +28,5 @@
 
 		<title>Das Keyboard - The Utimate Mechanical Keyboard Experience for Badasses</title>
 	</head>
-	<body>
+	<body id="<?=$body_id?>" class="<?=$body_class?>">
 

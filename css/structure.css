@@ -145,6 +145,7 @@
 
 /*Breadcrumb Nav*/
     section#navBreadcrumbs nav ol.breadcrumb {font-family: 'Oswald', sans-serif; font-size: 10px !important; text-transform: uppercase; padding: .75rem 1rem; display: flex; align-items: center;}
+    section#navBreadcrumbs nav ol.breadcrumb li {color: var(--graymedium);}
     section#navBreadcrumbs nav ol.breadcrumb li.active {color: var(--white);}
     section#navBreadcrumbs nav ol.breadcrumb li:before {color: var(--red); font-weight: 900;}
     section#navBreadcrumbs nav ol.breadcrumb a {color: var(--graymedium);}
@@ -158,6 +159,10 @@
 }
 
 /*Page TItle*/
+    section#pageTitle div#productCTA,
+    section#pageTitle div#productCTA a#dlQsoftware {display: none!important;}
+    body.product-page section#pageTitle div#productCTA,
+    body.q-series section#pageTitle div#productCTA a#dlQsoftware {display: inline-block!important;}
     section#pageTitle h1 {margin: 0; padding: 1.6rem 0; font-size: 1.6rem;}
 @media (min-width: 768px) and (max-width: 991px) {
     section#pageTitle h1 {font-size: 2rem;}
