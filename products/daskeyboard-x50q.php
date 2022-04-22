@@ -8,6 +8,8 @@ $page_title = "Das Keyboard X50Q";
 <?php include '../structure/page-title.php';?>
 <!-- Product Dtails -->
 <?php include '../products/product-details/details-daskeyboard-x50q.php';?>
+<!-- Switch Audio -->
+<?php include '../parts/part-embedded-audio.php';?>
         <section class="bg-white section-pad">
         	<div class="container-boxed">
         		<div class="row">
@@ -137,7 +139,7 @@ $page_title = "Das Keyboard X50Q";
 		<section class="bg-white section-pad">
 			<div class="container-boxed">
         		<div class="row">
-        			<div class="col-12">
+        			<div class="col-12 col-lg-8">
                         <figure class="heading mb-5">
                             <figcaption>
                                 <h2>
@@ -145,6 +147,7 @@ $page_title = "Das Keyboard X50Q";
                                     <br><span class="animated-cursor cursor-dark">To Maximize Productivity</span>
                                 </h2>
                             </figcaption>
+                            <p>Everything from your GitHub repository status, to project management notifications from Asana or Trello to priority emails from your boss or your Mom. It will tell you if your website goes down or if an answer to your question is posted on Stack Overflow.</p>
                         </figure>
         			</div>
         		</div>
@@ -155,6 +158,236 @@ $page_title = "Das Keyboard X50Q";
 				</div>
 			</div>
 		</section>
+
+		<section class="bg-gray-darker dark-section section-pad">
+			<div class="container-boxed">
+				<div class="row">
+					<div class="col text-center">
+						<i class="fa fa-code text-gray-light d-block fs-1"></i>
+						<h2 class="text-white my-5"><span class="animated-cursor cursor-light">Software API for developers</span></h2>
+						<a class="btn btn-primary" href="https://www.daskeyboard.io/" target="_blank" title="Create Your Own Applets">Create Your Own Applets</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-dark dark-section section-pad bg-image" style="background-image: url('../images/product-images/product-details/x50q/DK_X50Q_Space1.jpg');">
+			<div class="container-boxed">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2 text-center">
+						<h2 class="text-white my-5"><span class="animated-cursor cursor-light">When Winning is Everything</span></h2>
+						<p>The most advanced technology for high performance gaming. Your weapon of choice. The X50Q will make you better at gaming and give you an adrenaline rush when your keyboard lights up.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-white section-pad">
+			<div class="container-boxed">
+        		<div class="row align-items-center justify-content-between">
+        			<div class="col-md p-5">
+                        <img class="img-fluid" src="../images/product-images/product-details/x50q/X50_3_angle_right.jpg" alt="Keyboard Right Angle" />
+        			</div>
+        			<div class="col-md">
+                        <h2 class="text-red">Performance Meets Design</h2>
+                        <p class="mb-5">Whether on your desk at work or at home, the X50Q looks stunning and delivers fast precision keystrokes that help you get the job done.</p>
+                        <div class="row">
+                        	<div class="col">
+                        		<figure class="text-center">
+	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/x50q/gamma-zulu-badge.png" alt="Gamma Zulu 100M Lifecycle" />
+	                        		<figcaption class="small">World's longest lasting switches</figcaption>
+	                        	</figure>
+                        	</div>
+                        	<div class="col">
+                        		<figure class="text-center">
+	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/x50q/color-badge.png" alt="Enhanced 16.8M Per Key RGB" />
+	                        		<figcaption class="small">2x ultra enhanced brightness</figcaption>
+	                        	</figure>
+                        	</div>
+                        	<div class="col">
+                        		<figure class="text-center">
+	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/x50q/aluminum-badge.png" alt="Aluminum 26.982" />
+	                        		<figcaption class="small">Anodized aluminum top panel</figcaption>
+	                        	</figure>
+                        	</div>
+                        </div>
+        			</div>
+        		</div>
+			</div>
+		</section>
+
+		<section id="premiumMaterials" class="bg-gray-darker dark-section section-pad"><!-- /premiumMaterials -->
+			<div class="container">
+
+				<div class="row mb-4">
+					<div class="col text-center">
+						<h2>Premium Materials Throughout</h2>
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md order-md-2">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Friction Free</small>
+                                    <br>Soft touch palm rest
+                                </h2>
+                            </figcaption>
+                            <p>Das Keyboard X50Q includes a frictionless detachable palm rest that helps typists rest their palms comfortably.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/soft-touch-palm-blurred.jpg" alt="Friction Free Palm Rest" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Built to Last for Years</small>
+                                    <br>Durable aluminum panel
+                                </h2>
+                            </figcaption>
+                            <p>Das Keyboard X50Q sports a slick anodized black aluminum top panel. Its hex-screws allow users to easily customize it.(*)</p>
+                            <p class="small text-gray-light">(*) Available in the future</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/das-keyboard-x50-aluminum-panel.jpg" alt="Durable Aluminum Panel" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md order-md-2">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>One-click action</small>
+                                    <br>Macro functions
+                                </h2>
+                            </figcaption>
+                            <p>Allows you to program customizable keys to perform a series of actions with one click. For example, you can set a specific pattern of keystrokes to create a specific sequence that helps you attack a space alien or to mine for materials. They can also come in handy for combinations without having to try to remember what all of the hotkeys are.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/macro.png" alt="Macro functions" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Prevent interruptions</small>
+                                    <br>Gaming mode
+                                </h2>
+                            </figcaption>
+                            <p>The X50Q has a toggle that locks the Windows key from triggering the start menu, preventing the game from being pushed to the background and enables the Function keys and the Numpad keys to be used for macro functions.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/gaming-mode.png" alt="Gaming mode" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md order-md-2">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Simple Control at Your Fingertips</small>
+                                    <br>Quick access media controls
+                                </h2>
+                            </figcaption>
+                            <p>Das Keyboard X50Q provides direct controls to quickly set sound level, play or pause songs, and adjust RGB brightness while gaming or working.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/das-keyboard-x50-audio-control.jpg" alt="Quick access media controls" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Register all key presses</small>
+                                    <br>Full N-key rollover
+                                </h2>
+                            </figcaption>
+                            <p>With 100% anti-ghosting with full n-key rollover, no matter how many keys you press simultaneously, all of them will be reliably registered. Whether you type super fast or your gameplay finger dexterity is amazing, the X50Q NKRO is able to deliver the spanking your opponent deserve.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/x50-rgb-mechanical-keyboard-side-view-cropped.jpg" alt="Full N-key rollover" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md order-md-2">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Protect the environment</small>
+                                    <br>Energy-saving sleep function
+                                </h2>
+                            </figcaption>
+                            <p>A small details that makes a big difference: The X50Q has a function control to put the computer to sleep instantly. It saves energy and helps the environment.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/earth.jpg" alt="Energy-saving sleep function" />
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col text-center">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Keep your desk tidy</small>
+                                    <br>Extra long braided cable
+                                </h2>
+                            </figcaption>
+                        </figure>
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/x50q/long-dog-with-long-cable.png" alt="Extra long braided cable" />
+                        <p>The X50Q sports an extra-long 2-meter (6.5ft) braided USB cable that goes through desk grommets to keep the desk clean.</p>
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md order-md-2">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>Ultra-fast & comfortable</small>
+                                    <br>Gamma Zulu mechanical key switches
+                                </h2>
+                            </figcaption>
+                            <p>Made by Omron (Japan) for Das Keyboard, the Gamma Zulu is a modern best-in-class, fast, soft tactile key switch. It lasts forever with its unequaled 100 million life cycle. The feel is amazing and allows effortless typing and gaming sessions.</p>
+                        </figure>
+                        <div class="row mb-4">
+                        	<div class="col d-sm-flex align-items-center justify-content-start">
+		                        <a class="btn btn-outline-primary" id="playButton" onclick="playOn()">
+		                        	<span class="play" onclick="playAudio()"><i class="fa fa-play me-2"></i>Play Soft Tactile Sound</span>
+		                        	<span class="pause" onclick="pauseAudio()"><i class="fa fa-pause me-2"></i>Play Soft Tactile Sound
+		                    	</a>
+		                    	<a class="btn btn-primary my-3 my-sm-0 ms-sm-3" href="#" title="About Gamma Zulu Switches">About Gamma Zulu Switches</a>
+		                    </div>
+		                </div>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid rounded" src="../images/product-images/product-details/x50q/gammazulu.gif" alt="Gamma Zulu mechanical key switches" />
+					</div>
+				</div>
+
+			</div>
+		</section><!-- /premiumMaterials -->
 
 <?php require '../structure/footer.php';?>
 <?php require '../includes/footer-scripts.php';?>

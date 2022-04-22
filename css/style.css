@@ -1,5 +1,6 @@
 /*Custom Helpers*/
     /*Extras*/
+    .bg-image {position: relative; overflow: hidden; background-repeat: no-repeat; background-size: cover; background-position: 50%;}
     .animated-cursor:after {content: ''; width: 15px; height: 3px; display: inline-block; margin-left: 3px; animation: cursor-blink 1.5s steps(2) infinite;}
     .cursor-dark:after {background-color: var(--graydarker);}
     .cursor-light:after {background-color: var(--white);}
@@ -38,9 +39,13 @@
     body.product-page section#theSoftware .video-col img.video-mockup {margin-bottom: 0!important;}
     body.product-page .video {max-width: 768px; margin: auto; border-radius: 1.75vw; overflow: hidden;}
     body.product-page img.section-featured {width: 768px; border-radius: 1.75vw;}
+    body.product-page a#playButton span.pause {display: none;}
+    body.product-page a#playButton.playing span.pause {display: initial;}
+    body.product-page a#playButton.playing span.play {display: none;}
 @media (max-width: 767px) {
     body.product-page #sidebar {background-color: var(--graylighter); padding: 2rem; margin: -2rem 0 2rem;}
 }
+
 /*Filter Keyboards*/
     section#filterKeyboards {position: sticky; top: 80px;}
     section#filterKeyboards #navbarNav ul li a {opacity: .8; text-transform: uppercase; font-weight: 500; font-size: .65rem; color: var(--white); border-radius: 25px;}

@@ -75,7 +75,7 @@
 /*Buttons*/
     .btn {line-height: .9; border-radius: 25px; font-family: 'Oswald', sans-serif; font-size: 0.875rem; text-transform: uppercase; padding: 0.6rem 1.4rem; white-space: nowrap; transition: .3s ease-in-out;}
     .btn:hover {text-decoration: none!important;}
-    .btn-blue {color: var(--white); border-color: var(--blue); background-color: var(--blue); transition: .3s ease-in-out;}
+    .btn-blue {color: var(--white)!important; border-color: var(--blue); background-color: var(--blue); transition: .3s ease-in-out;}
     .btn-blue:hover, .btn-blue:active, .btn-blue:focus {color: var(--white); border-color: var(--bluehover)!important; background-color: var(--bluehover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
     .btn-primary {color: var(--white)!important; border-color: var(--red); background-color: var(--red); transition: .3s ease-in-out;}
     .btn-primary:hover, .btn-primary:active, .btn-primary:focus {border-color: var(--redhover)!important; background-color: var(--redhover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
