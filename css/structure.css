@@ -89,19 +89,6 @@
 .container-boxed {max-width: 100%; width: 1440px; margin-left: auto; margin-right: auto; padding-left: 1.5rem; padding-right: 1.5rem;}
 .container-fluid {padding-left: 1.5rem; padding-right: 1.5rem;}
 
-/*Custom Helpers*/
-    /*Spaceing*/
-    section.section-pad {padding: 3rem 0;}
-@media (min-width: 768px) {
-    section.section-pad {padding: 5rem 0;}
-}
-    /*z-index*/
-    .z-index-1 {z-index: 1!important;}
-    .z-index-2 {z-index: 2!important;}
-    .z-index-3 {z-index: 3!important;}
-    /*Color Classes*/
-        .red {color: var(--red);}
-
 /*Secondary Nav*/
     section#navSecondary a,
     section#navSecondary p {color: var(--graymedium); font-size: 0.75rem; font-weight: 400;}
@@ -178,6 +165,7 @@
     #contentContainer ul li:not(:last-of-type) {margin-bottom: .5rem;}
     #sidebar h3.sidebar-title {margin-top: .25rem; border-left: 5px solid var(--red); padding-left: 0.625rem;}
 @media (min-width: 768px) {
+    body.product-page #sidebar .sidebar-content {position: sticky; top: 13rem;}
     #sidebar .sidebar-content {position: sticky; top: 8rem;}
 }
 

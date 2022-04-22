@@ -1,15 +1,45 @@
-/*Section Styles*/
-    section.dark-section {
-        color: var(--white);
+/*Custom Helpers*/
+    /*Extras*/
+    .animated-cursor:after {content: ''; width: 15px; height: 3px; display: inline-block; margin-left: 3px; animation: cursor-blink 1.5s steps(2) infinite;}
+    .cursor-dark:after {background-color: var(--graydarker);}
+    .cursor-light:after {background-color: var(--white);}
+    @keyframes cursor-blink {
+        0% {
+            opacity: 0;
+        }
     }
 
+    /*Blend Modes*/
+    .blend-darken {mix-blend-mode: darken;}
+    .blend-plus-lighter {mix-blend-mode: screen; mix-blend-mode: plus-lighter;}
+    /*Spaceing*/
+    .section-pad {padding: 3rem 0;}
+    /*z-index*/
+    .z-index-1 {z-index: 1!important;}
+    .z-index-2 {z-index: 2!important;}
+    .z-index-3 {z-index: 3!important;}
+    /*Color Classes*/
+        .red {color: var(--red);}
+@media (min-width: 768px) {
+    .section-pad {padding: 5rem 0;}
+}
+@media (max-width: 1439px) {
+    .breakout {width: calc(100% + 3rem); max-width: calc(100% + 3rem)!important; margin-left: -1.5rem;}
+}
+
+/*Section Styles*/
+    section.dark-section {color: var(--white);}
+    section.breakout-bottom {margin-bottom: 15rem; padding-bottom: 0;}
+    section.breakout-bottom img {margin-bottom: -10rem; border: 10px solid var(--graylight);}
+
 /*Product Pages*/
-    body.product-page section#pageTitle {position: sticky; top: 112px; z-index: 999;}
+    body.product-page header#navPrimary {position: relative!important;}
+    body.product-page section#pageTitle {position: sticky; top: 0; z-index: 999;}
+    body.product-page section#theSoftware .video-col img.video-mockup {margin-bottom: 0!important;}
+    body.product-page .video {max-width: 768px; margin: auto; border-radius: 1.75vw; overflow: hidden;}
+    body.product-page img.section-featured {width: 768px; border-radius: 1.75vw;}
 @media (max-width: 767px) {
     body.product-page #sidebar {background-color: var(--graylighter); padding: 2rem; margin: -2rem 0 2rem;}
-}
-@media (min-width: 576px) {
-    body.product-page section#pageTitle {top: 81px;}
 }
 /*Filter Keyboards*/
     section#filterKeyboards {position: sticky; top: 80px;}
@@ -34,6 +64,8 @@
 
 /*Category Cards*/
     figure.card {border: none; margin: 1rem 0; overflow: hidden;}
+    figure.card a {color: unset;}
+    figure.card a:hover {text-decoration: none;}
     figure.card .card-body {padding: 0;}
     figure.card .card-body img.card-img {border-radius: calc(1rem - 1px); transition: .4s ease-in-out;}
     figure.card:hover .card-body img.card-img {transition: .4s ease-in-out;}
