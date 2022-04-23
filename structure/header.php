@@ -62,6 +62,7 @@
                 </div>
             </div>
         </section>
+
         <header id="navPrimary" class="bg-gray-darker sticky-top">
             <div class="container-boxed">
                 <div class="row d-flex align-items-center">
@@ -119,15 +120,24 @@
                 <hr class="m-0">
             </div>
         </header>
+
         <section id="navBreadcrumbs" class="bg-gray-darker">
             <div class="container-boxed">
                 <div class="row">
                     <div class="col d-md-flex align-items-center justify-content-between">
                         <nav class="breadcrumb m-0 bg-gray-darker px-0 d-flex justify-content-center justify-content-lg-start" aria-label="breadcrumb">
                             <ol class="breadcrumb m-0 bg-gray-darker px-0">
-                                <li class="breadcrumb-item home pe-1" aria-current="page"><i class="fa-solid fa-house"></i></li>
-                                <li class="breadcrumb-item pe-1">Mechanical Keyboards</li>
-                                <li class="breadcrumb-item active pe-1">Das Keyboard X50Q</li>
+                                <li id="home" class="breadcrumb-item home pe-1">
+                                    <a href="/sites/daskeyboard/" title="Home Page">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                </li>
+                                <li id="parentPage" class="display-none breadcrumb-item pe-1">
+                                    <a href="#" title="Back to <?=$parent_page_title?>">
+                                        <?=$parent_page_title?>
+                                    </a>
+                                </li>
+                                <li id="currentPage" class="breadcrumb-item active pe-1" aria-current="page"><?=$page_title?></li>
                             </ol>
                         </nav>
                         <div id="headerCTA" class="pb-3 py-md-4">
@@ -139,4 +149,3 @@
                 </div>
             </div>
         </section>
-

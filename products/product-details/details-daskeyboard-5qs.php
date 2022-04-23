@@ -1,10 +1,11 @@
 <?php
 $product_title = "5QS";
+$product_series = "Q Series";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-5qs.jpeg";
 $buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-5qs";
 $product_url = "/sites/daskeyboard/products/daskeyboard-5qs";
 $product_price = "199";
-$product_tags = "for-pc for-mac supercharged backlit smart-rgb aluminum ubuntu";
+$product_tags = "for-pc for-mac supercharged backlit smart-rgb aluminum ubuntu q-series";
 $keystroke = "100";
 $switchbrand = "Gamma Zulu";
 $product_desc = "

@@ -1,8 +1,9 @@
+<?php $body_id = "mechanicalKeyboards";?>
+<?php $body_class = "product-listing keyboards q-series has-parent";?>
+<?php $parent_page_title = "Shop By Category";?>
+<?php $page_title = "Mechanical Keyboards";?>
 <?php require '../includes/head.php';?>
 <?php require '../structure/header.php';?>
-<?php
-$page_title = "Mechanical Keyboards";
-?>
 <?php include '../structure/page-title.php';?>
         <section id="filterKeyboards" class="bg-white z-index-3">
             <div class="container-boxed">
@@ -78,7 +79,8 @@ $page_title = "Mechanical Keyboards";
                             </figure>
                         </div>
                     </div>
-                    <?php include '../parts/part-category-keyboards-grid.php';?>
+                    <div class="product-cards row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-4">
+                        <?php include '../parts/part-category-keyboards-grid.php';?>
                     </div>
                 </div>                
             </section>

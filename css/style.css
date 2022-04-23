@@ -27,6 +27,7 @@
 @media (max-width: 1439px) {
     .breakout {width: calc(100% + 3rem); max-width: calc(100% + 3rem)!important; margin-left: -1.5rem;}
 }
+    .breakout-left {margin-left: -1.5rem;}
 
 /*Section Styles*/
     section.dark-section {color: var(--white);}
@@ -36,7 +37,7 @@
 /*Product Pages*/
     body.product-page header#navPrimary {position: relative!important;}
     body.product-page section#pageTitle {position: sticky; top: 0; z-index: 999;}
-    body.product-page section#theSoftware .video-col img.video-mockup {margin-bottom: 0!important;}
+    body.product-page section#softwareVideo .video-col img.video-mockup {margin-bottom: 0!important;}
     body.product-page .video {max-width: 768px; margin: auto; border-radius: 1.75vw; overflow: hidden;}
     body.product-page img.section-featured {width: 768px; border-radius: 1.75vw;}
     body.product-page a#playButton span.pause {display: none;}
@@ -97,6 +98,8 @@
 }
 
 /*Product Listing Cards*/
+    /*Show Q Series*/
+        body.q-series .q-series {display: initial!important;}
     .filterDiv {display: none;}
     /*.show {display: block;}*/
     div.product-cards figure.card {height: 100%; border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
@@ -150,7 +153,7 @@
     section#hero img {margin-top: -50px; margin-bottom: -250px;}
 }
 @media (min-width: 1200px) {
-    section#hero {height: calc(100vh - 212.25px);}
+    section#hero {height: calc(100vh - 210.85px);}
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
     section#hero img {margin-top: -100px;}
@@ -159,18 +162,18 @@
     section#hero img {margin-top: -100px;}
 }
 
-/*Software Section*/
-    section#theSoftware .video-col {max-width: 768px; margin: auto;}
-    section#theSoftware .video-col img.video-mockup {margin-bottom: -7.5rem;}
-    section#theSoftware .video-col video {border-radius: 15px; overflow: hidden; border: 15px solid var(--graydark); box-shadow: 0 0 0 2px var(--graymedium);}
-    section#theSoftware .video-col span.video-shine {background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(255, 255, 255, 0.3) 35%, rgba(0,0,0,0) 100%); width: 100%; height: 15px; margin-bottom: -10px; display: block; position: relative;}
-    section#theSoftware .video-col .video-base {margin-bottom: -3rem; margin-top: 0; max-width: 60%;}
+/*Software Video*/
+    section#softwareVideo .video-col {max-width: 768px; margin: auto;}
+    section#softwareVideo .video-col img.video-mockup {margin-bottom: -7.5rem;}
+    section#softwareVideo .video-col video {border-radius: 15px; overflow: hidden; border: 15px solid var(--graydark); box-shadow: 0 0 0 2px var(--graymedium);}
+    section#softwareVideo .video-col span.video-shine {background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(255, 255, 255, 0.3) 35%, rgba(0,0,0,0) 100%); width: 100%; height: 15px; margin-bottom: -10px; display: block; position: relative;}
+    section#softwareVideo .video-col .video-base {margin-bottom: -3rem; margin-top: 0; max-width: 60%;}
 @media (min-width: 576px) and (max-width: 991px) {
-    section#theSoftware .video-col img.video-mockup {margin-bottom: -8.5rem;}
-    section#theSoftware .video-col .video-base {margin-bottom: -10rem;}
+    section#softwareVideo .video-col img.video-mockup {margin-bottom: -8.5rem;}
+    section#softwareVideo .video-col .video-base {margin-bottom: -10rem;}
 }
 @media (min-width: 992px) {
-        section#theSoftware .video-col .video-base {margin-bottom: -11.5rem;}
+        section#softwareVideo .video-col .video-base {margin-bottom: -11.5rem;}
 }
 
 /*Values Section*/

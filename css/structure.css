@@ -131,12 +131,14 @@
 }
 
 /*Breadcrumb Nav*/
+    body#home section#navBreadcrumbs nav ol.breadcrumb {display: none;}
     section#navBreadcrumbs nav ol.breadcrumb {font-family: 'Oswald', sans-serif; font-size: 10px !important; text-transform: uppercase; padding: .75rem 1rem; display: flex; align-items: center;}
     section#navBreadcrumbs nav ol.breadcrumb li {color: var(--graymedium);}
     section#navBreadcrumbs nav ol.breadcrumb li.active {color: var(--white);}
     section#navBreadcrumbs nav ol.breadcrumb li:before {color: var(--red); font-weight: 900;}
     section#navBreadcrumbs nav ol.breadcrumb a {color: var(--graymedium);}
     section#navBreadcrumbs nav ol.breadcrumb a:hover {text-decoration: none; color: var(--white);}
+    body.has-parent section#navBreadcrumbs nav ol.breadcrumb li#parentPage {display: initial;}
 @media (max-width: 575px) {
     section#navBreadcrumbs div#headerCTA .btn {padding-left: unset; padding-right: unset; width: 50%; max-width: 150px;}
 }
@@ -159,10 +161,10 @@
 }
 
 /*Content Area*/
-    #contentContainer ul {margin-left: 1rem;}
-    #contentContainer ul li {font-size: .9rem;}
-    #contentContainer ul li::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
-    #contentContainer ul li:not(:last-of-type) {margin-bottom: .5rem;}
+    .content-container ul {margin-left: 1rem;}
+    .content-container ul li {font-size: .9rem;}
+    .content-container ul li::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
+    .content-container ul li:not(:last-of-type) {margin-bottom: .5rem;}
     #sidebar h3.sidebar-title {margin-top: .25rem; border-left: 5px solid var(--red); padding-left: 0.625rem;}
 @media (min-width: 768px) {
     #sidebar .sidebar-content {position: sticky; top: 8rem;}

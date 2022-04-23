@@ -1,8 +1,8 @@
+<?php $body_id = "products";?>
+<?php $body_class = "product-listing";?>
+<?php $page_title = "Shop By Category";?>
 <?php require '../includes/head.php';?>
 <?php require '../structure/header.php';?>
-<?php
-$page_title = "Shop By Category";
-?>
 <?php include '../structure/page-title.php';?>
         <main class="content-wrap">
             <section id="categoryKeyboards" class="bg-white section-pad">

@@ -1,4 +1,4 @@
-                                <figure class="card category-keyboards">
+                                <figure class="card category-keyboards <?=$product_series?>">
                                     <img src="<?=$product_image_url?>" class="img-fluid card-img-top" alt="<?=$product_title?>" />
                                     <figure class="heading text-center">
                                         <figcaption>

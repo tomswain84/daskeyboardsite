@@ -1,14 +1,13 @@
 <?php $body_id = "x50q";?>
-<?php $body_class = "product-page keyboards q-series";?>
+<?php $body_class = "product-page keyboards q-series has-parent";?>
+<?php $parent_page_title = "Mechanical Keyboards";?>
+<?php $page_title = "Das Keyboard X50Q";?>
 <?php require '../includes/head.php';?>
 <?php require '../structure/header.php';?>
 <!-- Product Dtails -->
 <?php include '../products/product-details/details-daskeyboard-x50q.php';?>
 <!-- Switch Audio -->
 <?php include '../parts/part-embedded-audio.php';?>
-<?php
-$page_title = "Das Keyboard X50Q";
-?>
 <?php include '../structure/page-title.php';?>
         <section class="bg-white section-pad">
         	<div class="container-boxed">
@@ -20,6 +19,7 @@ $page_title = "Das Keyboard X50Q";
                                     <small>Work & Gaming</small>
                                     <br>RGB Keyboard
                                 </h1>
+                                <h6 class="mt-5">Starting at: <span class="text-red">$<?=$product_price?></span></h6>
                             </figcaption>
                         </figure>
                         <img class="img-fluid d-none d-sm-block breakout" src="../images/product-images/product-details/x50q/X50_4_side.jpg" alt="<?=$product_title?>" />
@@ -42,134 +42,17 @@ $page_title = "Das Keyboard X50Q";
         	</div>
         </section>
 
-        <section class="bg-white section-pad">
-        	<div class="container-boxed">
-        		<div class="row">
-        			<div class="col-12">
-                        <figure class="heading text-center mb-5">
-                            <figcaption>
-                                <h2>
-                                    <small>Das Keyboard Q Sofware</small>
-                                    <br><span class="animated-cursor cursor-dark">Make your keyboard smart</span>
-                                </h2>
-                            </figcaption>
-                        </figure>
-						<div class="video ratio ratio-16x9">
-							<iframe src="https://www.youtube.com/embed/9lDXlrVwkEU" title="YouTube video" allowfullscreen></iframe>
-						</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
+        <?php include '../parts/part-q_software.php';?> <!-- Q Software Section -->
 
-		<!-- Software Section -->
-		<section id="theSoftware" class="section-pad bg-gray-lighter pb-0">
-			<div class="container-boxed">
-        		<div class="row">
-        			<div class="col-12">
-                        <figure class="heading text-center mb-5">
-                            <figcaption>
-                                <h2>
-                                    <small>Limitless possibilities</small>
-                                    <br>Configure RGB notifications with drag and drop applets 
-                                </h2>
-                            </figcaption>
-                        </figure>
-        			</div>
-        		</div>
-				<div class="row">
-					<div class="col video-col">
+		<?php include '../parts/part-q_software-video.php';?> <!-- Software Video Section -->
 
-						<!-- Mobile Only -->
-						<img class="video-mockup img-fluid d-md-none" src="../images/img-home-software_mockup.png" alt="Software Mockup" />
+		<?php include '../parts/part-message_preview.php';?> <!-- Message Preview -->
 
-						<span class="video-shine d-none d-md-block"></span>
-						<video class="d-block mx-auto w-100 d-none d-md-block" autoplay loop muted poster="../images/img-home-software_mockup.png">
-						<source src="../video/q-applet.mp4" type="video/mp4"></video>
-						<img class="../video-base d-none d-md-block mx-auto position-relative" src="../images/img-home-video_base.png" alt="Video Base" />
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php include '../parts/part-q_applets-preview.php';?> <!-- Applets Preview -->
 
-		<section class="bg-gray-darker dark-section section-pad breakout-bottom">
-			<div class="container-boxed">
-        		<div class="row">
-        			<div class="col-12">
-                        <figure class="heading text-center mb-5">
-                            <figcaption>
-                                <h2>
-                                    <small>Das Keyboard Q Message Preview</small>
-                                    <br><span class="animated-cursor cursor-light">Preview any message with a keypress</span>
-                                </h2>
-                            </figcaption>
-                        </figure>
-        			</div>
-        		</div>
-				<div class="row">
-					<div class="col text-center">
-						<img class="img-fluid section-featured" src="../images/product-images/product-details/x50q/X50Q_message_preview.gif" alt="Message Preview" />
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php include '../parts/part-q_applets-carousel.php';?> <!-- Applets Carousel -->
 
-		<section class="bg-gray-darker dark-section section-pad breakout-bottom">
-			<div class="container-boxed">
-        		<div class="row">
-        			<div class="col-12">
-                        <figure class="heading text-center mb-5">
-                            <figcaption>
-                                <h2>
-                                    <small>Applets for power users and coders</small>
-                                    <br><span class="animated-cursor cursor-light">Customize your keyboard to your needs</span>
-                                </h2>
-                            </figcaption>
-                        </figure>
-        			</div>
-        		</div>
-				<div class="row">
-					<div class="col text-center">
-						<img class="img-fluid section-featured" src="../images/product-images/product-details/x50q/Twitch_applet_design.png" alt="Applets" />
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="bg-white section-pad">
-			<div class="container-boxed">
-        		<div class="row">
-        			<div class="col-12 col-lg-8">
-                        <figure class="heading mb-5">
-                            <figcaption>
-                                <h2>
-                                    <small>Q Applets</small>
-                                    <br><span class="animated-cursor cursor-dark">To Maximize Productivity</span>
-                                </h2>
-                            </figcaption>
-                            <p>Everything from your GitHub repository status, to project management notifications from Asana or Trello to priority emails from your boss or your Mom. It will tell you if your website goes down or if an answer to your question is posted on Stack Overflow.</p>
-                        </figure>
-        			</div>
-        		</div>
-        		<div class="row">
-        			<div class="col">
-						<?php include '../parts/part-q_applets-carousel.php';?>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="bg-gray-darker dark-section section-pad">
-			<div class="container-boxed">
-				<div class="row">
-					<div class="col text-center">
-						<i class="fa fa-code text-gray-light d-block fs-1"></i>
-						<h2 class="text-white my-5"><span class="animated-cursor cursor-light">Software API for developers</span></h2>
-						<a class="btn btn-primary" href="https://www.daskeyboard.io/" target="_blank" title="Create Your Own Applets">Create Your Own Applets</a>
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php include '../parts/part-q_applets-software_api.php';?> <!-- Software API -->
 
 		<section class="bg-gray-dark dark-section section-pad bg-image" style="background-image: url('../images/product-images/product-details/x50q/DK_X50Q_Space1.jpg');">
 			<div class="container-boxed">
@@ -194,19 +77,19 @@ $page_title = "Das Keyboard X50Q";
                         <div class="row">
                         	<div class="col">
                         		<figure class="text-center">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/x50q/gamma-zulu-badge.png" alt="Gamma Zulu 100M Lifecycle" />
+	                        		<img class="img-fluid mb-3" src="../images/gamma-zulu-badge.png" alt="Gamma Zulu 100M Lifecycle" />
 	                        		<figcaption class="small">World's longest lasting switches</figcaption>
 	                        	</figure>
                         	</div>
                         	<div class="col">
                         		<figure class="text-center">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/x50q/color-badge.png" alt="Enhanced 16.8M Per Key RGB" />
+	                        		<img class="img-fluid mb-3" src="../images/color-badge.png" alt="Enhanced 16.8M Per Key RGB" />
 	                        		<figcaption class="small">2x ultra enhanced brightness</figcaption>
 	                        	</figure>
                         	</div>
                         	<div class="col">
                         		<figure class="text-center">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/x50q/aluminum-badge.png" alt="Aluminum 26.982" />
+	                        		<img class="img-fluid mb-3" src="../images/aluminum-badge.png" alt="Aluminum 26.982" />
 	                        		<figcaption class="small">Anodized aluminum top panel</figcaption>
 	                        	</figure>
                         	</div>
@@ -220,6 +103,29 @@ $page_title = "Das Keyboard X50Q";
 			<div class="container">
 
 				<div class="row mb-4">
+					<div class="col text-center">
+						<h2>Intense RGB colors in broad daylight</h2>
+					</div>
+				</div>
+
+				<div class="row align-items-center py-5 my-md-0 border-bottom">
+					<div class="col-md order-md-2">
+                        <figure class="heading m-0">
+                            <figcaption>
+                                <h2>
+                                    <small>16.8 Million ultra bright colors</small>
+                                    <br>At work or in your cave, the X50Q RGB shines everywhere
+                                </h2>
+                            </figcaption>
+                            <p>Due to its enhanced brightness mode(*) and its modern switch design, the X50Q delivers intense colors that are not washed out by daylight - a problem that most RGB keyboards suffer from.</p>
+                        </figure>
+					</div>
+					<div class="col-md text-center">
+						<img class="img-fluid blend-plus-lighter" src="../images/gama-zulu-color-switch.jpg" alt="16.8 Million ultra bright colors" />
+					</div>
+				</div>
+
+				<div class="row mb-4 mt-5">
 					<div class="col text-center">
 						<h2>Premium Materials Throughout</h2>
 					</div>
@@ -360,31 +266,7 @@ $page_title = "Das Keyboard X50Q";
 					</div>
 				</div>
 
-				<div class="row align-items-center py-5 my-md-0 border-bottom">
-					<div class="col-md order-md-2">
-                        <figure class="heading m-0">
-                            <figcaption>
-                                <h2>
-                                    <small>Ultra-fast & comfortable</small>
-                                    <br>Gamma Zulu mechanical key switches
-                                </h2>
-                            </figcaption>
-                            <p>Made by Omron (Japan) for Das Keyboard, the Gamma Zulu is a modern best-in-class, fast, soft tactile key switch. It lasts forever with its unequaled 100 million life cycle. The feel is amazing and allows effortless typing and gaming sessions.</p>
-                        </figure>
-                        <div class="row mb-4">
-                        	<div class="col d-sm-flex align-items-center justify-content-start">
-		                        <a class="btn btn-outline-primary" id="playButton" onclick="playOn()">
-		                        	<span class="play" onclick="playAudio()"><i class="fa fa-play me-2"></i>Play Soft Tactile Sound</span>
-		                        	<span class="pause" onclick="pauseAudio()"><i class="fa fa-pause me-2"></i>Play Soft Tactile Sound
-		                    	</a>
-		                    	<a class="btn btn-primary my-3 my-sm-0 ms-sm-3" href="#" title="About Gamma Zulu Switches">About Gamma Zulu Switches</a>
-		                    </div>
-		                </div>
-					</div>
-					<div class="col-md text-center">
-						<img class="img-fluid rounded" src="../images/product-images/product-details/x50q/gammazulu.gif" alt="Gamma Zulu mechanical key switches" />
-					</div>
-				</div>
+				<?php include '../parts/part-gamma_zulu_switches.php';?> <!-- Gama Zulu Mechanical Key Switches -->
 
 				<div class="row align-items-center py-5 my-md-0 border-bottom">
 					<div class="col-md">
@@ -395,7 +277,7 @@ $page_title = "Das Keyboard X50Q";
                                     <br>WASD keycaps included
                                 </h2>
                             </figcaption>
-                            <p> Accurate key presses are mandatory. The included gaming textured WASD keycap upgrade kit will give you a huge tactical advantage. Precision and style on your path to total domination. Key puller included as well. </p>
+                            <p>Accurate key presses are mandatory. The included gaming textured WASD keycap upgrade kit will give you a huge tactical advantage. Precision and style on your path to total domination. Key puller included as well.</p>
                         </figure>
 					</div>
 					<div class="col-md text-center">
@@ -406,99 +288,26 @@ $page_title = "Das Keyboard X50Q";
 			</div>
 		</section><!-- /premiumMaterials -->
 
-		<section id="keyboardSpects" class="bg-gray-darker dark-section section-pad"><!-- /keyboardSpects -->
-			<div id="contentContainer" class="container-boxed">
+		<?php include '../products/product-details/product-specs/specs-daskeyboard-x50q.php';?><!-- /keyboardSpects -->
+
+		<section id="productLineup" class="bg-gray-lighter section-pad"><!-- /productLineup -->
+			<div class="container">
 				<div class="row">
 					<div class="col">
-						<h2>Specifications</h2>
+						<figure class="heading m-0">
+	                        <figcaption>
+	                            <h2>
+	                                <small>Das Keybaord</small>
+	                                <br><?=$product_series?> Lineup
+	                            </h2>
+	                        </figcaption>
+	                    </figure>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col">
-						<h3 class="text-red mb-2">Product Information</h3>
-						<ul class="list-unstyled">
-							<li>Backlighting: RGB</li>
-							<li>Connection Type: USB 2.0</li>
-							<li>Keycap Material: ABS</li>
-							<li>Aluminum top panel: Yes</li>
-							<li>USB Ports (Built-in): No</li>
-							<li>Dedicated Media Controls: Volume Knob, Play/Pause, Track Forward/Backward</li>
-							<li>Easy Access Media Controls: Yes</li>
-							<li>Firmware Updatable: Yes</li>
-						</ul>
-						<h3 class="text-red mb-2">System Requirements</h3>
-						<ul class="list-unstyled">
-							<li>Windows 10</li>
-							<li>One 2.0 USB port</li>
-							<li>Internet connection for software download</li>
-							<li>This keyboard is compatible with Windows only.</li>
-						</ul>
-						<h3 class="text-red mb-2">Warranty Information</h3>
-						<ul class="list-unstyled">
-							<li>1-Year Limited Hardware Warranty</li>
-						</ul>
-						<h3 class="text-red mb-2">Package Content</h3>
-						<ul class="list-unstyled">
-							<li>Keyboard</li>
-							<li>Palm rest</li>
-							<li>WASD two-tone keycaps</li>
-							<li>Keycap puller</li>
-							<li>User documentation</li>
-						</ul>
-						<h3 class="text-red mb-2">User Manual</h3>
-						<a class="btn btn-outline-primary" href="https://docs.google.com/document/d/1I79ZG7MzYzkSWdniAYGYTSsBkf85drA7lVeI6Q03BTU/edit?usp=sharing" target="_blank" title="View the X50Q User Manual">View the X50Q User Manual</a>
-					</div>
-					<div class="col">
-						<h3 class="text-red mb-2">Physical Specifications</h3>
-						<ul class="list-unstyled">
-							<li><strong>Height</strong>: 1.28 in (3.2 cm)</li>
-							<li><strong>Width</strong>: 6.63 in (16.8 cm)</li>
-							<li><strong>Length</strong>: 18 in (45.7 cm)</li>
-							<li><strong>Weight</strong>: 3.5 lbs (1.55 kg)</li>
-							<li><strong>Cable</strong>: 6.5 ft (2 m)</li>
-						</ul>
-						<h3 class="text-red mb-2">Gamma Zulu Switches made by Omron for Das Keyboard</h3>
-						<ul class="list-unstyled">
-							<li><strong>Feel</strong>:Soft tactile</li>
-							<li><strong>Gold Cross Point Contacts</strong>:2</li>
-							<li><strong>Durability</strong>:100 million actuations</li>
-							<li><strong>Actuation distance</strong>:0.06 in (1.5 mm)</li>
-							<li><strong>Actuation force</strong>:1.6 oz (45 g)</li>
-							<li><strong>Total travel distance:</strong>:0.14 in (3.5 mm)</li>
-						</ul>
-						<h3 class="text-red mb-2">Available Layouts</h3>
-						<ul class="list-unstyled">
-							<li>104 US</li>
-							<li>105 UK</li>
-							<li>105 DE</li>
-							<li>105 NO</li>
-						</ul>
-						<h3 class="text-red mb-2">Software</h3>
-						<a class="btn btn-outline-primary" href="https://www.daskeyboard.io/" target="_blank" title="Download Das Keyboard Q Software">Download Das Keyboard Q Software</a>
-						<p>Additional language keycaps are available as an add-on. (See accessories below.)</p>
-					</div>
+				<div class="product-cards row row-cols-1 row-cols-sm-3 row-cols-lg-3 gy-4">
+					<?php include '../parts/part-category-keyboards-grid.php';?>
 				</div>
-				<div class="row mt-5">
-					<div class="col">
-						<h2>Accessories</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<h3 class="text-red mb-2">Translucent Keycap Set</h3>
-						<ul class="list-unstyled">
-							<li>Without inscriptions for 104 and 105 key layouts.</li>
-							<li>With inscriptions for US, UK, German, French, Nordic, Spanish, and Russian.</li>
-							<li>With inscriptions for Dvorak Layout</li>
-						</ul>
-						<h3 class="text-red mb-2">Black, Professional Font Keycap Set</h3>
-						<ul class="list-unstyled">
-							<li>With inscriptions, available only in US</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section><!-- /keyboardSpects -->
+		</section><!-- /productLineup -->
 
 <?php require '../structure/footer.php';?>
 <?php require '../includes/footer-scripts.php';?>

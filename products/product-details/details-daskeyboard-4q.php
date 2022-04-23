@@ -1,5 +1,6 @@
 <?php
 $product_title = "4Q";
+$product_series = "Q Series";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-4q.jpeg";
 $buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-4q";
 $product_url = "/sites/daskeyboard/products/daskeyboard-4q";

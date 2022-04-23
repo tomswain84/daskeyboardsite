@@ -1,10 +1,10 @@
+<?php $body_id = "shippingDetails";?>
+<?php $body_class = "single-content";?>
+<?php $page_title = "Shipping Details";?>
 <?php require 'includes/head.php';?>
 <?php require 'structure/header.php';?>
-<?php
-$page_title = "Shipping Details";
-?>
 <?php include 'structure/page-title.php';?>
-	<main class="content-wrap">
+	<main class="content-container">
 	        <section class="bg-white section-pad">
 	        	<div class="container-boxed">
 	        		<div class="row">

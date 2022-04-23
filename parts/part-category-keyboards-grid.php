@@ -1,17 +1,16 @@
-                    <div class="product-cards row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-4">
-                        <div id="X50Q" class="col filterDiv smart-rgb for-pc supercharged backlit aluminum">
+                        <div id="X50Q" class="col filterDiv smart-rgb for-pc supercharged backlit aluminum q-series">
                             <!-- Product Dtails -->
                             <?php include '../products/product-details/details-daskeyboard-x50q.php';?>
                             <!-- Product Card -->
                             <?php include '../parts/product-card.php';?>
                         </div>
-                        <div id="5QS" class="col filterDiv smart-rgb for-pc for-mac supercharged backlit aluminum ubuntu">
+                        <div id="5QS" class="col filterDiv smart-rgb for-pc for-mac supercharged backlit aluminum ubuntu q-series">
                             <!-- Product Dtails -->
                             <?php include '../products/product-details/details-daskeyboard-5qs.php';?>
                             <!-- Product Card -->
                             <?php include '../parts/product-card.php';?>
                         </div>
-                        <div id="4Q" class="col filterDiv smart-rgb for-pc supercharged backlit aluminum ubuntu">
+                        <div id="4Q" class="col filterDiv smart-rgb for-pc supercharged backlit aluminum ubuntu q-series">
                             <!-- Product Dtails -->
                             <?php include '../products/product-details/details-daskeyboard-4q.php';?>
                             <!-- Product Card -->
@@ -59,4 +58,3 @@
                             <!-- Product Card -->
                             <?php include '../parts/product-card.php';?>
                         </div>
-                    </div>

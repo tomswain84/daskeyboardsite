@@ -1,3 +1,6 @@
+<?php $body_id = "values";?>
+<?php $body_class = "single-content";?>
+<?php $page_title = "Compare Keyboards";?>
 <?php require 'includes/head.php';?>
 <?php require 'structure/header.php';?>
 <?php include 'structure/page-title.php';?>

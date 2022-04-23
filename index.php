@@ -1,5 +1,7 @@
-<?php require './includes/head.php';?>
-<?php require './structure/header.php';?>
+<?php $body_id = "home";?>
+<?php $body_class = "single-content";?>
+<?php require 'includes/head.php';?>
+<?php require 'structure/header.php';?>
 		<!-- Hero Section -->
 		<section id="hero" class="bg-gray-darker text-white pb-sm-5 d-flex flex-column">
 			<div class="container-boxed">
@@ -46,37 +48,7 @@
 			</div>			
 		</section>
 
-		<!-- Software Section -->
-		<section id="theSoftware" class="section-pad bg-gray-lighter">
-			<div class="container-boxed">
-				<div class="row">
-					<div class="col-lg-8 offset-lg-2 col-xxl-10 offset-xxl-1">
-						<figure class="heading text-center mb-5">
-							<figcaption>
-								<h1>
-									<small>The Software</small>
-									<br>Das Keyboard Q
-								</h1>
-							</figcaption>
-							<p>Das Keyboard Q Software turns an RGB keyboard into a smart keyboard whose keys change colors based on information trends such as weather, stock quotes, project statuses (e.g. Trello, Basecamp, etc.). Customize your keyboard to meet your needs and stay informed on what is important to you.</p>
-							<a class="btn btn-outline-primary text-gray-dark ms-2" href="#" title="Download Software">Download Software<i class="fa-solid fa-download ms-2"></i></a>
-						</figure>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col video-col">
-
-						<!-- Mobile Only -->
-						<img class="video-mockup img-fluid d-md-none" src="images/img-home-software_mockup.png" alt="Software Mockup" />
-
-						<span class="video-shine d-none d-md-block"></span>
-						<video class="d-block mx-auto w-100 d-none d-md-block" autoplay loop muted poster="images/img-home-software_mockup.png">
-						<source src="video/q-applet.mp4" type="video/mp4"></video>
-						<img class="video-base d-none d-md-block mx-auto position-relative" src="images/img-home-video_base.png" alt="Video Base" />
-					</div>
-				</div>
-			</div>
-		</section>
+		<?php include 'parts/part-q_software-video.php';?> <!-- Software Video Section -->
 
 		<!-- Values Section -->
 		<section id="values" class="bg-gray-darker dark-section pt-5">

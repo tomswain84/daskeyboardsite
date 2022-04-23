@@ -1,10 +1,10 @@
+<?php $body_id = "values";?>
+<?php $body_class = "single-content";?>
+<?php $page_title = "Page Title Goes Here";?>
 <?php require 'includes/head.php';?>
 <?php require 'structure/header.php';?>
-<?php
-$page_title = "Page Title Goes Here";
-?>
 <?php include 'structure/page-title.php';?>
-	<main class="content-wrap">
+	<main class="content-container">
 	        <section class="bg-white section-pad">
 	        	<div class="container-boxed">
 	        		<div class="row">
