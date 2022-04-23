@@ -1,6 +1,7 @@
 <?php
 $product_title = "X50Q";
 $product_image_url = "/sites/daskeyboard/images/product-images/cards/img-daskeyboard-x50q.jpeg";
+$commerce_image_url = "/sites/daskeyboard/images/product-images/product-details/x50q/commerce-image.jpg";
 $buynow_url = "/sites/daskeyboard/products/commerce/daskeyboard-x50q";
 $product_url = "/sites/daskeyboard/products/daskeyboard-x50q";
 $product_price = "115";

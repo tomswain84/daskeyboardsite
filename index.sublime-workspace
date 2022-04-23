@@ -1,0 +1,494 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"btn",
+				"btn-outline-primary"
+			],
+			[
+				"bg-gra",
+				"bg-gray-darker"
+			],
+			[
+				"bg-gray",
+				"bg-gray-darker"
+			],
+			[
+				"te",
+				"text-red"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"section",
+				"dark-section"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-red"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bnt-",
+				"btn-blue"
+			],
+			[
+				"tet",
+				"text-gray-dark"
+			],
+			[
+				"al",
+				"aluminum"
+			],
+			[
+				"mt-",
+				"mt-5"
+			],
+			[
+				"secion",
+				"section-pad"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"just",
+				"justify-content-between"
+			],
+			[
+				"bg-",
+				"bg-gray-darker"
+			],
+			[
+				"text",
+				"text-red"
+			],
+			[
+				"col-m",
+				"col-md-9"
+			],
+			[
+				"--",
+				"--grayhover"
+			],
+			[
+				"--g",
+				"--graymedium"
+			],
+			[
+				"--gray",
+				"--graydark"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"f",
+				"figcaption"
+			],
+			[
+				"mt-sm",
+				"mt-sm-5"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"mb-",
+				"mb-4"
+			],
+			[
+				"posi",
+				"position-relative"
+			],
+			[
+				"cont",
+				"container-fluid"
+			],
+			[
+				"bt",
+				"btn-outline-primary"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"py-sm-",
+				"py-sm-5"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"py",
+				"py-5"
+			],
+			[
+				"text-",
+				"text-red"
+			],
+			[
+				"bg-gr",
+				"bg-gray-dark"
+			],
+			[
+				"red",
+				"text-red"
+			],
+			[
+				"gra",
+				"bg-gray-darker"
+			],
+			[
+				"bg-gray-",
+				"bg-gray-darker"
+			],
+			[
+				"fl",
+				"flex-end"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"-",
+				"--graydark"
+			],
+			[
+				"Keyba",
+				"Keyboards"
+			],
+			[
+				"bg-gray-da",
+				"bg-gray-darker"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/css/style.css",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/part-embedded-audio.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/daskeyboard-x50q.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/includes/footer-scripts.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/css/structure.css",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-card.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/part-q_applets-carousel-card.php",
+		"/Users/tomswain/Library/Application Support/Sublime Text/Packages/User/BoxedContainer.sublime-snippet",
+		"/Users/tomswain/Library/Application Support/Sublime Text/Packages/User/BoxedSection.sublime-snippet",
+		"/Users/tomswain/Library/Application Support/Sublime Text/Packages/User/Boxed Container",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/images/product-images/product-details/x50q/X50_3_angle_right.jpg",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/includes/head.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/.htaccess",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/structure/header.php",
+		"/Users/tomswain/Downloads/favicon_io/site.webmanifest",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/part-q_applets-carousel.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/applets/applet-details/details-cpu-usage.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/applets/applet-details/details-gpu-usage.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/applets/applet-details/details-mini-meters.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/applets/applet-details/details--ram-usage.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/applets/applet-details/details--ram_usage.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-x50q.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/index.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/images/product-images/product-details/x50q/wasd-shapes-rgb.png",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/structure/page-title.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-4c-tkl.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/TEMPLATE-new_page.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/values.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/js/product-filter.js",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/category-mechanical-keyboards.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/index.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-prime-13.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-model-s-pro.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-model-s-pro-mac.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-5qs.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-4-professional-for-mac.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-4-professional.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-4-ultimate.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-4q.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/part-category-keyboards-subcats.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/part-category-keyboards-grid.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard-model-s-pro-for-mac.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/card.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard-x50q.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard-4q.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard-4-professional.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard-5qs.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard_5qs.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard_4_professional-for_mac.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-cards/product_card-daskeyboard_4_professional.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard_4_professional-for_mac.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-details/details-daskeyboard_5qs.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/part-category-best-sellers-carousel.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/product-details/daskeyboard-4-professional.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/tags.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/daskeyboard-4-professional.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/mechanical-keyboards.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/about-us.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/.cpanel.yml",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/category-best-sellers.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/category-keyboards-grid.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/category-keyboards.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/category-swag.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/parts/category-switches.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/.htaccess",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/product-filter.js",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products/category-keyboards-grid.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/products.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/test/index.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/testdirectory/index.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/products/index.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/mechanical-keyboards.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/compare.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/structure/footer.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/compare-keyboards/index.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/appController.js",
+		"/Library/WebServer/Documents/site/daskeyboard/index.html",
+		"/Users/tomswain/daskeyboard/pages/index.js",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/structure/header.html",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/structure/page-title.html",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboard/structure/footer.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/includes/footer-scripts.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/index.php",
+		"/Library/WebServer/Documents/sites/daskeyboard/structure/footer.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/structure/header.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/includes/head.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/index.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/css/structure.css",
+		"/Library/WebServer/Documents/sites/daskeyboard/css/style.css",
+		"/Library/WebServer/Documents/sites/daskeyboard/about-us.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/products.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/values.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/.cpanel.yml",
+		"/Library/WebServer/Documents/sites/daskeyboard/pages/index.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/Archive/index.html",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboardsite/.htaccess",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/htdocs/sites/daskeyboardsite/index.html",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/etc/extra/httpd-vhosts.conf",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/etc/httpd.conf",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/test.php",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/css/structure.css",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/css/style.css",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/index.php",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/structure/header.php",
+		"/Users/tomswain/.bitnami/stackman/machines/xampp/volumes/root/apache2/conf/httpd.conf",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/index.html",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/footer-scripts.php",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/structure/footer-php.html",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/includes/head.php",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/includes/head.php.html",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/js/carousel.js",
+		"/Users/tomswain/Downloads/snippet/js/script.js",
+		"/Library/WebServer/Documents/sites/daskeyboardsite/docs/index.html",
+		"/Library/WebServer/Documents/daskeyboard/index.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/docs/index.html",
+		"/Library/WebServer/Documents/sites/daskeyboard/css/bootstrap-grid.css",
+		"/Library/WebServer/Documents/sites/daskeyboard/css/bootstrap-reboot.css",
+		"/Library/WebServer/Documents/sites/daskeyboard/css/bootstrap-grid.rtl.css",
+		"/Volumes/GoogleDrive-105165926223586715289/.shortcut-targets-by-id/1QUTYE6I_bbhua8h1goCpZm4S5SGOuaxe/DESIGNITY DRIVE/_Projects/David Dubrino - Metadot Corporation dba Das Keyboard/Metadot Corporation _ Designity/2 - DasKeyboard.com Redesign - Dev Phase/DasKeyboard Website/css/style.css",
+		"/Volumes/GoogleDrive-105165926223586715289/.shortcut-targets-by-id/1QUTYE6I_bbhua8h1goCpZm4S5SGOuaxe/DESIGNITY DRIVE/_Projects/David Dubrino - Metadot Corporation dba Das Keyboard/Metadot Corporation _ Designity/2 - DasKeyboard.com Redesign - Dev Phase/DasKeyboard Website/css/bootstrap-grid.css",
+		"/Volumes/GoogleDrive-105165926223586715289/.shortcut-targets-by-id/1QUTYE6I_bbhua8h1goCpZm4S5SGOuaxe/DESIGNITY DRIVE/_Projects/David Dubrino - Metadot Corporation dba Das Keyboard/Metadot Corporation _ Designity/2 - DasKeyboard.com Redesign - Dev Phase/DasKeyboard Website/index.html",
+		"/Volumes/GoogleDrive-105165926223586715289/.shortcut-targets-by-id/1QUTYE6I_bbhua8h1goCpZm4S5SGOuaxe/DESIGNITY DRIVE/_Projects/David Dubrino - Metadot Corporation dba Das Keyboard/Metadot Corporation _ Designity/2 - DasKeyboard.com Redesign - Dev Phase/DasKeyboard Website/css/bootstrap-utilities.css",
+		"/Volumes/GoogleDrive-105165926223586715289/.shortcut-targets-by-id/1QUTYE6I_bbhua8h1goCpZm4S5SGOuaxe/DESIGNITY DRIVE/_Projects/David Dubrino - Metadot Corporation dba Das Keyboard/Metadot Corporation _ Designity/2 - DasKeyboard.com Redesign - Dev Phase/DasKeyboard Website/untitled",
+		"/Library/WebServer/Documents/index.html.en",
+		"/Users/tomswain/Library/Mobile Documents/com~apple~CloudDocs/RWS/Reference/List of Links.html",
+		"/Users/tomswain/wf_file_editor/ELITE_SOHNS_APPLIANCE/staging/HEADER/HEADER_SEARCH_BOX.HTML",
+		"/Users/tomswain/wf_file_editor/ELITE_SOHNS_APPLIANCE/staging/INDEX.HTML",
+		"/Users/tomswain/wf_file_editor/ELITE_SOHNS_APPLIANCE/staging/CSS/THEME.CSS"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 305.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 305.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

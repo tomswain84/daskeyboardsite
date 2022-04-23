@@ -2,15 +2,14 @@
 <?php $body_class = "product-page keyboards q-series";?>
 <?php require '../includes/head.php';?>
 <?php require '../structure/header.php';?>
-<?php
-$page_title = "Das Keyboard X50Q";
-?>
-<?php include '../structure/page-title.php';?>
 <!-- Product Dtails -->
 <?php include '../products/product-details/details-daskeyboard-x50q.php';?>
 <!-- Switch Audio -->
 <?php include '../parts/part-embedded-audio.php';?>
-
+<?php
+$page_title = "Das Keyboard X50Q";
+?>
+<?php include '../structure/page-title.php';?>
         <section class="bg-white section-pad">
         	<div class="container-boxed">
         		<div class="row">
