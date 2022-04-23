@@ -43,13 +43,13 @@
     body.product-page a#playButton.playing span.pause {display: initial;}
     body.product-page a#playButton.playing span.play {display: none;}
 @media (max-width: 767px) {
-    body.product-page #sidebar {background-color: var(--graylighter); padding: 2rem; margin: -2rem 0 2rem;}
+    body.product-page #sidebar {background-color: var(--graylighter); padding: 1rem; margin: -2rem 0 2rem;}
 }
 
 /*Commerce Page*/
-    body.commerce section#pageTitle div#productCTA a#buyNow {display: none;}
-    body.commerce .option-switches input[type="radio"] + label span.label-wrap {padding: .5rem; background-color: var(--graylighter); border-radius: 5px; width: 100%;}
-    body.commerce .option-switches input[type="radio"]:checked + label span.label-wrap {color: var(--white); background-color: var(--red); display: flex; align-items: center;}
+    body.commerce section#pageTitle div#productCTA {display: none!important;}
+    body.commerce .option-switches input[type="radio"] + label span.label-wrap {padding: .5rem; background-color: var(--graylighter); border-radius: 5px; width: 100%; display: flex; align-items: center;}
+    body.commerce .option-switches input[type="radio"]:checked + label span.label-wrap {color: var(--white); background-color: var(--red);}
     body.commerce .option-switches input[type="radio"] + label span.oswald {font-weight: 500; font-size: .9rem;}
     body.Z input[type="radio"] + label small {font-size: .75rem;}
 
