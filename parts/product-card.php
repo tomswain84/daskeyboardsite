@@ -16,12 +16,7 @@
                                         </details> -->
                                         <p class="desc"><?=$product_desc?></p>
                                         <?php include '../parts/tags.php';?>
-                                        <div class="row buy-now mt-auto mb-3">
-                                            <div class="col">
-                                                <a href="<?=$buynow_url?>" class="btn btn-blue" title="Buy Now">Buy Now</a>
-                                            </div>
-                                        </div>
-                                        <div class="row specs g-0">
+                                        <div class="row specs g-0 mt-auto">
                                             <div class="col">
                                                 <span class="spec-title"><?=$keystroke?>M</span>
                                                 <span class="spec-desc">Keystroke</span>

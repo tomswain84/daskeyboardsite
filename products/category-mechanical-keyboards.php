@@ -1,5 +1,5 @@
 <?php $body_id = "mechanicalKeyboards";?>
-<?php $body_class = "product-listing keyboards q-series has-parent";?>
+<?php $body_class = "product-listing keyboards has-parent";?>
 <?php $parent_page_title = "Shop By Category";?>
 <?php $page_title = "Mechanical Keyboards";?>
 <?php require '../includes/head.php';?>

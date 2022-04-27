@@ -36,6 +36,15 @@ $page_title = "Das Keyboard X50Q";
 		        					<h3>Starting At: <span class="text-red">$<?=$product_price?></span>
 		        				</div>
 
+
+								<!-- Placement v2 -->
+								<klarna-placement
+								  data-key="credit-promotion-auto-size"
+								  data-locale="en-US"
+								  data-purchase-amount=""
+								></klarna-placement>
+								<!-- end Placement -->
+
 		        				<img class="img-fluid my-4" src="../../images/temp-klarma.png" alt="Temp Klarma" />
 
 		        				<div class="option-switches mb-5">
