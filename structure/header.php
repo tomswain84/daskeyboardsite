@@ -121,7 +121,7 @@
             </div>
         </header>
 
-        <section id="navBreadcrumbs" class="bg-gray-darker">
+        <section id="navBreadcrumbs" class="bg-gray-darker d-none">
             <div class="container-boxed">
                 <div class="row">
                     <div class="col d-md-flex align-items-center justify-content-between">

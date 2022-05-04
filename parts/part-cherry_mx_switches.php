@@ -24,7 +24,7 @@
 					<div class="col-12 col-lg-6">
 						<figure class="heading">
 							<figcaption>
-								<h2 class="m-0 p-0">Cherry <span class="text-red">MX MX Brown Switch</span>.</h2>
+								<h2 class="m-0 p-0">Cherry MX <span class="text-red">Brown Switch</span>.</h2>
 								<p class="oswald">Tactile Experience</p>
 							</figcaption>
 							<p>The Cherry MX brown switches have a soft, tactile bump about halfway through the key press. The soft pressure point switch technology makes the mechanical keyboard less clicky while providing an awesome tactile experience.</p>
@@ -44,7 +44,7 @@
 					<div class="col-12 col-lg-6">
 						<figure class="heading">
 							<figcaption>
-								<h2 class="m-0 p-0">Cherry <span class="text-red">MX MX Brown Switch</span>.</h2>
+								<h2 class="m-0 p-0">Cherry MX <span class="text-red">Blue Switch</span>.</h2>
 								<p class="oswald">Clicky</p>
 							</figcaption>
 							<p>The Cherry MX blue switches have a “clicky” tactile bump when the activation point is hit. This feedback helps to increase typing speed by reducing effort needed to push the keys all the way down. The Cherry MX blue switch is the most “clicky” of the Das Keyboard line.</p>

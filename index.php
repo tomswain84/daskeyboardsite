@@ -2,6 +2,8 @@
 <?php $body_class = "single-content";?>
 <?php require 'includes/head.php';?>
 <?php require 'structure/header.php';?>
+<?php $page_title = "";?>
+<?php include 'structure/page-title.php';?>
 		<!-- Hero Section -->
 		<section id="hero" class="bg-gray-darker text-white pb-sm-5 d-flex flex-column">
 			<div class="container-boxed">
@@ -21,7 +23,7 @@
 			</div>
 			<div class="container-fluid home-hero-image p-0">
 				<div class="row g-0">
-					<img class="img-fluid" src="images/img-hero-home.png" />
+					<img class="intro img-fluid" src="images/img-hero-home.png" />
 				</div>
 			</div>
 		</section>

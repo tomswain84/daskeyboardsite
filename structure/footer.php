@@ -4,7 +4,9 @@
 				<div class="container-boxed">
 					<div class="row">
 						<div class="col p-4 d-flex align-items-center justify-content-center text-white">
-							<i class="fa-solid fa-gift pe-1"></i><span class="oswald">Win a Free Das Keyboard!</span>
+							<a id="winKeyboard" class="text-white text-decoration-none d-flex align-items-center" href="/sites/daskeyboard/giveaway" title="Win A FREE Das Keyboard">
+								<i class="fa-solid fa-gift pe-1"></i><span class="oswald">Win a Free Das Keyboard!</span>
+							</a>
 						</div>
 					</div>
 				</div>

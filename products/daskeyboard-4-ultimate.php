@@ -1,10 +1,10 @@
-<?php $body_id = "4-professional";?>
+<?php $body_id = "4-ultimate";?>
 <?php $body_class = "product-page four-series";?>
-<?php $page_title = "Das Keyboard 4 Professional";?>
+<?php $page_title = "Das Keyboard 4 Ultimate";?>
 <?php require '../includes/head.php';?>
 <?php require '../structure/header.php';?>
 <!-- Product Dtails -->
-<?php include '../products/product-details/details-daskeyboard-4-professional.php';?>
+<?php include '../products/product-details/details-daskeyboard-4-ultimate.php';?>
 <!-- Switch Audio -->
 <?php include '../parts/part-embedded-audio.php';?>
 <?php include '../structure/page-title.php';?>
@@ -12,14 +12,14 @@
 		<section id="hero" class="bg-gray-darker text-white pb-sm-5 d-flex flex-column">
 			<div class="container-boxed">
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-12">
 						<div class="row align-items-center">
 							<div class="col">
 								<figure class="heading mt-lg-0">
 									<figcaption class="text-white">
 										<h1>
-											<small>Uber Quality,</small>
-											<br>Uber Design.
+											<small>Completely Blank</small>
+											<br>Only For the Best
 										</h1>
 									</figcaption>
 								</figure>
@@ -33,7 +33,7 @@
 			</div>
 			<div class="container-fluid home-hero-image p-0">
 				<div class="row g-0">
-					<img class="intro img-fluid" src="../images/product-images/product-details/4-professional/dk4pro_intro.png" />
+					<img class="intro img-fluid" src="../images/product-images/product-details/4-ultimate/dk4pro_intro.png" />
 				</div>
 			</div>
 		</section>
@@ -45,13 +45,13 @@
 						<figure class="heading">
 							<figcaption>
 								<h1>
-									<small>Das Keyboard 4 Professional Mechanical Keyboard</small>
+									<small>Das Keyboard 4 Ultimate</small>
 									<br>An Experience Like No Other
 								</h1>
 							</figcaption>
 							<p class="mt-5">The Das Keyboard 4 mechanical keyboard experience is like no other. From the initial idea to every fine detail when crafting this machine, the experience we deliver to customers is what drives our team.</p>
 							<p>The combination of tactile feel, the psycho-acoustic experience and incredible craftsmanship all deliver an unmatched typing experience that only Das Keyboard 4 offers. With a Das Keyboard 4, you’ll type faster and longer. It feels so good, you won’t want to stop.</p>
-							<p>Das Keyboard 4 Professional mechanical keyboard is made of the highest-quality materials and robust construction you can feel. All of our keyboards are designed with high-performance, gold-plated mechanical key switches lasting up to 50 million keystrokes.</p>
+							<p>Das Keyboard 4 Ultimate mechanical keyboard is a completely blank keyboard for badass typists and gaming enthusiasts. It's made of the highest-quality materials and has a robust construction you can feel. All of our keyboards are designed with high-performance, gold-plated mechanical key switches lasting up to 50 million keystrokes. </p>
 						</figure>
 					</div>
 				</div>
@@ -59,7 +59,7 @@
 			<div class="container-fluid p-0">
 				<div class="row g-0">
 					<div class="col">
-						<img class="img-fluid w-100" src="../images/product-images/product-details/4-professional/DK-4-pro-side-transparent.png" alt="DK 4 Pro" />
+						<img class="img-fluid w-100" src="../images/product-images/product-details/4-ultimate/DK-4-pro-side-transparent.png" alt="DK 4 Pro" />
 					</div>
 				</div>
 			</div>
@@ -77,8 +77,8 @@
 						</figure>
 					</div>
 					<div class="col-md-6 order-md-1 d-md-flex align-items-center position-relative">
-						<img class="full-image position-absolute d-none d-xxl-inline" src="../images/img-home-values-full.png" alt="Das Keybaord Values" />
-						<img class="half-image img-fluid" src="../images/img-home-values.png" alt="Das Keybaord Values" />
+						<img class="full-image position-absolute d-none d-xxl-inline" src="../images/product-images/product-details/4-ultimate/img-quality_you_can_feel.png" alt="Das Keybaord Values" />
+						<img class="half-image img-fluid" src="../images/product-images/product-details/4-ultimate/img-quality_you_can_feel-m.png" alt="Das Keybaord Values" />
 					</div>
 				</div>
 			</div>
@@ -115,7 +115,7 @@
 			<div class="container-boxed">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
-						<img class="mb-5 mb-md-0 pe-3 breakout img-fluid" src="../images/product-images/product-details/4-professional/img-dk4-oversized_volume_knob.png" alt="Oversized Volume Knob" />
+						<img class="mb-5 mb-md-0 pe-3 breakout img-fluid blend-darken" src="../images/product-images/product-details/4-ultimate/img-dk4-oversized_volume_knob.jpg" alt="Oversized Volume Knob" />
 					</div>
 					<div class="col-12 col-md-6">
 						<figure class="heading mb-0">
@@ -134,7 +134,7 @@
 			<div class="container-boxed">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6 text-center">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-professional/daskeyboar-4-professional-usb3-hub.jpg" alt="USB Hub" />
+						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-ultimate/daskeyboar-4-ultimate-usb3-hub.jpg" alt="USB Hub" />
 					</div>
 					<div class="col-12 col-md-6">
 						<figure class="heading mb-0">
@@ -152,7 +152,7 @@
 			<div class="container-boxed">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6 order-md-2">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-professional/img-n_key_rollover.png" alt="N-Key Rollover" />
+						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-ultimate/img-n_key_rollover.png" alt="N-Key Rollover" />
 					</div>
 					<div class="col-12 col-md-6">
 						<figure class="heading mb-0">
@@ -161,18 +161,18 @@
 							</figcaption>
 							<p>Gamers and fast typists will love to hear that Das Keyboard 4 supports full n-key rollover (NKRO) over USB. No need to use a PS2 adapter anymore. Just press <span class="bg-red badge">shift</span> + <span class="bg-gray-dark badge">mute</span> to toggle NKRO.</p>
 
-							<p class="mb-0">Full n-key rollover works with Windows, Linux.</p>
+							<p class="mb-0">Full n-key rollover works with Windows, Linux, and Mac OS X.</p>
 						</figure>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="nKeyRollover" class="bg-gray-lighter section-pad">
+		<section id="font" class="bg-gray-lighter section-pad">
 			<div class="container-boxed">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6 text-center">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-professional/img_blueprint-D.png" alt="New Font" />
+						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-ultimate/img_blueprint-D.png" alt="New Font" />
 					</div>
 					<div class="col-12 col-md-6">
 						<figure class="heading mb-0">
@@ -190,7 +190,7 @@
 			<div class="container-boxed">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-9 col-lg-7 col-xl-6">
-						<img class="img-fluid rounded mb-3 d-md-none" src="../images/product-images/product-details/4-professional/img-footbar_ruler.jpg" alt="Footbar Ruler" />
+						<img class="img-fluid rounded mb-3 d-md-none" src="../images/product-images/product-details/4-ultimate/img-footbar_ruler.jpg" alt="Footbar Ruler" />
 						<figure class="heading mb-0">
 							<figcaption>
 								<h1 class="mb-4">Footbar = <span class="text-red">Ruler</span>.</h1>
@@ -206,7 +206,7 @@
 			<div class="container-boxed">
 				<div class="row align-items-center">
 					<div class="col-12 col-md-6">
-						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-professional/img-every_detail_matters.jpg" alt="Every Detail Matters" />
+						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-ultimate/img-every_detail_matters.jpg" alt="Every Detail Matters" />
 					</div>
 					<div class="col-12 col-md-6">
 						<figure class="heading mb-0">
@@ -234,7 +234,43 @@
 						<!-- Modal Trigger - Tech Specs -->
 						<a class="btn btn-outline-primary text-gray-darker" href="#" title="Tech Specs" data-bs-toggle="modal" data-bs-target="#techSpecs">View Tech Specs<i class="fa-solid fa-list ms-2"></i></a>
 					</div>
-					<?php include '../products/product-details/product-specs/specs-daskeyboard-4-professional.php';?><!-- /keyboardSpects -->
+					<?php include '../products/product-details/product-specs/specs-daskeyboard-4-ultimate.php';?><!-- /keyboardSpects -->
+				</div>
+			</div>
+		</section>
+
+		<section id="longCable" class="bg-white section-pad">
+			<div class="container-boxed">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6 text-center">
+						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-ultimate/daskeyboard-4-usb-cable.jpg" alt="Extra Long Cable" />
+					</div>
+					<div class="col-12 col-md-6">
+						<figure class="heading mb-0">
+							<figcaption>
+								<h1 class="mb-4">Extra Long <span class="text-red">Cable</span>.</h1>
+							</figcaption>
+							<p>Das Keyboard 4 sports a 2-meter (6.5ft) cable that goes through desk grommets to keep your workspace neat and tidy. Now equipped with only one USB cable to power keyboard and USB hub at the same time.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="blankKeys" class="bg-gray-darker dark-section section-pad">
+			<div class="container-boxed">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-6 order-md-2">
+						<img class="img-fluid rounded mb-3 mb-md-0" src="../images/product-images/product-details/4-ultimate/daskeyboard-4-ultimate-font.jpg" alt="Blank Keycaps" />
+					</div>
+					<div class="col-12 col-md-6">
+						<figure class="heading mb-0">
+							<figcaption>
+								<h1 class="mb-4">Blank <span class="text-red">and Badass</span>.</h1>
+							</figcaption>
+							<p>Type faster than you ever thought possible on one of these blank babies. The Das Keyboard 4 Ultimate is a completely blank keyboard for badass typists and gaming enthusiasts.</p>
+						</figure>
+					</div>
 				</div>
 			</div>
 		</section>

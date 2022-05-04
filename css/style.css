@@ -35,6 +35,10 @@
     section.breakout-bottom img {margin-bottom: -10rem; border: 10px solid var(--graylight);}
 
 /*Product Pages*/
+    body.product-page #headerCTA {display: none;}
+    span.price {display: none!important;}
+    body.product-page img.cherry-logo {width: 150px;}
+    body.product-page span.price {display: initial!important;}
     body.product-page header#navPrimary {position: relative!important;}
     body.product-page section#pageTitle {position: sticky; top: 0; z-index: 999;}
     body.product-page section#softwareVideo .video-col img.video-mockup {margin-bottom: 0!important;}
@@ -143,7 +147,7 @@
     /*.show {display: block;}*/
     div.product-cards figure.card {height: 100%; border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
     section.bg-gray-lighter div.product-cards figure.card {background-color: var(--white);}
-    div.product-cards figure.card img {padding: 0;}
+    div.product-cards figure.card img {mix-blend-mode: multiply; padding: 0;}
     div.product-cards figure.category-swag img {margin-bottom: 1rem;}
     div.product-cards figure.card figure.heading {padding: 0 1rem; margin: 0;}
     div.product-cards figure.card figure.heading figcaption small {font-size: .75rem;}
@@ -177,28 +181,29 @@
 
 /*HOME PAGE*/
     section#hero {border-bottom: 10px solid var(--red);}
-    section#hero img {max-width: 1800px; margin-left: auto; margin-bottom: -100px;}
+    section#hero img.intro {max-width: 1800px; margin-left: auto; margin-bottom: -100px;}
+
 @media (min-width: 576px) {
     section#hero figure.heading figcaption small {font-size: 1.2rem; font-weight: bold!important;}
     section#hero figure.heading figcaption h1 {font-size: 2.8rem;}
-    section#hero img {margin-bottom: -150px;}
+    section#hero img.intro {margin-bottom: -150px;}
 }
 @media (min-width: 768px) {
     section#hero figure.heading figcaption small {font-size: 1.5rem;}
     section#hero figure.heading figcaption h1 {font-size: 3rem;}
-    section#hero img {margin-top: -50px; margin-bottom: -200px;}
+    section#hero img.intro {margin-top: -50px; margin-bottom: -200px;}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    section#hero img {margin-top: -50px; margin-bottom: -250px;}
+    section#hero img.intro {margin-top: -50px; margin-bottom: -250px;}
 }
 @media (min-width: 1200px) {
     section#hero {height: calc(100vh - 210.85px);}
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
-    section#hero img {margin-top: -100px;}
+    section#hero img.intro {margin-top: -100px;}
 }
 @media (min-width: 1601px) and (max-width: 1920px) {
-    section#hero img {margin-top: -100px;}
+    section#hero img.intro {margin-top: -100px;}
 }
 
 /*Software Video*/

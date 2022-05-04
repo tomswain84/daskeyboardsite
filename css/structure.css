@@ -173,6 +173,7 @@
 /*Site Footer*/
     footer#siteFooter {font-size: 0.875rem;}
     footer#siteFooter h2 {color: var(--red);}
+    footer#siteFooter section#giveaway a {font-size: 1.2rem;}
     footer#siteFooter p, footer#siteFooter a {font-size: .9rem; font-weight: 300;}
     footer#siteFooter section#giveaway {font-size: 20px!important;}
     footer#siteFooter #footerWrap ul li:not(:last-of-type) {margin-bottom: .5rem;}
@@ -184,6 +185,6 @@
     footer#siteFooter form#newsletterForm a.btn-submit {background-color: var(--red); border-color: var(--red); color: var(--white); border-radius: 0; padding: 1rem;}
     footer#siteFooter form#newsletterForm a.btn-submit:hover {background-color: var(--redhover); border-color: var(--redhover);}
 @media (min-width: 576px) {
-    footer#siteFooter section#giveaway {font-size: 30px!important;}
+    footer#siteFooter section#giveaway a {font-size: 1.8rem;}
 }
 
