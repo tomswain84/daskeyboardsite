@@ -192,13 +192,31 @@
 								<h1 class="mb-4">Every Detail <span class="text-red">Matters</span>.</h1>
 							</figcaption>
 							<p>Featuring a stunning look, Das Keyboard 4 Professional has been completely redesigned with a sleek anodized aluminum top panel, a resonance-free bottom enclosure, a magnetically attached footbar, and a laser-engraved aluminum bottom label… all which make the design feel more badass and the typing feel more responsive.</p>
-
 							<p class="mb-0">There is no detail too tiny for us.</p>
 						</figure>
 					</div>
 				</div>
 			</div>
 		</section>
+
+		<section class="bg-gray-lighter section-pad">
+			<div class="container-boxed">
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">
+						<figure class="heading text-center mb-5">
+							<figcaption>
+								<h1>Technical <span class="text-red">Specifications</span>. </h1>
+							</figcaption>
+						</figure>
+						<a class="btn btn-primary me-3" href="https://docs.google.com/document/d/1CU2jnB3jaOifmPNesTwSE6phJu_D2K2CmjeQ3uGmMB8/edit" target="_blank" title="User Manual">View User Manual<i class="fa-solid fa-file ms-2"></i></a>
+						<!-- Modal Trigger - Tech Specs -->
+						<a class="btn btn-outline-primary text-gray-darker" href="#" title="Tech Specs" data-bs-toggle="modal" data-bs-target="#techSpecs">View Tech Specs<i class="fa-solid fa-list ms-2"></i></a>
+					</div>
+					<?php include '../products/product-details/product-specs/specs-daskeyboard-4-professional.php';?><!-- /keyboardSpects -->
+				</div>
+			</div>
+		</section>
+
 
 <?php require '../structure/footer.php';?>
 <?php require '../includes/footer-scripts.php';?>
