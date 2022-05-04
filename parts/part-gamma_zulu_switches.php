@@ -11,10 +11,10 @@
         </figure>
         <div class="row mb-4">
         	<div class="col d-sm-flex align-items-center justify-content-start">
-                <a class="btn btn-outline-primary" id="playButton" onclick="playOn()">
-                	<span class="play" onclick="playAudio()"><i class="fa fa-play me-2"></i>Play Soft Tactile Sound</span>
-                	<span class="pause" onclick="pauseAudio()"><i class="fa fa-pause me-2"></i>Play Soft Tactile Sound
-            	</a>
+                <a class="btn btn-outline-primary" id="playButton" onclick="playSoft()">
+                    <span class="play" onclick="softPlay()"><i class="fa fa-play me-2"></i>Play Soft Tactile Sound</span>
+                    <span class="pause" onclick="softPause()"><i class="fa fa-pause me-2"></i>Play Soft Tactile Sound
+                </a>
             	<a class="btn btn-primary my-3 my-sm-0 ms-sm-3" href="#" title="About Gamma Zulu Switches">About Gamma Zulu Switches</a>
             </div>
         </div>
@@ -23,3 +23,16 @@
 		<img class="img-fluid rounded" src="/sites/daskeyboard/images/product-images/product-details/x50q/gammazulu.gif" alt="Gamma Zulu mechanical key switches" />
 	</div>
 </div>
+
+<script type="text/javascript">
+// Play Soft Tactile
+    function softPlay() {
+      var sound = document.getElementById("GammaZuluAudio");
+      sound.play();
+    }
+    function softPause() {
+      var sound = document.getElementById("GammaZuluAudio");
+      sound.pause();
+    }
+
+</script>

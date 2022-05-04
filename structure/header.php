@@ -126,7 +126,7 @@
                 <div class="row">
                     <div class="col d-md-flex align-items-center justify-content-between">
                         <nav class="breadcrumb m-0 bg-gray-darker px-0 d-flex justify-content-center justify-content-lg-start" aria-label="breadcrumb">
-                            <ol class="breadcrumb m-0 bg-gray-darker px-0">
+                            <ol class="breadcrumb m-0 bg-gray-darker px-0 d-none">
                                 <li id="home" class="breadcrumb-item home pe-1">
                                     <a href="/sites/daskeyboard/" title="Home Page">
                                         <i class="fa-solid fa-house"></i>

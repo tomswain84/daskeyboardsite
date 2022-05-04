@@ -45,7 +45,7 @@
     .display-none {display: none;}
 
 /*Typography*/
-    a:active, a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
+    a:active, a:focus {box-shadow: none!important; outline: none!important;}
     h2 {font-weight: 500; font-size: 1.2rem;}
     h3 {font-size: .9rem;}
     p {line-height: 1.5; font-weight: 300; font-size: 1rem;}

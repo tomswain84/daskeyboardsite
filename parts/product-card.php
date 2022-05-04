@@ -10,10 +10,6 @@
                                     </figure>
                                     <figcaption class="card-body d-flex flex-column">
                                         <h5 class="price">Starting at <span class="text-red">$<?=$product_price?></span></h5>
-                                        <!-- <details class="desc p-3">
-                                            <summary>Product Description</summary>
-                                            <p><?=$product_desc?></p>
-                                        </details> -->
                                         <p class="desc"><?=$product_desc?></p>
                                         <?php include '../parts/tags.php';?>
                                         <div class="row specs g-0 mt-auto">

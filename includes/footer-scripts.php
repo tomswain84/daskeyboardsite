@@ -85,21 +85,15 @@
             })
 
 
-            // Play Audio with Button
-                var x = document.getElementById("switchAudio"); 
-
-                function playAudio() { 
-                  x.play(); 
-                } 
-
-                function pauseAudio() { 
-                  x.pause(); 
-                } 
-
             // Add class to clicked button
-            function playOn() {
+            function playSoft() {
                 var element = document.getElementById("playButton");
                 element.classList.toggle("playing");
+            } 
+
+            function playClicky() {
+                var element = document.getElementById("playButton1");
+                element.classList.toggle("play");
             } 
         </script>
 

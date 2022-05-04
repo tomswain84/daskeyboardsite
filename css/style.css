@@ -40,12 +40,28 @@
     body.product-page section#softwareVideo .video-col img.video-mockup {margin-bottom: 0!important;}
     body.product-page .video {max-width: 768px; margin: auto; border-radius: 1.75vw; overflow: hidden;}
     body.product-page img.section-featured {width: 768px; border-radius: 1.75vw;}
-    body.product-page a#playButton span.pause {display: none;}
-    body.product-page a#playButton.playing span.pause {display: initial;}
-    body.product-page a#playButton.playing span.play {display: none;}
+    body.product-page a#playButton, body.product-page a#playButton1 {padding: 0;}
+    body.product-page a#playButton span,
+    body.product-page a#playButton1 span {padding: 0.6rem 1.4rem; line-height: 2.5;}
+    body.product-page a#playButton span.pause,
+    body.product-page a#playButton1 span.pause {display: none;}
+    body.product-page a#playButton.playing span.pause,
+    body.product-page a#playButton1.play span.pause {display: initial;}
+    body.product-page a#playButton.playing span.play,
+    body.product-page a#playButton1.play span.play {display: none;}
+    body.product-page section#video div.ratio {width: 800px;}
+    body.product-page section#video div.ratio {border-radius: 1.5rem; overflow: hidden; margin-top: -2rem;}
 @media (max-width: 767px) {
     body.product-page #sidebar {background-color: var(--graylighter); padding: 1rem; margin: -2rem 0 2rem;}
 }
+@media (min-width: 768px) {
+    body.product-page section#video div.ratio {margin-top: -3.5rem;}
+}
+    /*4 Pro Page*/
+@media (min-width: 768px) {
+    body.product-page section#footbarRuler {min-height: 450px; background-image: url(../images/product-images/product-details/4-professional/img-footbar_ruler.jpg); background-repeat: no-repeat; background-size: 50%; background-position: bottom right;}
+}
+
 
 /*Commerce Page*/
     body.commerce section#pageTitle div#productCTA {display: none!important;}
@@ -120,9 +136,10 @@
 }
 
 /*Product Listing Cards*/
-    /*Show Q Series*/
-        body.q-series .q-series {display: initial!important;}
-    .filterDiv {display: none;}
+    /*Show Series*/
+        body.q-series .q-series,
+        body.four-series .four-series {display: initial!important;}
+    .filterDiv {display: none; max-width: 400px; margin-left: auto; margin-right: auto;}
     /*.show {display: block;}*/
     div.product-cards figure.card {height: 100%; border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
     section.bg-gray-lighter div.product-cards figure.card {background-color: var(--white);}

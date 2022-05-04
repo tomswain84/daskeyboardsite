@@ -16,19 +16,19 @@
                             <!-- Product Card -->
                             <?php include '../parts/product-card.php';?>
                         </div>
-                        <div id="4Pro" class="col filterDiv for-pc supercharged aluminum linux">
+                        <div id="4Pro" class="col filterDiv for-pc supercharged aluminum linux four-series">
                             <!-- Product Dtails -->
                             <?php include '../products/product-details/details-daskeyboard-4-professional.php';?>
                             <!-- Product Card -->
                             <?php include '../parts/product-card.php';?>
                         </div>
-                        <div id="4Ultimate" class="col filterDiv for-pc supercharged minimalist aluminum linux">
+                        <div id="4Ultimate" class="col filterDiv for-pc supercharged minimalist aluminum linux four-series">
                             <!-- Product Dtails -->
                             <?php include '../products/product-details/details-daskeyboard-4-ultimate.php';?>
                             <!-- Product Card -->
                             <?php include '../parts/product-card.php';?>
                         </div>
-                        <div id="4ProMac" class="col filterDiv for-mac supercharged aluminum">
+                        <div id="4ProMac" class="col filterDiv for-mac supercharged aluminum four-series">
                             <!-- Product Dtails -->
                             <?php include '../products/product-details/details-daskeyboard-4-professional-for-mac.php';?>
                             <!-- Product Card -->
