@@ -26,7 +26,7 @@
                         <img class="d-sm-none mt-5 breakout" src="../images/product-images/product-details/4c-tkl/4c-tkl_side-m.jpg" alt="<?=$product_title?>" />
         			</div>
         		</div>
-        	</div>
+        	</div> 
         </section>
 
         <section class="bg-gray-darker dark-section section-pad">
