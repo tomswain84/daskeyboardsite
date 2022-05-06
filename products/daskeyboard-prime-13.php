@@ -21,8 +21,7 @@
                                 <h6 class="mt-5">Starting at: <span class="text-red">$<?=$product_price?></span></h6>
                             </figcaption>
                         </figure>
-                        <img class="img-fluid d-none d-sm-block breakout" src="../images/product-images/product-details/4q/4q_side.jpg" alt="<?=$product_title?>" />
-                        <img class="d-sm-none mt-5 breakout" src="../images/product-images/product-details/4q/4q_side-m.jpg" alt="<?=$product_title?>" />
+                        <img class="img-fluid" src="../images/product-images/product-details/prime-13/prime13-mechanical-keyboard-angled-side-view.jpg" alt="<?=$product_title?>" />
         			</div>
         		</div>
         	</div>
@@ -32,80 +31,95 @@
         	<div class="container-boxed">
 	            <div id="appletDashboard" class="row align-items-center justify-content-between">
 	            	<div class="col-12 col-xl-8 col-xxl-6">
-	            		<h2 class="text-red"><span class="animated-cursor cursor-light">The information you need - on your keyboard</span></h2>
-	                    <p class="mt-3">The Das Keyboard 4Q is the smart RGB Cherry MX version of the iconic industry-standard Das Keyboard 4 Professional. It is the ultimate productivity tool that keeps programmers focused on writing software and operating at the highest level of concentration. No more unwanted interruptions. Instead of relying on snooze-able, momentary alerts from different devices, the Das Keyboard 4Q ambiently tracks the most important information directly on its RGB keys. Users can configure it for their needs. For example, if a website is down or you have been assigned a new task, or if the software build fails, the Das Keyboard 4Q will change color and let you know.</p>
+	            		<h2 class="text-red"><span class="animated-cursor cursor-light">Connect your soul to the machine</span></h2>
+	                    <p class="mt-3">Focus on your work: no-nonsense features to get the job done</p>
 	                </div>
 	                <div class="col-12 col-xl-4 col-xxl-6">
-	                	<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/4q/dk4q_intro.jpg" alt="Applet Dashboard" />
+	                	<img class="img-fluid p-3 bg-white rounded" src="../images/product-images/product-details/prime-13/prime13-mecahnical-keybaord-front-view.jpg" alt="Keyboard" />
 	                </div>
 	            </div>
         	</div>
         </section>
 
-        <?php include '../parts/part-q_software.php';?> <!-- Q Software Section -->
-
-		<?php include '../parts/part-q_software-video.php';?> <!-- Software Video Section -->
-
-		<?php include '../parts/part-message_preview.php';?> <!-- Message Preview -->
-
-		<?php include '../parts/part-q_applets-preview.php';?> <!-- Applets Preview -->
-
-		<?php include '../parts/part-q_applets-carousel.php';?> <!-- Applets Carousel -->
-
-		<?php include '../parts/part-q_applets-software_api.php';?> <!-- Software API -->
-
-		<section id="compatibility" class="bg-white"><!-- /compatibility -->
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md">
-						<img class="img-fluid breakout-left" src="../images/product-images/product-details/4q/4q_compatibility.jpg" alt="4Q Compatibility" />
-					</div>
-					<div class="col-md d-flex align-items-center justify-content-center">
-						<div class="row text-center p-3 p-md-0">
-							<div class="col-12 pb-5">
-								<h2>Operating System Compatibility</h2>
-							</div>
-							<div class="col">
-								<img class="img-fluid" src="../images/compatibility-mac.png" alt="Compatible with Mac OS" />
-								<h6 class="mt-3">Mac OS</h6>
-							</div>
-							<div class="col">
-								<img class="img-fluid" src="../images/compatibility-windows.png" alt="Compatible with Windows" />
-								<h6 class="mt-3">Windows</h6>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!-- /compatibility -->
-
 		<section class="bg-white section-pad">
 			<div class="container">
         		<div class="row">
         			<div class="col text-center">
-                        <h2 class="text-red mb-4">Premium Materials</h2>
-                        <div class="row">
-                        	<div class="col d-flex flex-wrap align-items-center justify-content-center">
-                        		<figure class="text-center mx-3">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/4q/dk4q-badge-cherrymx.png" alt="Cherry MX RGB switches" />
-	                        		<figcaption class="small">Cherry MX RGB switches</figcaption>
-	                        	</figure>
-                        		<figure class="text-center mx-3">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/4q/dk4q-badge-aluminum.png" alt="Aluminum top case" />
-	                        		<figcaption class="small">Aluminum top case</figcaption>
-	                        	</figure>
-                        		<figure class="text-center mx-3">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/4q/dk4q-badge-usbports.png" alt="Two-port usb hub" />
-	                        		<figcaption class="small">Two-port usb hub</figcaption>
-	                        	</figure>
-                        		<figure class="text-center mx-3">
-	                        		<img class="img-fluid mb-3" src="../images/product-images/product-details/4q/dk4q-badge-mediacontrols.png" alt="Dedicated media controls" />
-	                        		<figcaption class="small">Dedicated media controls</figcaption>
-	                        	</figure>
-                        	</div>
-                        </div>
+                        <h2 class="text-red mb-4">Minimalist Design</h2>
+                        <p>Start with pure lines sculpted in aluminum, add clean white backlit keys with a modern font face, and you get an incredibly efficient tool that helps get the job done.</p>
+                        <img class="img-fluid" src="../images/product-images/product-details/prime-13/prime13-mechanical-keyboard-side-view.jpg" alt="Minimalist Design" />
         			</div>
         		</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-darker dark-section section-pad">
+			<div class="container">
+        		<div class="row">
+        			<div class="col col-xl-8 offset-xl-2 text-center">
+                        <h2 class="text-red mb-4">Type anywhere, even in your cave.</h2>
+                        <p>The Das Keyboard Prime 13 wields white LED backlit keys with 7 levels of brightness. Plenty-enough settings even for desks located in challengingly-dark environments.</p>
+                        <img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/prime-13/prime13-backligth-animated.gif" alt="Backlit Animation" />
+        			</div>
+        		</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-lighter section-pad">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 pb-5">
+						<h2 class="text-center">USB Connectivity</h2>
+					</div>
+					<div class="col-12 col-lg-6">
+						<img class="img-fluid rounded border w-100" src="../images/product-images/product-details/prime-13/prime13-braided-usb.jpg" alt="Cable Management" />
+						<h3 class="text-red mt-4">Improved Cable Management</h3>
+						<p>With the extra-long braided cable and its rectangular shape, the Prime 13 keeps you knolling more then ever.</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<img class="img-fluid rounded border w-100" src="../images/product-images/product-details/prime-13/prime13-usb-port-side-view.jpg" alt="USB" />
+						<h3 class="text-red mt-4">Connect any device with a USB pass-through</h3>
+						<p>Conveniently plug a mouse, thumb drive, headset, or phone directly into the keyboard's USB pass-through.</p>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+		<section class="bg-white section-pad">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 pb-5">
+						<h2 class="text-center">Every detail matters</h2>
+					</div>
+					<div class="col-12 col-lg-6">
+						<img class="img-fluid rounded w-100" src="../images/product-images/product-details/prime-13/prime13-mechanical-keyboard-backlabel.jpg" alt="Laser engraved aluminum label" />
+						<h3 class="text-red mt-4">Laser engraved aluminum label</h3>
+						<p>Forget stickers. Find excellence down to the laser-engraved aluminum label under the keyboard.</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<img class="img-fluid rounded w-100" src="../images/product-images/product-details/prime-13/prime13-mechanical-keyboard-sidelit.jpg" alt="Sidelit" />
+						<h3 class="text-red mt-4">Sidelit media controls</h3>
+						<p>We rotated the LED switches to be front facing so that even the media controls icons located on the side of the keycaps are backlit. The best way to explain this is to create this new word, sidelit.</p>
+					</div>
+				</div>
+			</div>			
+		</section>
+
+		<section class="bg-gray-lighter section-pad">
+			<div class="container-boxed">
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-center">
+						<figure class="heading text-center mb-5">
+							<figcaption>
+								<h1>Technical <span class="text-red">Specifications</span>. </h1>
+							</figcaption>
+						</figure>
+						<a class="btn btn-primary me-3" href="https://docs.google.com/document/d/1Djy89I0huhK3E3e81URyj8raA3AlMY9AjBVlWGgCgwc/edit?usp=sharing" target="_blank" title="User Manual">View User Manual<i class="fa-solid fa-file ms-2"></i></a>
+						<!-- Modal Trigger - Tech Specs -->
+						<a class="btn btn-outline-primary text-gray-darker" href="#" title="Tech Specs" data-bs-toggle="modal" data-bs-target="#techSpecs">View Tech Specs<i class="fa-solid fa-list ms-2"></i></a>
+					</div>
+					<?php include '../products/product-details/product-specs/specs-daskeyboard-prime-13.php';?><!-- /keyboardSpects -->
+				</div>
 			</div>
 		</section>
 
@@ -119,15 +133,19 @@
                         <figure class="heading m-0">
                             <figcaption>
                                 <h2>
-                                    <small>Durable Aluminum Panel</small>
-                                    <br>Built to last for Years
+                                    <small>Save the planet.</small>
+                                    <br>Your Prime 13 saves energy
                                 </h2>
                             </figcaption>
-                            <p>Das Keyboard 4Q sports an anodized black aluminum top panel. Made with first-class electronics this top panel will be serving you for years to come.</p>
+                            <p>The planet needs your help. Every bit counts. The Prime 13 has built-in energy saving features.</p>
+                            <h6 class="text-red mt-4">Sleep Control Function</h6>
+                            <p>Das Keyboard was one of the first to incorporate a computer sleep control to its keyboards. Having a computer sleep a few hours a day while you are away from your desk will make your power hungry 600-watt, eight-core, fire-breathing monster computer stop burning unnecessary energy when it is not needed.</p>
+                            <h6 class="text-red mt-4">LED auto-dim</h6>
+                            <p>The Prime 13 backlighting automatically dims after 10 minutes of inactivity. Even keyboards like naps.</p>
                         </figure>
 					</div>
 					<div class="col-md text-center">
-						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/4q/dk4q-aluminum-top-panel.png" alt="Aluminum Top" />
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/prime-13/earth.jpg" alt="Earth" />
 					</div>
 				</div>
 
@@ -136,73 +154,81 @@
                         <figure class="heading m-0">
                             <figcaption>
                                 <h2>
-                                    <small>Keep your gaming space clean</small>
+                                    <small>Keep your space clean</small>
                                     <br>Extra long braided cable
                                 </h2>
                             </figcaption>
                         </figure>
-						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/4q/long-dog-with-long-cable.png" alt="Extra long braided cable" />
-                        <p>The 4Q sports a 2-meter (6.5ft) braided USB cable that goes through desk grommets to keep the desk clean.</p>
-					</div>
-				</div>
-
-				<div class="row align-items-center py-5 my-md-0 border-bottom">
-					<div class="col-md order-md-2">
-                        <figure class="heading m-0">
-                            <figcaption>
-                                <h2>
-                                    <small>USB convenience at your fingertips</small>
-                                    <br>Two-Port USB Hub
-                                </h2>
-                            </figcaption>
-                            <p>Das Keyboard 4Q has a convenient two-port USB Hub for transferring files and connecting devices. No more reaching to the back of your computer.</p>
-                        </figure>
-					</div>
-					<div class="col-md text-center">
-						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/4q/dk4q-usb-ports.jpg" alt="Two-port USB Hub" />
-					</div>
-				</div>
-
-				<div class="row align-items-center py-5 my-md-0 border-bottom">
-					<div class="col-md">
-                        <figure class="heading m-0">
-                            <figcaption>
-                                <h2>
-                                    <small>Quick access for audio playback and volume</small>
-                                    <br>Dedicated Media Controls
-                                </h2>
-                            </figcaption>
-                            <p>Direct controls to quickly set sound level, play or pause songs, and adjust volume while gaming or working.</p>
-                        </figure>
-					</div>
-					<div class="col-md text-center">
-						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/4q/dk4q-media-controls.jpg" alt="Dedicated Media Controls" />
+						<img class="img-fluid blend-plus-lighter" src="../images/product-images/product-details/prime-13/long-dog-with-long-cable.png" alt="Extra long braided cable" />
+                        <p>The Prime 13 sports a 2-meter (6.5ft) braided USB cable that goes through desk grommets to keep the desk clean.</p>
 					</div>
 				</div>
 
 			</div>
 		</section><!-- /features -->
 
-		<?php include '../products/product-details/product-specs/specs-daskeyboard-4q.php';?><!-- /keyboardSpects -->
-
-		<section id="productLineup" class="bg-gray-lighter section-pad"><!-- /productLineup -->
+		<section id="keyFeatures" class="content-container bg-gray-dark dark-section section-pad">
 			<div class="container">
-				<div class="row">
+				<div class="row pb-4">
 					<div class="col">
-						<figure class="heading m-0">
-	                        <figcaption>
-	                            <h2>
-	                                <small>Das Keybaord</small>
-	                                <br><?=$product_series?> Lineup
-	                            </h2>
-	                        </figcaption>
-	                    </figure>
+						<h2 class="text-red">Frequently Asked Questions</h2>
 					</div>
 				</div>
-				<div class="product-cards row row-cols-1 row-cols-sm-3 row-cols-lg-3 gy-4">
-					<?php include '../parts/part-category-keyboards-grid.php';?>
+				<div class="row">
+					<div class="col">
+						<div class="accordion" id="accordionFAQ">
+							<div class="accordion-item border-0">
+								<h2 class="accordion-header" id="headingOne">
+									<a class="accordion-button bg-gray-darker text-white text-decoration-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Does the Prime 13 come with dedicated driver software?
+									</a>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+									<div class="accordion-body bg-gray-dark small">
+										The Prime 13 does not need any special software or firmware. Just plug it in and start typing.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-0">
+								<h2 class="accordion-header" id="headingTwo">
+									<a class="accordion-button bg-gray-darker text-white text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										What operating systems will the Prime 13 work with?
+									</a>
+								</h2>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+									<div class="accordion-body bg-gray-dark small">
+										The Prime 13 is compatible with Windows, macOS, Linux operating systems, and Chrome OS.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-0">
+								<h2 class="accordion-header" id="headingThree">
+									<a class="accordion-button bg-gray-darker text-white text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										Which layouts are available for the Prime 13?
+									</a>
+								</h2>
+								<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+									<div class="accordion-body bg-gray-dark small">
+										The Prime 13 is currently available in US and UK layouts. DE and Nordic layouts will be coming soon. All European layouts are only available through our <a href="http://www.daskeyboard.com/where-to-buy/">international resellers</a>.
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item border-0">
+								<h2 class="accordion-header" id="headingFour">
+									<a class="accordion-button bg-gray-darker text-white text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Does Das Keyboard ship outside the United States?
+									</a>
+								</h2>
+								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+									<div class="accordion-body bg-gray-dark small">
+										No, you can buy it from your local reseller. Please visit <a href="http://www.daskeyboard.com/where-to-buy/">http://www.daskeyboard.com/where-to-buy/</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-		</section><!-- /productLineup -->
-
+			</div>
+		</section>
 <?php require '../structure/footer.php';?>
 <?php require '../includes/footer-scripts.php';?>
