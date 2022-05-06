@@ -72,7 +72,7 @@
 			<div class="col-12 col-sm-6">
 				<figure>
 					<img class="img-fluid" src="../images/diagram-switch-blue.png" alt="Force diagram cliky (Blue)" />
-					<h2 class="mt-3">Force diagram clickyk (Blue)</h2>
+					<h2 class="mt-3">Force diagram clicky (Blue)</h2>
 				</figure>
 			</div>
 		</div>

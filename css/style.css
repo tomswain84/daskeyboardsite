@@ -81,6 +81,9 @@
     section#filterKeyboards #navbarNav ul li a:hover {opacity: 1; text-decoration: none;}
     section#filterKeyboards #navbarNav ul li a.active {color: var(--white)!important;}
     section#filterKeyboards h4 {margin-right: 1rem!important; font-size: 1rem; font-weight: 500;}
+@media (max-width: 575px) {
+    section#filterKeyboards {position: sticky; top: 110px;}
+}
 
     div.tags .tag-supercharged, .tag-all.active {background-color: var(--red)!important;}
     div.tags .tag-minimalist {background-color: #17a2b8!important;}
@@ -144,7 +147,8 @@
     /*Show Series*/
         body.q-series .q-series,
         body.four-series .four-series {display: initial!important;}
-    .filterDiv {display: none; max-width: 400px; margin-left: auto; margin-right: auto;}
+    .filterDiv {display: none; max-width: 400px;}
+    body.product-page .filterDiv {display: none; max-width: 400px; margin-left: auto; margin-right: auto;}
     /*.show {display: block;}*/
     div.product-cards figure.card {height: 100%; border-radius: .6rem; background-color: var(--graylighter); text-align: center;}
     section.bg-gray-lighter div.product-cards figure.card {background-color: var(--white);}
@@ -209,13 +213,16 @@
 
 /*Software Video*/
     section#softwareVideo .video-col {max-width: 768px; margin: auto;}
-    section#softwareVideo .video-col img.video-mockup {margin-bottom: -7.5rem;}
+    section#softwareVideo .video-col img.video-mockup {margin-bottom: -3.5rem;}
     section#softwareVideo .video-col video {border-radius: 15px; overflow: hidden; border: 15px solid var(--graydark); box-shadow: 0 0 0 2px var(--graymedium);}
     section#softwareVideo .video-col span.video-shine {background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(255, 255, 255, 0.3) 35%, rgba(0,0,0,0) 100%); width: 100%; height: 15px; margin-bottom: -10px; display: block; position: relative;}
     section#softwareVideo .video-col .video-base {margin-bottom: -3rem; margin-top: 0; max-width: 60%;}
 @media (min-width: 576px) and (max-width: 991px) {
-    section#softwareVideo .video-col img.video-mockup {margin-bottom: -8.5rem;}
+    section#softwareVideo .video-col img.video-mockup {margin-bottom: -5.5rem;}
     section#softwareVideo .video-col .video-base {margin-bottom: -10rem;}
+}
+@media (min-width: 768px) {
+    section#softwareVideo .video-col {margin-bottom: -5rem;}
 }
 @media (min-width: 992px) {
         section#softwareVideo .video-col .video-base {margin-bottom: -11.5rem;}

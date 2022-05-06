@@ -16,7 +16,7 @@
 					<div class="col video-col">
 
 						<!-- Mobile Only -->
-						<img class="video-mockup img-fluid d-md-none" src="../images/img-home-software_mockup.png" alt="Software Mockup" />
+						<img class="video-mockup img-fluid d-md-none" src="/sites/daskeyboard/images/img-home-software_mockup.png" alt="Software Mockup" />
 
 						<span class="video-shine d-none d-md-block"></span>
 						<video class="d-block mx-auto w-100 d-none d-md-block" autoplay loop muted poster="/sites/daskeyboard/images/img-home-software_mockup.png">
