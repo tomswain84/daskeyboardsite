@@ -36,10 +36,10 @@
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav ms-auto mt-3 mt-sm-0">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Support</a>
+                                        <a class="nav-link" href="https://daskeyboard.mojohelpdesk.com/" target="_blank">Support</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Blog</a>
+                                        <a class="nav-link" href="/sites/daskeyboard/blog.php">Blog</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="/sites/daskeyboard/about-us.php">About Us</a>
