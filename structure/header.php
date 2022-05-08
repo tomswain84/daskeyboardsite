@@ -65,61 +65,66 @@
 
         <header id="navPrimary" class="bg-gray-darker sticky-top">
             <div class="container-boxed">
-                <div class="row d-flex align-items-center">
-                    <div class="col">
-                        <nav class="row flex-column flex-sm-row navbar-expand navbar-dark">
-                            <a class="col-sm-5 navbar-brand mx-auto py-3 py-sm-4 pe-3 pe-sm-0 text-center text-sm-start" href="/sites/daskeyboard/">
-                                <img id="siteLogo" src="/sites/daskeyboard/images/logo-das_keyboard-red_white.png" class="img-fluid" alt="Das Keyboard" />
-                            </a>
-                            <div class="col-sm-7 collapse navbar-collapse pb-3 py-sm-4" id="navPrimaryDropdown">
-                                <ul class="navbar-nav ms-sm-auto w-100 justify-content-around justify-content-sm-end">
-                                    <li id="navKeyboards" class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="keyboards" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Keyboards
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="keyboards">
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=backlit">Backlit</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=smartrgb">Smart RGB</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=forpc">For PC</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=formac">For Mac</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=linux">For Linux</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=refurbished">Refurbished</a>
-                                            <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=bestsellers">Best Sellers</a>
-                                            <hr>
-                                            <a class="dropdown-item bg-gr view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=all">View All<i class="fa-solid fa-plus text-red"></i></a>
-                                        </div>
-                                    </li>
-                                    <li id="navAccessories" class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="accessories" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Accessories
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="accessories">
-                                            <a class="dropdown-item" href="#">Switches</a>
-                                            <a class="dropdown-item" href="#">Keycaps</a>
-                                            <a class="dropdown-item" href="#">Parts</a>
-                                            <a class="dropdown-item" href="#">Swag</a>
-                                            <hr>
-                                            <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="#">View All<i class="fa-solid fa-plus text-red"></i></a>
-                                        </div>
-                                    </li>
-                                    <li id="navTechnology" class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="technology" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Technology
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="technology">
-                                            <a class="dropdown-item" href="#">Q Software</a>
-                                            <a class="dropdown-item" href="#">Gamma Zulu Switches</a>
-                                            <a class="dropdown-item" href="#">Mechanical Keyboard Guide</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
+                <nav class="row">
+                    <div class="col-10 col-md-5 py-3 py-sm-4 pe-3">
+                        <a href="/sites/daskeyboard/">
+                            <img id="siteLogo" src="/sites/daskeyboard/images/logo-das_keyboard-red_white.png" class="img-fluid" alt="Das Keyboard" />
+                        </a>
                     </div>
-                </div>
+                    <div class="col-2 col-md-1 order-md-3 cart d-flex align-items-center justify-content-center">
+                        <a class="cart-btn" data-bs-toggle="offcanvas" href="#shoppingCart" role="button" aria-controls="shoppingCart">
+                            <img class="img-fluid" src="/sites/daskeyboard/images/cart.svg" alt="Shopping Cart" />
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pb-3 py-sm-4 d-flex align-items-center" id="navPrimaryDropdown">
+                        <ul class="navbar-nav flex-row ms-sm-auto w-100 justify-content-around justify-content-lg-end">
+                            <li id="navKeyboards" class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="keyboards" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Keyboards
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="keyboards">
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=backlit">Backlit</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=smartrgb">Smart RGB</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=forpc">For PC</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=formac">For Mac</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=linux">For Linux</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=refurbished">Refurbished</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=bestsellers">Best Sellers</a>
+                                    <hr>
+                                    <a class="dropdown-item bg-gr view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=all">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                </div>
+                            </li>
+                            <li id="navAccessories" class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="accessories" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Accessories
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="accessories">
+                                    <a class="dropdown-item" href="#">Switches</a>
+                                    <a class="dropdown-item" href="#">Keycaps</a>
+                                    <a class="dropdown-item" href="#">Parts</a>
+                                    <a class="dropdown-item" href="#">Swag</a>
+                                    <hr>
+                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="#">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                </div>
+                            </li>
+                            <li id="navTechnology" class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="technology" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Technology
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="technology">
+                                    <a class="dropdown-item" href="#">Q Software</a>
+                                    <a class="dropdown-item" href="#">Gamma Zulu Switches</a>
+                                    <a class="dropdown-item" href="#">Mechanical Keyboard Guide</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
                 <hr class="m-0">
             </div>
         </header>
+
+        <?php include './parts/cart.php';?>
 
         <section id="navBreadcrumbs" class="bg-gray-darker d-none">
             <div class="container-boxed">

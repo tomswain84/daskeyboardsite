@@ -5,7 +5,7 @@
 <?php $page_title = "";?>
 <?php include 'structure/page-title.php';?>
 		<!-- Hero Section -->
-		<section id="hero" class="bg-gray-darker text-white pb-sm-5 d-flex flex-column">
+		<section id="hero" class="bg-gray-darker text-white pb-sm-5 d-flex flex-column pt-5">
 			<div class="container-boxed">
 				<div class="row">
 					<div class="col-md-9 col-xl-6">

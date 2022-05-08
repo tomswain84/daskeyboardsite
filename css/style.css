@@ -202,7 +202,7 @@
     section#hero img.intro {margin-top: -50px; margin-bottom: -250px;}
 }
 @media (min-width: 1200px) {
-    section#hero {height: calc(100vh - 210.85px);}
+    section#hero {height: calc(100vh - 144px);}
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
     section#hero img.intro {margin-top: -100px;}

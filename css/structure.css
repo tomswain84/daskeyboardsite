@@ -111,9 +111,10 @@
 
 /*Primary Nav*/
     header#navPrimary a.navbar-brand img {width: 225px;}
+    header#navPrimary div.cart img {width: 30px;}
     header#navPrimary ul li a:not(.dropdown-item) {font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: 0.875rem;}
     header#navPrimary ul li a:active, header#navPrimary ul li a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
-    header#navPrimary ul li a {color: var(--white ); transition: .3s ease-in-out;}
+    header#navPrimary ul li a {color: var(--white ); padding: 0.5rem; transition: .3s ease-in-out;}
     header#navPrimary ul li.dropdown a:not(.dropdown-item):after {font-family: "Font Awesome 6 Free"; font-weight: 900; font-size: 0.75rem; content: '\f107' !important; border: none; margin: 0; padding: 0 0 0 4px; transform: translateY(1px); color: var(--red);}
     header#navPrimary ul li.dropdown div.dropdown-menu {background-color: var(--graydark); border-radius: 0; box-shadow: none; padding: 0; border: none; margin-top: calc(1rem - 1px)!important;}
     header#navPrimary ul li.dropdown div.dropdown-menu a {padding: 0.625rem 0.9375rem; font-size: 0.8125rem;}
@@ -150,6 +151,7 @@
 /*Page TItle*/
     section#pageTitle div#productCTA,
     section#pageTitle div#productCTA a#dlQsoftware {display: none!important;}
+    body#home section#pageTitle {display: none;}
     body.product-page section#pageTitle div#productCTA,
     body.q-series section#pageTitle div#productCTA a#dlQsoftware {display: inline-block!important;}
     section#pageTitle h1 {margin: 0; padding: 1.4rem 0; font-size: 1.4rem;}
