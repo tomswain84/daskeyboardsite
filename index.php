@@ -83,7 +83,7 @@
 								<h1>Long lasting, <span class="text-red">durable switches</span>. </h1>
 							</figcaption>
 							<p>All of our keyboards are designed with high-performance, gold-plated mechanical key switches. Learn more about the different switches Das Keyboard offers.</p>
-							<a class="btn btn-outline-primary text-gray-dark ms-2" href="#" title="View Switches">View Switches<i class="fa-solid fa-caret-right ms-2"></i></a>
+							<a class="btn btn-outline-primary text-gray-dark ms-2" href="compare-switches" title="Learn More">Learn More<i class="fa-solid fa-caret-right ms-2"></i></a>
 						</figure>
 					</div>
 				</div>

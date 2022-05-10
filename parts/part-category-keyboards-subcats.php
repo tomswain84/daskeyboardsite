@@ -9,7 +9,7 @@
                                                 <small>Das Keyboard</small>
                                                 <br>Smart RGB
                                             </h1>
-                                            <a class="btn btn-outline-primary" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=smartrgb" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
+                                            <a class="btn btn-outline-primary stretched-link" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=smartrgb" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
                                         </figcaption>
                                     </div>
                                 </figure>
@@ -23,7 +23,7 @@
                                                 <small>Das Keyboard</small>
                                                 <br>For PC
                                             </h1>
-                                            <a class="btn btn-outline-primary" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=forpc" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
+                                            <a class="btn btn-outline-primary stretched-link" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=forpc" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
                                         </figcaption>
                                     </div>
                                 </figure>
@@ -37,7 +37,7 @@
                                                 <small>Das Keyboard</small>
                                                 <br>For Mac
                                             </h1>
-                                            <a class="btn btn-outline-primary" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=formac" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
+                                            <a class="btn btn-outline-primary stretched-link" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=formac" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
                                         </figcaption>
                                     </div>
                                 </figure>
@@ -51,7 +51,7 @@
                                                 <small>Das Keyboard</small>
                                                 <br>For Linux
                                             </h1>
-                                            <a class="btn btn-outline-primary" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=linux" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
+                                            <a class="btn btn-outline-primary stretched-link" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=linux" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
                                         </figcaption>
                                     </div>
                                 </figure>
@@ -65,7 +65,7 @@
                                                 <small>Das Keyboard</small>
                                                 <br>Backlit
                                             </h1>
-                                            <a class="btn btn-outline-primary" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=backlit" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
+                                            <a class="btn btn-outline-primary stretched-link" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=backlit" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
                                         </figcaption>
                                     </div>
                                 </figure>
@@ -79,7 +79,7 @@
                                                 <small>Das Keyboard</small>
                                                 <br>Refurbished
                                             </h1>
-                                            <a class="btn btn-outline-primary" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=refurbished" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
+                                            <a class="btn btn-outline-primary stretched-link" href="/sites/daskeyboard/products/category-mechanical-keyboards?filter=refurbished" title="View Keyboards"><span>View Keyboards<i class="fa-solid fa-plus text-red ms-4"></span></i></a>
                                         </figcaption>
                                     </div>
                                 </figure>

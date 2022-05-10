@@ -36,15 +36,20 @@
     section.breakout-bottom img {margin-bottom: -10rem; border: 10px solid var(--graylight);}
 
 /*Product Pages*/
-    body.product-page #headerCTA {display: none;}
+    body#products section#categoryBestSellers #BestSellers .col {max-width: 400px;}
+    body.product-page #headerCTA,
+    body#q-software #headerCTA,
+    body#q-software #productCTA a#buyNow {display: none;}
     span.price {display: none!important;}
     body.product-page img.cherry-logo {width: 150px;}
     body.product-page span.price {display: initial!important;}
     body.product-page header#navPrimary {position: relative!important;}
     body.product-page section#pageTitle {position: sticky; top: 0; z-index: 999;}
     body.product-page section#softwareVideo .video-col img.video-mockup {margin-bottom: 0!important;}
-    body.product-page .video {max-width: 768px; margin: auto; border-radius: 1.75vw; overflow: hidden;}
-    body.product-page img.section-featured {width: 768px; border-radius: 1.75vw;}
+    body.product-page .video,
+    body.q-series .video {max-width: 768px; margin: auto; border-radius: 1.75vw; overflow: hidden;}
+    body.product-page img.section-featured,
+    body.q-series img.section-featured {width: 768px; border-radius: 1.75vw;}
     body.product-page a#playButton, body.product-page a#playButton1 {padding: 0;}
     body.product-page a#playButton span,
     body.product-page a#playButton1 span {padding: 0.6rem 1.4rem; line-height: 2.5;}
@@ -76,13 +81,13 @@
     body.Z input[type="radio"] + label small {font-size: .75rem;}
 
 /*Filter Keyboards*/
-    section#filterKeyboards {position: sticky; top: 80px;}
+    section#filterKeyboards {position: sticky; top: 79px;}
     section#filterKeyboards #navbarNav ul li a {border: 1px solid; opacity: .8; text-transform: uppercase; font-weight: 500; font-size: .65rem; color: var(--graydarker); border-radius: 25px;}
     section#filterKeyboards #navbarNav ul li a:hover {opacity: 1; text-decoration: none;}
     section#filterKeyboards #navbarNav ul li a.active {color: var(--white)!important;}
     section#filterKeyboards h4 {margin-right: 1rem!important; font-size: 1rem; font-weight: 500;}
 @media (max-width: 575px) {
-    section#filterKeyboards {position: sticky; top: 110px;}
+    section#filterKeyboards {position: sticky; top: 105px;}
 }
 
     div.tags .tag-supercharged, .tag-all.active {background-color: var(--red)!important;}
@@ -129,7 +134,8 @@
     figure.card .card-body img.card-img {border-radius: calc(1rem - 1px); transition: .4s ease-in-out;}
     figure.card:hover .card-body img.card-img {transition: .4s ease-in-out;}
     figure.card .card-body figcaption.card-img-overlay {display: flex; flex-direction: column; justify-content: flex-end; margin-bottom: 0;}
-    figure.card .card-body figcaption.card-img-overlay h1.card-title {color: var(--white);}
+    figure.card .card-body figcaption.card-img-overlay h1.card-title,
+    figure.card .card-body figcaption.card-img-overlay h2.card-title {color: var(--white);}
     figure.card .card-body figcaption.card-img-overlay a.btn {padding: 0; height: 0; border: none; background-color: transparent; overflow: hidden; transition: .3s ease-in-out;}
     figure.card .card-body figcaption.card-img-overlay a.btn span {opacity: 0; height: 100%; width: 100%; border-radius: 25px; padding: 0 1.4rem; border: 1px solid var(--graylight); color: var(--white); display: flex; align-items: center; justify-content: center; transition: .3s ease-in-out;}
 @media (max-width: 991px) {
@@ -163,16 +169,16 @@
     div.product-cards figure.card figcaption.card-body p.desc {font-size: .825rem; padding: 1rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; line-clamp: 4; -webkit-box-orient: vertical;}
 
     div.tags {display: flex; flex-wrap: wrap; align-items: center; justify-content: center;}
-    div.tags span.tag {display: none; font-size: 8px; font-weight: 500; text-transform: uppercase; background: var(--graylight); color: var(--white); padding: 5px 10px; border-radius: 1rem; margin: .25rem;}
-    .supercharged div.tags span.tag-supercharged,
-    .minimalist div.tags span.tag-minimalist,
-    .backlit div.tags span.tag-backlit,
-    .smart-rgb div.tags span.tag-smart-rgb,
-    .aluminum div.tags span.tag-aluminum,
-    .mac div.tags span.tag-mac,
-    .for-pc div.tags span.tag-pc,
-    .for-linux div.tags span.tag-linux,
-    .ubuntu div.tags span.tag-ubuntu {display: initial;}
+    div.tags a.tag {display: none; font-size: 8px; font-weight: 500; text-transform: uppercase; background: var(--graylight); color: var(--white); padding: 5px 10px; border-radius: 1rem; margin: .25rem;}
+    .supercharged div.tags a.tag-supercharged,
+    .minimalist div.tags a.tag-minimalist,
+    .backlit div.tags a.tag-backlit,
+    .smart-rgb div.tags a.tag-smart-rgb,
+    .aluminum div.tags a.tag-aluminum,
+    .mac div.tags a.tag-mac,
+    .for-pc div.tags a.tag-pc,
+    .for-linux div.tags a.tag-linux,
+    .ubuntu div.tags a.tag-ubuntu {display: initial;}
 
     div.product-cards figure.card figcaption.card-body div.specs {padding: 1rem 0; font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: .9rem;}
     div.product-cards figure.card figcaption.card-body div.specs span.spec-title {color: var(--red); font-weight: 400; margin-bottom: .25rem;}
@@ -202,7 +208,7 @@
     section#hero img.intro {margin-top: -50px; margin-bottom: -250px;}
 }
 @media (min-width: 1200px) {
-    section#hero {height: calc(100vh - 144px);}
+    section#hero {height: calc(100vh - 127.0667px);}
 }
 @media (min-width: 1200px) and (max-width: 1600px) {
     section#hero img.intro {margin-top: -100px;}

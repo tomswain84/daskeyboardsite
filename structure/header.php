@@ -99,12 +99,13 @@
                                     Accessories
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="accessories">
-                                    <a class="dropdown-item" href="#">Switches</a>
-                                    <a class="dropdown-item" href="#">Keycaps</a>
-                                    <a class="dropdown-item" href="#">Parts</a>
-                                    <a class="dropdown-item" href="#">Swag</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#palmRests">Palm Rests</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#keycapSets">Keycap Sets</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#parts">Parts</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#mousePads">Mouse Pads</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-swag">Swag</a>
                                     <hr>
-                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="#">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-accessories.php">View All<i class="fa-solid fa-plus text-red"></i></a>
                                 </div>
                             </li>
                             <li id="navTechnology" class="nav-item dropdown">
@@ -112,9 +113,8 @@
                                     Technology
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="technology">
-                                    <a class="dropdown-item" href="#">Q Software</a>
-                                    <a class="dropdown-item" href="#">Gamma Zulu Switches</a>
-                                    <a class="dropdown-item" href="#">Mechanical Keyboard Guide</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/technology/q-software">Q Software</a>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/technology/gamma-zulu-switch">Gamma Zulu Switches</a>
                                 </div>
                             </li>
                         </ul>
@@ -124,7 +124,17 @@
             </div>
         </header>
 
-        <?php include './parts/cart.php';?>
+        <section class="offcanvas offcanvas-end bg-gray-dark dark-section" tabindex="-1" id="shoppingCart" aria-labelledby="shoppingCartLabel">
+            <div class="offcanvas-header bg-gray-darker text-white border-bottom">
+                <h5 class="offcanvas-title" id="shoppingCartLabel">Shopping Cart</h5>
+                <a href="#" class="btn btn-outline-primary" data-bs-dismiss="offcanvas">Close<i class="fa-solid fa-xmark ms-2"></i></a>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    <h3>Your Cart is Empty</h3>
+                </div>
+            </div>
+        </section>
 
         <section id="navBreadcrumbs" class="bg-gray-darker d-none">
             <div class="container-boxed">

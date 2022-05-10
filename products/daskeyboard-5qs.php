@@ -1,5 +1,5 @@
 <?php $body_id = "5qs";?>
-<?php $body_class = "product-page keyboards q-series has-parent";?>
+<?php $body_class = "product-page keyboards q-series";?>
 <?php $parent_page_title = "Mechanical Keyboards";?>
 <?php $page_title = "Das Keyboard 5QS";?>
 <?php require '../includes/head.php';?>
@@ -237,6 +237,7 @@
 				<div class="product-cards row row-cols-1 row-cols-sm-3 row-cols-lg-3 gy-4">
 					<?php include '../parts/part-category-keyboards-grid.php';?>
 				</div>
+			</div>
 		</section><!-- /productLineup -->
 
 <?php require '../structure/footer.php';?>

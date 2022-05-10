@@ -39,35 +39,31 @@
                             </figure>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="owl-carousel product-carousel best-sellers product-cards owl-theme">
-                                <div class="item">
-                                    <!-- Product Dtails -->
-                                    <?php include '../products/product-details/details-daskeyboard-4-professional.php';?>
-                                    <!-- Product Card -->
-                                    <?php include '../parts/product-card.php';?>
-                                </div>
-                                <div class="item">
-                                    <!-- Product Dtails -->
-                                    <?php include '../products/product-details/details-daskeyboard-5qs.php';?>
-                                    <!-- Product Card -->
-                                    <?php include '../parts/product-card.php';?>
-                                </div>
-                                <div class="item">
-                                    <!-- Product Dtails -->
-                                    <?php include '../products/product-details/details-daskeyboard-4-professional-for-mac.php';?>
-                                    <!-- Product Card -->
-                                    <?php include '../parts/product-card.php';?>
-                                </div>
-                            </div>
+                    <div id="BestSellers" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-4 best-sellers product-cards">
+                        <div class="col supercharged aluminum for-pc">
+                            <!-- Product Dtails -->
+                            <?php include '../products/product-details/details-daskeyboard-4-professional.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-keyboard-card.php';?>
+                        </div>
+                        <div class="col supercharged backlit smart-rgb aluminum for-pc ubuntu">
+                            <!-- Product Dtails -->
+                            <?php include '../products/product-details/details-daskeyboard-5qs.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-keyboard-card.php';?>
+                        </div>
+                        <div class="col for-pc supercharged aluminum linux">
+                            <!-- Product Dtails -->
+                            <?php include '../products/product-details/details-daskeyboard-4-professional-for-mac.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-keyboard-card.php';?>
                         </div>
                     </div>
                 </div>                
             </section>
             <section id="categoryAccessories" class="bg-white section-pad">
                 <div class="container-boxed">
-                    <div class="row">
+                    <div class="row align-items-center justify-content-between">
                         <div class="col">
                             <figure class="heading mt-0">
                                 <figcaption>
@@ -78,8 +74,11 @@
                                 </figcaption>
                             </figure>
                         </div>
+                        <div class="col d-flex">
+                            <a class="btn btn-outline-primary text-gray-dark ms-auto" href="../products/category-accessories" title="Shop All">Shop All<i class="fa-solid fa-plus ms-2"></i></a>
+                        </div>
                     </div>
-                    <?php include '../parts/part-category-accessories.php';?>
+                    <?php include '../parts/part-category-accessories-subcats.php';?>
                 </div>
             </section>
             <section id="swag" class="bg-gray-lighter section-pad">
