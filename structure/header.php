@@ -21,40 +21,27 @@
                                             <p class="text-white">All orders over $59 qualify for our Free Shipping offer within the continental United States. Keyboards are shipped via UPS Ground, and accessories and swag may be shipped via USPS. Once your cart meets this minimum amount, the Free Shipping option is automatically available during checkout. Other expedited shipping options will also be available at an additional charge.</p>
                                         </div>
                                         <div class="modal-footer bg-gray-dark border-top">
-                                            <a href="/sites/daskeyboard/about-us.php" class="btn btn-primary">Learn More</a>
+                                            <a href="/sites/daskeyboard/about-us" class="btn btn-primary">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a class="navbar-toggler w-25 d-block d-sm-none collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon">
-                                    <span class="w-75 ms-auto"></span>
-                                    <span class="w-100"></span>
-                                    <span class="w-50 ms-auto"></span>
-                                </span>
-                            </a>
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<div class="dropdown d-sm-none">
+  <a class="navbar-toggler w-25 d-block d-sm-none dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="toggler-icon">
+            <span class="w-75 ms-auto"></span>
+            <span class="w-100"></span>
+            <span class="w-50 ms-auto"></span>
+        </span>
+  </a>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton2">
+    <?php include './parts/part-secondary-nav-dropdown.php';?>
+  </ul>
+</div>
+
+                            <div class="collapse navbar-collapse d-none" id="navbarNavDropdown">
                                 <ul class="navbar-nav ms-auto mt-3 mt-sm-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="https://daskeyboard.mojohelpdesk.com/" target="_blank">Support</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/blog.php">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/about-us.php">About Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Wishlist</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="myAccount" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            My Account
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-end p-2" aria-labelledby="myAccount">
-                                            This is where the account menu will go
-                                        </div>
-                                    </li>
+                                    <?php include './parts/part-secondary-nav-dropdown.php';?>
                                 </ul>
                             </div>
                         </nav>
@@ -105,7 +92,7 @@
                                     <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#mousePads">Mouse Pads</a>
                                     <a class="dropdown-item" href="/sites/daskeyboard/products/category-swag">Swag</a>
                                     <hr>
-                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-accessories.php">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-accessories">View All<i class="fa-solid fa-plus text-red"></i></a>
                                 </div>
                             </li>
                             <li id="navTechnology" class="nav-item dropdown">

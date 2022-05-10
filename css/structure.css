@@ -96,10 +96,15 @@
     section#navSecondary a.navbar-toggler span.toggler-icon {display: block; width: 1.875rem; margin-left: auto;}
     section#navSecondary a.navbar-toggler span.toggler-icon span {display: block; height: 1px; background: var(--white); margin: 5px 0; transition: .3s ease-in-out;}
     section#navSecondary a.navbar-toggler span.toggler-icon:hover span,
+    section#navSecondary .dropdown-toggle::after {display: none!important;}
     section#navSecondary a.navbar-toggler:not(.collapsed) span.toggler-icon span {width: 100% !important; transition: .3s ease-in-out;}
     section#navSecondary div#navbarNavDropdown ul li {display: flex; flex-direction: column; align-items: flex-end;}
     section#navSecondary div#navbarNavDropdown ul li a {white-space: nowrap; padding-top: 1.5em; padding-bottom: 1.5em;}
     section#navSecondary div#navbarNavDropdown ul li:hover a {color: var(--white); text-decoration: none;}
+
+/*Login Form*/
+    form#loginForm {min-width: 250px;}
+
 @media (min-width: 576px) {
     section#navSecondary div#navbarNavDropdown ul li:hover a {background-color: var(--graydarker);}
 }
