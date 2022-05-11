@@ -4,44 +4,27 @@
                 <div class="row text-gray-medium d-flex align-items-center">
                     <div class="col">
                         <nav class="navbar p-0 navbar-expand-sm navbar-dark py-2 py-sm-0">
-                            <!-- Modal Trigger - Shipping Info -->
-                            <a class="shipping-notice w-75 pe-3 pe-md-0" href="#" title="Free Shipping" data-bs-toggle="modal" data-bs-target="#freeShipping">
-                                Free Shipping (Click for Details)
-                            </a>
-                            <!-- Modal - Shipping Info -->
-                            <div class="modal fade" id="freeShipping" tabindex="-1" aria-labelledby="freeShipping" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content bg-gray-darker">
-                                        <div class="modal-header bg-gray-dark text-white border-bottom">
-                                            <h5 class="modal-title" id="freeShipping">Shipping Info</h5>
-                                            <a href="#" class="btn btn-outline-primary" data-bs-dismiss="modal">Close<i class="fa-solid fa-xmark ms-2"></i></a>
-                                        </div>
-                                        <div class="modal-body bg-gray-darker">
-                                            <h2 class="text-white"><span class="text-red">Free Shipping</span> Everyday on Orders Over $59</h2>
-                                            <p class="text-white">All orders over $59 qualify for our Free Shipping offer within the continental United States. Keyboards are shipped via UPS Ground, and accessories and swag may be shipped via USPS. Once your cart meets this minimum amount, the Free Shipping option is automatically available during checkout. Other expedited shipping options will also be available at an additional charge.</p>
-                                        </div>
-                                        <div class="modal-footer bg-gray-dark border-top">
-                                            <a href="/sites/daskeyboard/about-us" class="btn btn-primary">Learn More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-<div class="dropdown d-sm-none">
-  <a class="navbar-toggler w-25 d-block d-sm-none dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-        <span class="toggler-icon">
-            <span class="w-75 ms-auto"></span>
-            <span class="w-100"></span>
-            <span class="w-50 ms-auto"></span>
-        </span>
-  </a>
-  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton2">
-    <?php include './parts/part-secondary-nav-dropdown.php';?>
-  </ul>
-</div>
 
-                            <div class="collapse navbar-collapse d-none" id="navbarNavDropdown">
-                                <ul class="navbar-nav ms-auto mt-3 mt-sm-0">
-                                    <?php include './parts/part-secondary-nav-dropdown.php';?>
+                            <?php include './parts/part-secondary-nav-modal-shipping.php';?>
+
+                            <?php include './parts/part-secondary-nav-modal-account-login.php';?>
+
+                            <div class="dropdown d-block d-sm-none">
+                                <a class="navbar-toggler dropdown-toggle" type="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="toggler-icon">
+                                        <span class="w-75 ms-auto"></span>
+                                        <span class="w-100"></span>
+                                        <span class="w-50 ms-auto"></span>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-start bg-gray-dark border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                    <?php include './parts/part-secondary-nav-dropdown-links.php';?>
+                                </ul>
+                            </div>
+
+                            <div class="collapse navbar-collapse d-none order-sm-2" id="navbarNavDropdown">
+                                <ul class="navbar-nav ms-auto mx-sm-auto mt-3 mt-sm-0">
+                                    <?php include './parts/part-secondary-nav-dropdown-links.php';?>
                                 </ul>
                             </div>
                         </nav>
@@ -58,7 +41,7 @@
                             <img id="siteLogo" src="/sites/daskeyboard/images/logo-das_keyboard-red_white.png" class="img-fluid" alt="Das Keyboard" />
                         </a>
                     </div>
-                    <div class="col-2 col-md-1 order-md-3 cart d-flex align-items-center justify-content-center">
+                    <div class="col-2 col-md-1 order-md-3 cart d-flex align-items-center justify-content-end">
                         <a class="cart-btn" data-bs-toggle="offcanvas" href="#shoppingCart" role="button" aria-controls="shoppingCart">
                             <img class="img-fluid" src="/sites/daskeyboard/images/cart.svg" alt="Shopping Cart" />
                         </a>

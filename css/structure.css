@@ -93,17 +93,15 @@
     section#navSecondary a,
     section#navSecondary p {color: var(--graymedium); font-size: 0.75rem; font-weight: 400;}
     section#navSecondary a.navbar-toggler {cursor: pointer; border: none; border-radius: 0; padding: 0;}
-    section#navSecondary a.navbar-toggler span.toggler-icon {display: block; width: 1.875rem; margin-left: auto;}
+    section#navSecondary a.navbar-toggler.show span.toggler-icon span {width: 100% !important; transition: .3s ease-in-out;}
+    section#navSecondary a.navbar-toggler span.toggler-icon {display: block; width: 1.875rem; margin-right: auto;}
     section#navSecondary a.navbar-toggler span.toggler-icon span {display: block; height: 1px; background: var(--white); margin: 5px 0; transition: .3s ease-in-out;}
-    section#navSecondary a.navbar-toggler span.toggler-icon:hover span,
     section#navSecondary .dropdown-toggle::after {display: none!important;}
-    section#navSecondary a.navbar-toggler:not(.collapsed) span.toggler-icon span {width: 100% !important; transition: .3s ease-in-out;}
     section#navSecondary div#navbarNavDropdown ul li {display: flex; flex-direction: column; align-items: flex-end;}
     section#navSecondary div#navbarNavDropdown ul li a {white-space: nowrap; padding-top: 1.5em; padding-bottom: 1.5em;}
     section#navSecondary div#navbarNavDropdown ul li:hover a {color: var(--white); text-decoration: none;}
-
 /*Login Form*/
-    form#loginForm {min-width: 250px;}
+    section#navSecondary form#accountLogin a.btn:hover {color: white!important;}
 
 @media (min-width: 576px) {
     section#navSecondary div#navbarNavDropdown ul li:hover a {background-color: var(--graydarker);}
@@ -117,7 +115,7 @@
 /*Primary Nav*/
     header#navPrimary a.navbar-brand img {width: 225px;}
     header#navPrimary img#siteLogo {max-width: 210px;}
-    header#navPrimary div.cart img {width: 30px;}
+    header#navPrimary div.cart img {width: 25px;}
     header#navPrimary ul li a:not(.dropdown-item) {font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: 0.875rem;}
     header#navPrimary ul li a:active, header#navPrimary ul li a:focus {box-shadow: none!important; border: none!important; outline: none!important;}
     header#navPrimary ul li a {color: var(--white ); padding: 0.5rem; transition: .3s ease-in-out;}
