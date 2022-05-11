@@ -102,6 +102,7 @@
     section#navSecondary div#navbarNavDropdown ul li:hover a {color: var(--white); text-decoration: none;}
 /*Login Form*/
     section#navSecondary form#accountLogin a.btn:hover {color: white!important;}
+    section#navSecondary a.account-login i {font-size: .75rem!important;}
 
 @media (min-width: 576px) {
     section#navSecondary div#navbarNavDropdown ul li:hover a {background-color: var(--graydarker);}

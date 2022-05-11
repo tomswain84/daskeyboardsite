@@ -3,13 +3,13 @@
             <div class="container-boxed">
                 <div class="row text-gray-medium d-flex align-items-center">
                     <div class="col">
-                        <nav class="navbar p-0 navbar-expand-sm navbar-dark py-2 py-sm-0">
+                        <nav class="navbar p-0 navbar-expand-sm navbar-dark">
 
                             <?php include './parts/part-secondary-nav-modal-shipping.php';?>
 
                             <?php include './parts/part-secondary-nav-modal-account-login.php';?>
 
-                            <div class="dropdown d-block d-sm-none">
+                            <div class="dropdown d-block d-sm-none py-3">
                                 <a class="navbar-toggler dropdown-toggle" type="button" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                     <span class="toggler-icon">
                                         <span class="w-75 ms-auto"></span>
@@ -23,7 +23,7 @@
                             </div>
 
                             <div class="collapse navbar-collapse d-none order-sm-2" id="navbarNavDropdown">
-                                <ul class="navbar-nav ms-auto mx-sm-auto mt-3 mt-sm-0">
+                                <ul class="navbar-nav ms-auto me-3 mt-3 mt-sm-0">
                                     <?php include './parts/part-secondary-nav-dropdown-links.php';?>
                                 </ul>
                             </div>

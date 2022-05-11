@@ -1,6 +1,6 @@
 <!-- Modal Trigger - Shipping Info -->
-<a class="shipping-notice pe-3 pe-md-0 order-2" href="#" title="Free Shipping" data-bs-toggle="modal" data-bs-target="#freeShipping">
-    Free Shipping <span class="d-none d-sm-inline">(Click for Details)</span>
+<a class="shipping-notice order-2 py-3" href="#" title="Free Shipping" data-bs-toggle="modal" data-bs-target="#freeShipping">
+    Free Shipping <span class="d-none d-md-inline">(Click for Details)</span>
 </a>
 <!-- Modal - Shipping Info -->
 <div class="modal fade" id="freeShipping" tabindex="-1" aria-labelledby="freeShipping" aria-hidden="true">

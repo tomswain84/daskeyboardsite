@@ -1,6 +1,8 @@
 <!-- Modal Trigger - Account Login -->
-<a class="account-login d-flex align-items-center text-decoration-none order-3" href="#" title="Account Login" data-bs-toggle="modal" data-bs-target="#accountLogin">
-    <i class="fa-solid fa-circle-user text-red bg-gray-darker rounded-circle fs-5"></i><i class="fa-solid fa-caret-down text-white small ms-1"></i>
+<a class="account-login d-flex align-items-center text-decoration-none order-3 py-3 px-sm-2" href="#" title="Account Login" data-bs-toggle="modal" data-bs-target="#accountLogin">
+    <i class="fa-solid fa-user text-white"></i>
+    <span class="ms-2 small">My Account</span>
+    <i class="d-none fa-solid fa-caret-down text-white small ms-1"></i>
 </a>
 <!-- Modal - Account Login -->
 <form class="modal fade" id="accountLogin" tabindex="-1" aria-labelledby="accountLogin" aria-hidden="true">
