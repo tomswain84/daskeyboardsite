@@ -1,5 +1,5 @@
                                 <figure class="card category-accessories">
-                                    <a class="btn" href="<?=$product_url?>" title="Product Details">
+                                    <a class="btn" href="<?=$buynow_url?>" title="Product Details">
                                         <img src="<?=$product_image_url?>" class="img-fluid card-img-top" alt="<?=$product_title?>" />
                                     </a>
                                     <figure class="heading text-center">
@@ -11,6 +11,6 @@
                                         <h5 class="price">Only <span class="text-red">$<?=$product_price?></span></h5>
                                     </figcaption>
                                     <div class="card-footer">
-                                        <a class="btn" href="<?=$product_url?>" title="Buy Now">Buy Now</a>
+                                        <a class="btn" href="<?=$buynow_url?>" title="Buy Now">Buy Now</a>
                                     </div>
                                 </figure>

@@ -88,14 +88,45 @@
                             <figure class="heading mt-0">
                                 <figcaption>
                                     <h1>
-                                        <small>DK</small>
+                                        <small>Das</small>
                                         <br>Swag
                                     </h1>
                                 </figcaption>
                             </figure>
                         </div>
                     </div>
-                    <?php include '../parts/part-category-swag-carousel.php';?>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 gy-4 product-cards">
+
+                        <div class="col"><!-- Warehouse Clearance - The Click Magnet T-shirt -->
+                            <?php include '../products/product-details/swag/details-the-click-magnet-t-shirt.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-accessories-card.php';?>
+                        </div>
+
+                        <div class="col"><!-- The Badass T-shirt -->
+                            <?php include '../products/product-details/swag/details-the-bad-ass-t-shirt.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-accessories-card.php';?>
+                        </div>
+
+                        <div class="col"><!-- Das Grizzly T-shirt -->
+                            <?php include '../products/product-details/swag/details-das-grizzly.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-accessories-card.php';?>
+                        </div>
+
+                        <div class="col"><!-- Warehouse Clearance - Das Keyboard Stainless Steel Tumbler -->
+                            <?php include '../products/product-details/swag/details-das-keyboard-stainless-steel-tumbler.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-accessories-card.php';?>
+                        </div>
+
+                        <div class="col"><!-- Das Keyboard 4-Piece Stone Coaster Set -->
+                            <?php include '../products/product-details/swag/details-das-keyboard-4-piece-stone-coaster-set.php';?>
+                            <!-- Product Card -->
+                            <?php include '../parts/part-accessories-card.php';?>
+                        </div>
+
                     </div>
                 </div>                
             </section>

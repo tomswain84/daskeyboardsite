@@ -213,9 +213,10 @@
                                     <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#keycapSets">Keycap Sets</a>
                                     <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#parts">Parts</a>
                                     <a class="dropdown-item" href="/sites/daskeyboard/products/category-accessories#mousePads">Mouse Pads</a>
-                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-swag">Swag</a>
                                     <hr>
-                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-accessories">View All<i class="fa-solid fa-plus text-red"></i></a>
+                                    <a class="dropdown-item view-all py-3 d-flex align-items-center justify-content-between" href="/sites/daskeyboard/products/category-accessories">All Accessories<i class="fa-solid fa-plus text-red"></i></a>
+                                    <hr>
+                                    <a class="dropdown-item" href="/sites/daskeyboard/products/category-swag">Das Swag</a>
                                 </div>
                             </li>
                             <li id="navTechnology" class="nav-item dropdown">
