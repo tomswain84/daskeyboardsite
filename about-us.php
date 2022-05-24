@@ -6,9 +6,9 @@
 <?php include 'structure/page-title.php';?>
 	<main class="content-container">
 	        <section class="bg-white section-pad">
-	        	<div class="container-boxed">
+	        	<div class="container">
 	        		<div class="row">
-	        			<div id="contentContainer" class="col-md-9">
+	        			<div id="contentContainer" class="col">
 	        				<h2>Free Shipping Everyday on Orders Over $59</h2>
 	        				<p>All orders over $59 qualify for our Free Shipping offer within the continental United States. Keyboards are shipped via UPS Ground, and accessories and swag may be shipped via USPS. Once your cart meets this minimum amount, the Free Shipping option is automatically available during checkout. Other expedited shipping options will also be available at an additional charge.</p>
 
@@ -60,12 +60,6 @@
 	        					<li>Maintain an Information Security Policy</li>
 	        				</ul>
 
-	        			</div>
-	        			<div id="sidebar" class="col-md-3">
-	        				<div class="sidebar-content">
-		        				<h3 class="sidebar-title">Sidebar Title</h3>
-		        				<p>This is a sidebar paragraph.</p>
-		        			</div>
 	        			</div>
 	        		</div>
 	        	</div>

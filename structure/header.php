@@ -143,6 +143,9 @@
                                         <a class="nav-link" href="/sites/daskeyboard/blog">Blog</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a class="nav-link" href="/sites/daskeyboard/contact-us">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a class="nav-link" href="/sites/daskeyboard/about-us">About Us</a>
                                     </li>
                                     <li class="nav-item">
@@ -158,6 +161,9 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="/sites/daskeyboard/blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/sites/daskeyboard/contact-us" target="_blank">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="/sites/daskeyboard/about-us">About Us</a>
