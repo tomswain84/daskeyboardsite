@@ -201,12 +201,18 @@
 							<div class="accordion-item border-0">
 								<h2 class="accordion-header" id="heading-12">
 									<a class="accordion-button bg-gray-lighter text-gray-darker text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-12" aria-expanded="false" aria-controls="collapse-12">
-										TITLEHERE
+										What if I don't have a proof of purchase?
 									</a>
 								</h2>
 								<div id="collapse-12" class="accordion-collapse collapse" aria-labelledby="heading-12" data-bs-parent="#accordionFAQ" style="">
 									<div class="accordion-body bg-white small lh-base">
-										CONTENTHERE
+										If you purchased directly from <a href="http://www.daskeyboard.com/">www.daskeyboard.com</a>, we may have a record of your purchase and can locate it for you. Just let us know the order number. If you do not have the order number we may be able to locate it using your name, address and e-mail address.
+									</div>
+									<div class="accordion-body bg-white small lh-base">
+										If you purchased from a Das Keyboard dealer or reseller, contact the dealer or reseller and see if they can provide a copy of your receipt. They will often have your purchase history on file and be able to supply a copy of the receipt for you.
+									</div>
+									<div class="accordion-body bg-white small lh-base">
+										If the product was purchased online, be sure to check your old e-mails. The vendor should have sent you a confirmation page showing that the product has been shipped to you. If the product was a gift we suggest you ask the giver to provide you with a receipt. You may also ask them if they could handle the limited warranty process for you if asking for the receipt is not appropriate.
 									</div>
 								</div>
 							</div>
@@ -214,25 +220,15 @@
 							<div class="accordion-item border-0">
 								<h2 class="accordion-header" id="heading-13">
 									<a class="accordion-button bg-gray-lighter text-gray-darker text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-13" aria-expanded="false" aria-controls="collapse-13">
-										TITLEHERE
+										How do I request a refund?
 									</a>
 								</h2>
 								<div id="collapse-13" class="accordion-collapse collapse" aria-labelledby="heading-13" data-bs-parent="#accordionFAQ" style="">
 									<div class="accordion-body bg-white small lh-base">
-										CONTENTHERE
+										To obtain a refund for physical product(s) purchased on our website, you will need to contact first customer service.
 									</div>
-								</div>
-							</div>
-
-							<div class="accordion-item border-0">
-								<h2 class="accordion-header" id="heading-14">
-									<a class="accordion-button bg-gray-lighter text-gray-darker text-decoration-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-14" aria-expanded="false" aria-controls="collapse-14">
-										TITLEHERE
-									</a>
-								</h2>
-								<div id="collapse-14" class="accordion-collapse collapse" aria-labelledby="heading-14" data-bs-parent="#accordionFAQ" style="">
 									<div class="accordion-body bg-white small lh-base">
-										CONTENTHERE
+										Still more questions? Visit <a href="https://daskeyboard.mojohelpdesk.com/" target="_blank">the helpdesk.</a>
 									</div>
 								</div>
 							</div>
