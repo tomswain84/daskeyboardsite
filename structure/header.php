@@ -22,7 +22,7 @@
                                             <p class="text-white">All orders over $59 qualify for our Free Shipping offer within the continental United States. Keyboards are shipped via UPS Ground, and accessories and swag may be shipped via USPS. Once your cart meets this minimum amount, the Free Shipping option is automatically available during checkout. Other expedited shipping options will also be available at an additional charge.</p>
                                         </div>
                                         <div class="modal-footer bg-gray-dark border-top">
-                                            <a href="/sites/daskeyboard/about-us" class="btn btn-primary">Learn More</a>
+                                            <a href="/sites/daskeyboard/about-us.php" class="btn btn-primary">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -140,13 +140,13 @@
                                         <a class="nav-link" href="https://daskeyboard.mojohelpdesk.com/" target="_blank">Support</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/blog">Blog</a>
+                                        <a class="nav-link" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/contact-us">Contact Us</a>
+                                        <a class="nav-link" href="/sites/daskeyboard/contact-us.php">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/about-us">About Us</a>
+                                        <a class="nav-link" href="/sites/daskeyboard/about-us.php">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Wishlist</a>
@@ -160,13 +160,13 @@
                                         <a class="nav-link" href="https://daskeyboard.mojohelpdesk.com/" target="_blank">Support</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/blog">Blog</a>
+                                        <a class="nav-link" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/contact-us" target="_blank">Contact Us</a>
+                                        <a class="nav-link" href="/sites/daskeyboard/contact-us.php">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/sites/daskeyboard/about-us">About Us</a>
+                                        <a class="nav-link" href="/sites/daskeyboard/about-us.php">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Wishlist</a>
@@ -183,7 +183,7 @@
             <div class="container-boxed">
                 <nav class="row">
                     <div class="col-10 col-md-5 py-3 py-sm-4 pe-3">
-                        <a href="/sites/daskeyboard/">
+                        <a href="/sites/daskeyboard/index.php">
                             <img id="siteLogo" src="/sites/daskeyboard/images/logo-das_keyboard-red_white.png" class="img-fluid" alt="Das Keyboard" />
                         </a>
                     </div>

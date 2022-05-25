@@ -61,7 +61,7 @@
 @media (min-width: 992px) {
     h2 {font-size: 1.5rem;}
     h3 {font-size: 1rem;}
-    p {line-height: 1.5; font-size: 1.1rem;}
+    p {line-height: 1.5; font-size: 1rem;}
     figure.heading {z-index: 2; position: relative;}
     figure.heading figcaption h1 {font-size: 2.2rem;}
 }
@@ -73,7 +73,7 @@
     h4 {font-weight: 400;}
 
 /*Buttons*/
-    .btn {line-height: .9; border-radius: 25px; font-family: 'Oswald', sans-serif; font-size: 0.875rem; text-transform: uppercase; padding: 0.6rem 1.4rem; white-space: nowrap; transition: .3s ease-in-out;}
+    .btn {position: relative; line-height: .9; border-radius: 25px; font-family: 'Oswald', sans-serif; font-size: 0.875rem; text-transform: uppercase; padding: 0.6rem 1.4rem; white-space: nowrap; transition: .3s ease-in-out;}
     .btn:hover {text-decoration: none!important;}
     .btn-blue {color: var(--white)!important; border-color: var(--blue); background-color: var(--blue); transition: .3s ease-in-out;}
     .btn-blue:hover, .btn-blue:active, .btn-blue:focus {color: var(--white); border-color: var(--bluehover)!important; background-color: var(--bluehover)!important; box-shadow: none!important; transition: .3s ease-in-out;}
@@ -170,8 +170,8 @@
 
 /*Content Area*/
     .content-container ul {margin-left: 1rem;}
-    .content-container ul li {font-size: .9rem;}
-    .content-container ul li::before {font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
+    .content-container ul li {padding-left: 1.5rem; font-size: .9rem;}
+    .content-container ul li::before {margin-left: -1.5rem; font-family: "Font Awesome 6 Free"; font-weight: 900; content: '\f192' !important; border: none; margin-right: .5rem; color: var(--red);}
     .content-container ul li:not(:last-of-type) {margin-bottom: .5rem;}
     h3.sidebar-title {margin-top: .25rem; border-left: 5px solid var(--red); padding-left: 0.625rem;}
 @media (min-width: 768px) {

@@ -4,7 +4,7 @@
 				<div class="container-boxed">
 					<div class="row">
 						<div class="col p-4 d-flex align-items-center justify-content-center text-white">
-							<a id="winKeyboard" class="text-white text-decoration-none d-flex align-items-center" href="/sites/daskeyboard/giveaway" title="Win A FREE Das Keyboard">
+							<a id="winKeyboard" class="text-white text-decoration-none d-flex align-items-center" href="/sites/daskeyboard/giveaway.php" title="Win A FREE Das Keyboard">
 								<i class="fa-solid fa-gift pe-1"></i><span class="oswald">Win a Free Das Keyboard!</span>
 							</a>
 						</div>
@@ -16,7 +16,7 @@
 					<div class="row">
 						<div class="col-sm-6 col-md-4 col-lg-5 col-xl-6 py-5 pe-lg-5">
 							<h3>What Makes a Mechanical Keyboard Awesome?</h3>
-							<p>A mechanical keyboard is a high-performance keyboard with tactile and audio feedback so accurate it allows you to execute every keystroke with lightning-fast precision. Because of the durability and construction of the switches, mechanical keyboards are built to last far longer than standard keyboards. Read our <a class="fw-bolder" href="/sites/daskeyboard/mechanical-keyboard-guide" title="Mechanical Keyboard Guide">mechanical keyboard guide</a> to learn more about what makes a mechanical keyboard awesome. Your fingers will be thanking you.</p>
+							<p>A mechanical keyboard is a high-performance keyboard with tactile and audio feedback so accurate it allows you to execute every keystroke with lightning-fast precision. Because of the durability and construction of the switches, mechanical keyboards are built to last far longer than standard keyboards. Read our <a class="fw-bolder" href="/sites/daskeyboard/mechanical-keyboard-guide.php" title="Mechanical Keyboard Guide">mechanical keyboard guide</a> to learn more about what makes a mechanical keyboard awesome. Your fingers will be thanking you.</p>
 
 							<h3 class="mt-sm-5">Sign Up For Our Newsletter</h3>
 							<form id="newsletterForm" class="row align-items-center">
@@ -35,32 +35,32 @@
 									<h3>Connect</h3>
 									<ul class="list-unstyled">
 										<li>
-											<a href="/sites/daskeyboard/where-to-buy" title="Where to buy">
+											<a href="/sites/daskeyboard/where-to-buy.php" title="Where to buy">
 												Where to buy
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/about-us" title="*Shipping">
+											<a href="/sites/daskeyboard/about-us.php" title="*Shipping">
 												*Shipping
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/guarantee" title="**Guarantee">
+											<a href="/sites/daskeyboard/guarantee.php" title="**Guarantee">
 												**Guarantee
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/company-information/education-program" title="Education Program">
+											<a href="/sites/daskeyboard/company-information/education-program.php" title="Education Program">
 												Education Program
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/corporate-sale" title="Corporate Sales">
+											<a href="/sites/daskeyboard/corporate-sale.php" title="Corporate Sales">
 												Corporate Sales
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/company-information/become-a-reseller" title="Become A Reseller">
+											<a href="/sites/daskeyboard/company-information/become-a-reseller.php" title="Become A Reseller">
 												Become A Reseller
 											</a>
 										</li>
@@ -70,47 +70,47 @@
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/privacy-policy" title="Privacy Policy">
+											<a href="/sites/daskeyboard/privacy-policy.php" title="Privacy Policy">
 												Privacy Policy
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/ccpa-opt-out" title="Do not sell my personal information">
+											<a href="/sites/daskeyboard/ccpa-opt-out.php" title="Do not sell my personal information">
 												Do not sell my personal info<span class="d-md-none d-lg-inline">rmation</span>
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/mechanical-keyboard-guide" title="Mechanical Keyboard Guide">
+											<a href="#" title="Mechanical Keyboard Guide">
 												Mechanical Keyboard Guide
 											</a>
 										</li>
 									</ul>
 								</div>
 								<div class="col">
-									<a class="btn btn-outline-primary mb-4" href="/sites/daskeyboard/guarantee" title="Das Keyboard Warranty">Das Keyboard Warranty<i class="fa-solid fa-gear ms-2"></i></a>
+									<a class="btn btn-outline-primary mb-4" href="/sites/daskeyboard/guarantee.php" title="Das Keyboard Warranty">Das Keyboard Warranty<i class="fa-solid fa-gear ms-2"></i></a>
 									<ul class="list-unstyled">
 										<li>
-											<a href="/sites/daskeyboard/company-information/press-kit" title="Press Kit & Media Contact">
+											<a href="/sites/daskeyboard/company-information/press-kit.php" title="Press Kit & Media Contact">
 												Press Kit & Media Contact
 											</a>
 										</li>
 										<li>
-											<a href="#" title="Switch Comparison">
+											<a href="/sites/daskeyboard/compare-switches.php" title="Switch Comparison">
 												Switch Comparison
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/blog" title="Blog">
+											<a href="#" title="Blog">
 												Blog
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/contact-us" title="Contact Us">
+											<a href="/sites/daskeyboard/contact-us.php" title="Contact Us">
 												Contact Us
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/history" title="Das Keyboard Story">
+											<a href="/sites/daskeyboard/history.php" title="Das Keyboard Story">
 												Das Keyboard Story
 											</a>
 										</li>
@@ -120,12 +120,12 @@
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/reviews" title="Professional Reviews">
+											<a href="/sites/daskeyboard/reviews.php" title="Professional Reviews">
 												Professional Reviews
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/unauthorized-warning" title="Unauthorized Dealer Warning">
+											<a href="/sites/daskeyboard/unauthorized-warning.php" title="Unauthorized Dealer Warning">
 												Unauthorized Dealer Warning
 											</a>
 										</li>
@@ -135,7 +135,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="/sites/daskeyboard/affiliates-program" title="Das Keyboard Affiliate Program">
+											<a href="/sites/daskeyboard/affiliates-program.php" title="Das Keyboard Affiliate Program">
 												Das Keyboard Affiliate Program
 											</a>
 										</li>
@@ -191,7 +191,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="blog" title="Blog">
+									<a href="#" title="Blog">
 										<i class="fa-solid fa-rss"></i>
 									</a>
 								</li>
