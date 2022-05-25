@@ -62,7 +62,7 @@
 								<h1>Das Keyboard <span class="text-red">Values</span></h1>
 							</figcaption>
 							<p>We are a badass company that makes badass products for badass customers. We are quality obsessed and develop all our products with premium materials.</p>
-							<a class="btn btn-primary" href="values" title="Read More">Read More<i class="fa-solid fa-caret-right ms-2"></i></a>
+							<a class="btn btn-primary" href="/sites/daskeyboard/values.php" title="Read More">Read More<i class="fa-solid fa-caret-right ms-2"></i></a>
 						</figure>
 					</div>
 					<div class="col-md-6 order-md-1 d-md-flex align-items-center position-relative">
@@ -83,7 +83,7 @@
 								<h1>Long lasting, <span class="text-red">durable switches</span>. </h1>
 							</figcaption>
 							<p>All of our keyboards are designed with high-performance, gold-plated mechanical key switches. Learn more about the different switches Das Keyboard offers.</p>
-							<a class="btn btn-outline-primary text-gray-dark ms-2" href="compare-switches" title="Learn More">Learn More<i class="fa-solid fa-caret-right ms-2"></i></a>
+							<a class="btn btn-outline-primary text-gray-dark ms-2" href="/sites/daskeyboard/compare-switches.php" title="Learn More">Learn More<i class="fa-solid fa-caret-right ms-2"></i></a>
 						</figure>
 					</div>
 				</div>
